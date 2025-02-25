@@ -42,33 +42,3 @@
 	}
 }
 
-.hover-underline-animation, 
-.hover-underline-animation--partnership {
-	display: inline-block;
-	position: relative;
-  }
-  
-  .hover-underline-animation::after {
-	content: '';
-	position: absolute;
-	width: 100%;
-	transform: scaleX(0);
-	height: 2px;
-	bottom: -3px;
-	left: 0;
-	background-color: var(--accent);
-	transition: transform 0.2s ease-out;
-}
-  
-  .hover-underline-animation:hover::after {
-	transform: scaleX(1);
-  }
-  
-  .hover-underline-animation.center::after {
-	transform-origin: bottom center;
-  }
-  
-  .hover-underline-animation.center:hover::after {
-	transform-origin: bottom center;
-  }   
-   

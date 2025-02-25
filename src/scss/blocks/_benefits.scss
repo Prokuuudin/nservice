@@ -24,17 +24,8 @@
    flex-direction: column;
    width: 200px;
    text-align: center;
-   border-radius: 25px;
-   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.9);
-   background-color: #fff;
-   background: rgb(255, 192, 203, 0.3);
    transition: all 0.2s ease-in;   
   
-   &:hover{
-    transform: translateY(3%);
-    scale: 1.02;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.9);
-   }     
 }
 
 .benefits__item-img {
@@ -62,4 +53,3 @@
        margin-top: -1.5em;         
     }
 }
-

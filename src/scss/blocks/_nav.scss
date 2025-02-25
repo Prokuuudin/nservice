@@ -1,13 +1,10 @@
 .nav a {
-	font-size: 16px;
+	font-size: 20px;
 	font-weight: 700;
 	text-transform: uppercase;
 	color: var(--accent-2);
 	transition: all 0.2s ease-in;
 	
-	&:hover{
-		scale: 1.05;
-	}
 	@include tablet {
 		font-size: 13px;
 	}
@@ -24,3 +21,33 @@
 		gap: 15px;
 	}	
 }
+.hover-underline-animation, 
+.hover-underline-animation--partnership {
+	display: inline-block;
+	position: relative;
+  }
+  
+  .hover-underline-animation::after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	transform: scaleX(0);
+	height: 2px;
+	bottom: -3px;
+	left: 0;
+	background-color: var(--accent);
+	transition: transform 0.2s ease-out;
+}
+  
+  .hover-underline-animation:hover::after {
+	transform: scaleX(1);
+  }
+  
+  .hover-underline-animation.center::after {
+	transform-origin: bottom left;
+  }
+  
+  .hover-underline-animation.center:hover::after {
+	transform-origin: bottom left;
+  }   
+   
