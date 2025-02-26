@@ -4,11 +4,11 @@ a.btn {
 	padding: 12px;
 	min-width: 150px;
 	height: auto;
-	border-radius: 25px;
+	border-radius: 5px;
 	background-color: #fff;
 	font-family: var(--font-family);
 	font-weight: 700;
-	font-size: 18px;
+	font-size: 20px;
 	line-height: 125%;
 	text-transform: none;
 	text-align: center;
@@ -21,6 +21,8 @@ a.btn {
 	&:hover {
 		box-shadow: 0 2px 8px rgba(0, 0, 0, 0.9);
 		scale: 1.05;
+		background-color: var(--accent-2);
+		color: #fff;
 	}
 
 	@include tablet {
