@@ -34,6 +34,7 @@
     letter-spacing: normal;
 }
  .about__desc {
+    max-width: 50%;
     display: flex;
     flex-direction: column;  
     justify-content: space-between;
@@ -50,16 +51,41 @@
     color: #000;
 }
 
-.about__product-subtitle{
+.about__product-subtitle{    
     font-size: clamp(1.8rem, 1.2rem + 0.5vw, 1.5rem);
     font-weight: 300;
     text-align: center;
     margin-bottom: 20px;
     z-index: 1;
-    color: #000;   
-
+    color: #000; 
+    
  }
 
+ @keyframes randomMove {
+    0% { transform: translate(0, 0); }
+    25% { transform: translate(2px, -2px); }
+    50% { transform: translate(-2px, 2px); }
+    75% { transform: translate(1px, -1px); }
+    100% { transform: translate(0, 0); }
+}
+
+.animated-text {
+    display: inline-block;
+    }
+
+.animated-text span {
+    display: inline-block;
+    animation: randomMove 1.5s alternate ease-in-out;
+}
+
+/* Разные задержки для случайного эффекта */
+.animated-text span:nth-child(odd) {
+    animation-duration: 1.8s;
+}
+.animated-text span:nth-child(even) {
+    animation-duration: 1.2s;
+}
+ 
  .about__consult{
     display: flex;
     width: 100%;

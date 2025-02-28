@@ -1,16 +1,29 @@
 <section class="cta">
     <div class="container">
-        <h2 class="title-2">CTA-блок</h2>
-        <p> 📌 Оставьте заявку и получите консультацию по безопасности уже сегодня! [Кнопка] "Получить консультацию" (форма + WhatsApp/Telegram)</p>
-        <form action="">
+        <h2 class="title-2">Оставьте заявку и получите консультацию по безопасности уже сегодня</h2>
+        <div class="cta__socials">
+            <a href="#" class="cta__socials-item">
+                <svg class="icon icon--whatsapp">
+                    <use href="./img/svgsprite/sprite.symbol.svg#whatsapp"><span>Whatsapp</span></use>
+                </svg>
+            </a>
+            <a href="#" class="cta__socials-item">
+                <svg class="icon icon--telegram">
+                    <use href="./img/svgsprite/sprite.symbol.svg#telegram"><span>Telegram</span></use>
+                </svg>
+            </a>
+        </div>
+        
+        <form class="cta__form" action="">
             <input type="text" placeholder="Ваше имя">
             <input type="text" placeholder="Ваш email">
             <input type="text" placeholder="Ваш телефон">
             <input type="text" placeholder="Ваш вопрос">
             <div class="g-recaptcha" data-sitekey="6LcZ9qQbAAAAAID9Z9J9J9Z9J9Z9J9Z9J9Z9J9Z9"></div>
-           
-
-            <button>Получить консультацию</button>
+           <div class="about__btns"><a href="#" class="btn">
+                Получить консультацию
+            </a>
+        </div>
         </form>        
     </div>
 </section>

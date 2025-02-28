@@ -5,18 +5,14 @@
     height: 35px;
     width: 135px;
     padding: 0 10px;
-    background: #fff;
-    border-radius: 20px;
-    border: 1px solid var(--accent-2);
-    opacity: .9;
-    transition: opacity .25s ease;
-    cursor: pointer;    
+    cursor: pointer;
+    font-size: 20px;    
 
     @include tablet {
         width: 70px;
         height: 20px;
         padding: 0 2px;
-        font-size: 12px;
+        font-size: 12px;        
     }
 }
 .switcher-wrapper:hover {
@@ -35,15 +31,14 @@
     cursor: pointer;
 }
 .switcher-wrapper input[type="radio"]:checked + .switcher {
-    color: var(--accent-2);
+    color: #fff;
 }
 .lang-placeholder {
-    width: 32px;
-    height: 30px;
-    background: #dda5a5;
+    width: 35px;
+    height: 35px;
+    background: var(--accent);
     position: absolute;
     z-index: 1;
-    border-radius: 20px;
     transition: left .25s ease-in-out;
 
     @include tablet {
@@ -55,9 +50,8 @@
         width: 18px;
         height: 16px;
     }
-
-
 }
+
 .switcher-wrapper input[type="radio"]:nth-of-type(1):checked ~ .lang-placeholder {
     left: 12px;
 
