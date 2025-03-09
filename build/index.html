@@ -8,9 +8,11 @@
 		<meta name="keywords" data-key="keywords-content" content="" />
 		<title data-key="landing-title">NSERVICE</title>
 		<link rel="stylesheet" href="./css/main.css" />
-		<link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png" />
-		<link rel="icon" type="image/png" sizes="32x32" href="./img/favicons/favicon-32x32.png" />
-		<link rel="icon" type="image/png" sizes="16x16" href="./img/favicons/favicon-16x16.png" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+		<link rel="manifest" href="/site.webmanifest" />
+
 		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 	</head>
 
@@ -189,7 +191,6 @@
 							<h2 class="title-2">trend micro: видео-описание</h2>
 						</div>
 						<iframe
-							width="100%"
 							height="600px"
 							src="https://www.youtube.com/embed/Dh6K9DTlPvM"
 							title="YouTube video player"
@@ -204,25 +205,25 @@
 
 			<section class="why">
 				<div class="container">
-					<h2 class="title-2">Почему N&#160;SERVICE?</h2>
-					<p class="subtitle">Сотрудничаем с&#160;Trend Micro миллион лет</p>
-					<picture>
-						<source srcset="./img/nservice-img/bg-smartphone.webp 1x, ./img/nservice-img/bg-smartphone@2x.webp 2x" type="image/webp" />
-						<source srcset="./img/nservice-img/bg-smartphone.jpg 1x, ./img/nservice-img/bg-smartphone@2x.jpg 2x" type="image/jpeg" />
-						<img class="why__img" src="./img/nservice-img/bg-smartphone.jpg" alt="Phone" />
-					</picture>
-					<ul class="why__list">
-						<li class="list-item">Настройка антивируса под ваш бизнес&#160;&#8212; комплексная защита под ключ</li>
-						<li class="list-item">Аудит безопасности: выявляем слабые места в&#160;вашей IT-инфраструктуре</li>
-						<li class="list-item">Постоянная техническая поддержка</li>
-					</ul>
-					<div class="why__bonus">
-						<h3 class="bonus-title title-4">Бонусы:</h3>
-						<ul class="bonus__list">
-							<li>Бесплатная установка антивируса.</li>
-							<li>Скидки на&#160;обновления и&#160;услуги для постоянных клиентов.</li>
-							<li>Консультация экспертов по&#160;выбору оптимального решения.</li>
+					<div class="why__header">
+						<h2 class="title-2">Почему N&#160;SERVICE?</h2>
+						<p class="subtitle">Сотрудничаем с&#160;Trend Micro миллион лет</p>
+					</div>
+					<div class="why__wrapper">
+						<ul class="why__list">
+							<li class="list-item">Настройка антивируса под ваш бизнес</li>
+							<li class="list-item">Комплексная защита под ключ</li>
+							<li class="list-item">Аудит безопасности</li>
+							<li class="list-item">Постоянная техническая поддержка</li>
 						</ul>
+						<div class="why__bonus">
+							<h3 class="bonus-title title-4">Бонусы:</h3>
+							<ul class="bonus__list">
+								<li>Бесплатная установка антивируса.</li>
+								<li>Скидки на&#160;обновления и&#160;услуги для постоянных клиентов.</li>
+								<li>Консультация экспертов по&#160;выбору оптимального решения.</li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</section>
@@ -310,7 +311,103 @@
 					<h2 class="title-2">Отзывы</h2>
 					<p class="subtitle">Все, кто с&#160;нами работает, благодарят за&#160;это Вселенную</p>
 					<div class="slaider">
-						FEEDBACK`S SLAIDER
+						<div class="feedbacks__swiper">
+							<!-- Swiper -->
+							<div class="swiper1 mySwiper1">
+								<div class="swiper-wrapper">
+									<div class="feedbacks-slide">
+										<picture>
+											<source srcset="./img/feedbacks/beauty.webp 1x, ./img/feedbacks/beauty@2x.webp 2x" type="image/webp" />
+											<source srcset="./img/feedbacks/beauty.jpg 1x, ./img/feedbacks/beauty@2x.jpg 2x" type="image/jpeg" />
+											<img class="feedbacks-slide__img" src="./img/feedbacks/beauty.jpg" alt="" />
+										</picture>
+										<div class="feedbacks-slide__name">Client1</div>
+										<div class="feedbacks-slide__text">Very good!</div>
+									</div>
+									<div class="feedbacks-slide">
+										<picture>
+											<source srcset="./img/feedbacks/feetcalm.webp 1x, ./img/feedbacks/feetcalm@2x.webp 2x" type="image/webp" />
+											<source srcset="./img/feedbacks/feetcalm.jpg 1x, ./img/feedbacks/feetcalm@2x.jpg 2x" type="image/jpeg" />
+											<img class="feedbacks-slide__img" src="./img/feedbacks/feetcalm.jpg" alt="" />
+										</picture>
+										<div class="feedbacks-slide__name">Client2</div>
+										<div class="feedbacks-slide__text">Not very good!</div>
+									</div>
+									<div class="feedbacks-slide">
+										<picture>
+											<source srcset="./img/feedbacks/gehwol.webp 1x, ./img/feedbacks/gehwol@2x.webp 2x" type="image/webp" />
+											<source srcset="./img/feedbacks/gehwol.jpg 1x, ./img/feedbacks/gehwol@2x.jpg 2x" type="image/jpeg" />
+											<img class="feedbacks-slide__img" src="./img/feedbacks/gehwol.jpg" alt="" />
+										</picture>
+										<div class="feedbacks-slide__name">Client3</div>
+										<div class="feedbacks-slide__text">Very No&#160;good!</div>
+									</div>
+									<div class="feedbacks-slide">
+										<picture>
+											<source srcset="./img/feedbacks/hairwell.webp 1x, ./img/feedbacks/hairwell@2x.webp 2x" type="image/webp" />
+											<source srcset="./img/feedbacks/hairwell.jpg 1x, ./img/feedbacks/hairwell@2x.jpg 2x" type="image/jpeg" />
+											<img class="feedbacks-slide__img" src="./img/feedbacks/hairwell.jpg" alt="" />
+										</picture>
+										<div class="feedbacks-slide__name">Client4</div>
+										<div class="feedbacks-slide__text">Very fucking good!</div>
+									</div>
+									<div class="feedbacks-slide">
+										<picture>
+											<source srcset="./img/feedbacks/refectocil.webp 1x, ./img/feedbacks/refectocil@2x.webp 2x" type="image/webp" />
+											<source srcset="./img/feedbacks/refectocil.jpg 1x, ./img/feedbacks/refectocil@2x.jpg 2x" type="image/jpeg" />
+											<img class="feedbacks-slide__img" src="./img/feedbacks/refectocil.jpg" alt="" />
+										</picture>
+										<div class="feedbacks-slide__name">Client5</div>
+										<div class="feedbacks-slide__text">Nice & good!</div>
+									</div>
+									<div class="feedbacks-slide">
+										<picture>
+											<source srcset="./img/feedbacks/wella.webp 1x, ./img/feedbacks/wella@2x.webp 2x" type="image/webp" />
+											<source srcset="./img/feedbacks/wella.jpg 1x, ./img/feedbacks/wella@2x.jpg 2x" type="image/jpeg" />
+											<img class="feedbacks-slide__img" src="./img/feedbacks/wella.jpg" alt="" />
+										</picture>
+										<div class="feedbacks-slide__name">Client6</div>
+										<div class="feedbacks-slide__text">Very nice!</div>
+									</div>
+									<div class="feedbacks-slide">
+										<picture>
+											<source srcset="./img/feedbacks/kiepe.webp 1x, ./img/feedbacks/kiepe@2x.webp 2x" type="image/webp" />
+											<source srcset="./img/feedbacks/kiepe.jpg 1x, ./img/feedbacks/kiepe@2x.jpg 2x" type="image/jpeg" />
+											<img class="feedbacks-slide__img" src="./img/feedbacks/kiepe.jpg" alt="" />
+										</picture>
+										<div class="feedbacks-slide__name">Client7</div>
+										<div class="feedbacks-slide__text">Very well!</div>
+									</div>
+									<div class="feedbacks-slide">
+										<picture>
+											<source srcset="./img/feedbacks/moser.webp 1x, ./img/feedbacks/moser@2x.webp 2x" type="image/webp" />
+											<source srcset="./img/feedbacks/moser.jpg 1x, ./img/feedbacks/moser@2x.jpg 2x" type="image/jpeg" />
+											<img class="feedbacks-slide__img" src="./img/feedbacks/moser.jpg" alt="" />
+										</picture>
+										<div class="feedbacks-slide__name">Client8</div>
+										<div class="feedbacks-slide__text">Very well done!</div>
+									</div>
+									<div class="feedbacks-slide">
+										<picture>
+											<source srcset="./img/feedbacks/olaplex.webp 1x, ./img/feedbacks/olaplex@2x.webp 2x" type="image/webp" />
+											<source srcset="./img/feedbacks/olaplex.jpg 1x, ./img/feedbacks/olaplex@2x.jpg 2x" type="image/jpeg" />
+											<img class="feedbacks-slide__img" src="./img/feedbacks/olaplex.jpg" alt="" />
+										</picture>
+										<div class="feedbacks-slide__name">Client9</div>
+										<div class="feedbacks-slide__text">Awesome good!</div>
+									</div>
+									<div class="feedbacks-slide">
+										<picture>
+											<source srcset="./img/feedbacks/black.webp 1x, ./img/feedbacks/black@2x.webp 2x" type="image/webp" />
+											<source srcset="./img/feedbacks/black.jpg 1x, ./img/feedbacks/black@2x.jpg 2x" type="image/jpeg" />
+											<img class="feedbacks-slide__img" src="./img/feedbacks/black.jpg" alt="" />
+										</picture>
+										<div class="feedbacks-slide__name">Client10</div>
+										<div class="feedbacks-slide__text">Brilliantly good!</div>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</section>
@@ -324,8 +421,6 @@
 					</ul>
 
 					<div class="howtobuy__licenses">
-						<h3 class="howtobuy__licenses-title">Тарифы (лицензии):</h3>
-						<h2>Таблица цен</h2>
 						<table>
 							<tr>
 								<th>Продукт</th>
@@ -374,16 +469,14 @@
 						</a>
 					</div>
 
-					<form class="cta__form" action="">
+					<form class="cta__form" action="" autocomplete="on">
 						<input type="text" placeholder="Ваше имя" />
 						<input type="text" placeholder="Ваш email" />
 						<input type="text" placeholder="Ваш телефон" />
 						<input type="text" placeholder="Ваш вопрос" />
 						<div class="g-recaptcha" data-sitekey="6LcZ9qQbAAAAAID9Z9J9J9Z9J9Z9J9Z9J9Z9J9Z9"></div>
-						<div class="about__btns">
-							<a href="#" class="btn">
-								Получить консультацию
-							</a>
+						<div class="cta__btn">
+							<a href="#" class="btn">Получить консультацию </a>
 						</div>
 					</form>
 				</div>

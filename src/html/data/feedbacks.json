@@ -1,0 +1,54 @@
+[
+	{
+		"img": "beauty",
+		"name": "Client1",
+		"text": "Very good!"
+	},
+	{
+		"img": "feetcalm",
+		"name": "Client2",
+		"text": "Not very good!"
+	},
+	{
+		"img": "gehwol",
+		"name": "Client3",
+		"text": "Very No good!"
+	},
+	{
+		"img": "hairwell",
+		"name": "Client4",
+		"text": "Very fucking good!"
+	},
+	{
+		"img": "refectocil",
+		"name": "Client5",
+		"text": "Nice & good!"
+	},
+	
+	{
+		"img": "wella",
+		"name": "Client6",
+		"text": "Very nice!"
+	},
+	
+	{
+		"img": "kiepe",
+		"name": "Client7",
+		"text": "Very well!"
+	},
+	{
+		"img": "moser",
+		"name": "Client8",
+		"text": "Very well done!"
+	},
+	{
+		"img": "olaplex",
+		"name": "Client9",
+		"text": "Awesome good!"
+	},
+	{
+		"img": "black",
+		"name": "Client10",
+		"text": "Brilliantly good!"
+	}
+]
