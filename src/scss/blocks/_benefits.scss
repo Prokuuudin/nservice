@@ -24,8 +24,8 @@
    flex-direction: column;
    width: 200px;
    text-align: center;
-   transition: all 0.2s ease-in;   
-  
+   transition: all 0.2s ease-in;
+   
 }
 
 .benefits__item-img {
@@ -37,6 +37,8 @@
 }
 
 .benefits__icon-text{
+    display: flex;
+    flex-direction: column;
     height: 100%;
     padding: 15px 10px;    
     
@@ -52,4 +54,9 @@
     @include mobile {
        margin-top: -1.5em;         
     }
+}
+
+.benefits__item-desc{
+    margin-top: auto;
+    
 }

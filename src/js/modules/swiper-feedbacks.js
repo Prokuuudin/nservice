@@ -1,8 +1,8 @@
-import SwiperMobile from 'swiper/bundle';
+import mySwiper from 'swiper/bundle';
 import 'swiper/css/bundle';
 
-function getSwiperMobile() {
-    new SwiperMobile (".swiper-mobile", {
+function getSwiperFeedback() {
+    new mySwiper (".swiper", {
       direction: 'horizontal',
       autoplay: true,
       loop: true,
@@ -15,8 +15,7 @@ function getSwiperMobile() {
 
       pagination: {
         el: '.swiper-pagination',
-      },
-    
+      },    
   });
 }
-export default getSwiperMobile;
+export default getSwiperFeedback;

@@ -1,7 +1,23 @@
+.cta{
+    padding-top: 130px;
+}
+.cta__wrapper{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 60px;
+    padding: 0 40px;
+}
+
+.cta__socials{
+    width: 100%;
+}
+
 .cta__form {
-    max-width: 400px;
+    width: 100%;
     margin: 0 auto;
-    padding: 20px;
+    padding: 40px;
     background: #f8f9fa;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -11,16 +27,17 @@
     align-items: center;
 }
 
-.cta__form input {
+.cta__form input, .cta__form textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
     transition: border-color 0.3s ease-in-out;
+    resize: none;
 }
 
-.cta__form input:focus {
+.cta__form input:focus, textarea:focus {
     border-color: var(--accent-2);
     outline: none;
 }

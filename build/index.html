@@ -46,9 +46,9 @@
 					<nav class="header__nav nav">
 						<ul class="nav__list">
 							<li><a href="#about" data-key="about-us" class="active hover-underline-animation center">О&#160;нас</a></li>
-							<li><a href="#brands" data-key="brands" class="hover-underline-animation center">trendmicro</a></li>
-							<li><a href="#proposals" data-key="for-clients" class="hover-underline-animation center">IT&#160;обслуживание</a></li>
-							<li><a href="#contacts" data-key="contacts" class="hover-underline-animation center">Настройка оборудования</a></li>
+							<li><a href="#trendmicro" data-key="brands" class="hover-underline-animation center">trendmicro</a></li>
+							<li><a href="#howtobuy" data-key="for-clients" class="hover-underline-animation center">тарифы</a></li>
+							<li><a href="#cta" data-key="contacts" class="hover-underline-animation center">Контакты</a></li>
 						</ul>
 					</nav>
 
@@ -98,7 +98,7 @@
 					<div class="about__consult">
 						<p class="about__consult-text">Получите консультацию по&#160;установке и&#160;защите уже сегодня!</p>
 						<div class="about__btns">
-							<a href="#" class="btn">
+							<a href="#cta" class="btn">
 								Получить консультацию
 							</a>
 						</div>
@@ -116,8 +116,8 @@
 					<ul class="benefits__wrapper">
 						<li class="benefits__item">
 							<div class="benefits__item-img">
-								<svg class="icon icon--choice">
-									<use href="./img/svgsprite/sprite.symbol.svg#shield"></use>
+								<svg class="icon icon--shield">
+									<use href="./img/svgsprite/sprite.symbol.svg#shield2"></use>
 								</svg>
 							</div>
 							<div class="benefits__icon-text">
@@ -129,8 +129,8 @@
 						</li>
 						<li class="benefits__item">
 							<div class="benefits__item-img">
-								<svg class="icon icon--new">
-									<use href="./img/svgsprite/sprite.symbol.svg#emergency"></use>
+								<svg class="icon icon--emergency">
+									<use href="./img/svgsprite/sprite.symbol.svg#emergency2"></use>
 								</svg>
 							</div>
 							<div class="benefits__icon-text">
@@ -142,8 +142,8 @@
 						</li>
 						<li class="benefits__item">
 							<div class="benefits__item-img">
-								<svg class="icon icon--service">
-									<use href="./img/svgsprite/sprite.symbol.svg#control"></use>
+								<svg class="icon icon--control">
+									<use href="./img/svgsprite/sprite.symbol.svg#control2"></use>
 								</svg>
 							</div>
 							<div class="benefits__icon-text">
@@ -155,8 +155,8 @@
 						</li>
 						<li class="benefits__item">
 							<div class="benefits__item-img">
-								<svg class="icon icon--delivery">
-									<use href="./img/svgsprite/sprite.symbol.svg#complex-protection"></use>
+								<svg class="icon icon--complex-protection">
+									<use href="./img/svgsprite/sprite.symbol.svg#protection-umbrella"></use>
 								</svg>
 							</div>
 							<div class="benefits__icon-text">
@@ -168,8 +168,8 @@
 						</li>
 						<li class="benefits__item">
 							<div class="benefits__item-img">
-								<svg class="icon icon--presentation">
-									<use href="./img/svgsprite/sprite.symbol.svg#license"></use>
+								<svg class="icon icon--license">
+									<use href="./img/svgsprite/sprite.symbol.svg#licenses"></use>
 								</svg>
 							</div>
 							<div class="benefits__icon-text">
@@ -183,7 +183,7 @@
 				</div>
 			</section>
 
-			<section class="video">
+			<section class="video" id="trendmicro">
 				<h2 class="visually-hidden">title</h2>
 				<div class="container">
 					<div class="video__wrapper">
@@ -207,23 +207,35 @@
 				<div class="container">
 					<div class="why__header">
 						<h2 class="title-2">Почему N&#160;SERVICE?</h2>
-						<p class="subtitle">Сотрудничаем с&#160;Trend Micro миллион лет</p>
 					</div>
 					<div class="why__wrapper">
-						<ul class="why__list">
-							<li class="list-item">Настройка антивируса под ваш бизнес</li>
-							<li class="list-item">Комплексная защита под ключ</li>
-							<li class="list-item">Аудит безопасности</li>
-							<li class="list-item">Постоянная техническая поддержка</li>
-						</ul>
-						<div class="why__bonus">
-							<h3 class="bonus-title title-4">Бонусы:</h3>
-							<ul class="bonus__list">
-								<li>Бесплатная установка антивируса.</li>
-								<li>Скидки на&#160;обновления и&#160;услуги для постоянных клиентов.</li>
-								<li>Консультация экспертов по&#160;выбору оптимального решения.</li>
+						<p class="subtitle why__subtitle">
+							N&#160;Service сотрудничает с&#160;Trend Micro миллион лет и&#160;предоставяет услуги этой компании в&#160;полном объеме, с&#160;гарантией персонального
+							подхода к&#160;каждому клиенту
+						</p>
+						<div class="why__list-wrapper">
+							<div class="why__list-title">
+								<p class="subtitle">Наши особенности</p>
+							</div>
+							<ul class="why__list">
+								<li class="list-item">Настройка антивируса под ваш бизнес, с&#160;учетом его особенностей</li>
+								<li class="list-item">Комплексная защита &#171;под ключ&#187;&#160;&#8212; полный спектр безопасности ваших данных.</li>
+								<li class="list-item">Аудит безопасности&#160;&#8212; выявляем &#171;слабые места&#187; вашей системы.</li>
+								<li class="list-item">Постоянная техническая поддержка.</li>
 							</ul>
 						</div>
+					</div>
+				</div>
+			</section>
+			<section class="bonus">
+				<div class="container">
+					<div class="bonus__wrapper">
+						<h3 class="bonus__title title-2">Бонусы от&#160;N&#160;servise:</h3>
+						<ul class="bonus__list">
+							<li class="bonus__list-item">Бесплатная установка антивируса.</li>
+							<li class="bonus__list-item">Скидки на&#160;обновления и&#160;услуги для постоянных клиентов.</li>
+							<li class="bonus__list-item">Консультация экспертов по&#160;выбору оптимального решения.</li>
+						</ul>
 					</div>
 				</div>
 			</section>
@@ -310,10 +322,10 @@
 				<div class="container">
 					<h2 class="title-2">Отзывы</h2>
 					<p class="subtitle">Все, кто с&#160;нами работает, благодарят за&#160;это Вселенную</p>
-					<div class="slaider">
+					<div class="feedbacks__slaider">
 						<div class="feedbacks__swiper">
 							<!-- Swiper -->
-							<div class="swiper1 mySwiper1">
+							<div class="swiper mySwiper">
 								<div class="swiper-wrapper">
 									<div class="feedbacks-slide">
 										<picture>
@@ -411,7 +423,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="howtobuy">
+			<section class="howtobuy" id="howtobuy">
 				<div class="container">
 					<h2 class="title-2">Как купить?</h2>
 					<ul class="howtobuy__list">
@@ -452,33 +464,39 @@
 					<div class="data_to_pay">💳 Оплата по&#160;счету (указать реквизиты для юр.лиц)</div>
 				</div>
 			</section>
-
-			<section class="cta">
+			<section class="cta" id="cta">
 				<div class="container">
 					<h2 class="title-2">Оставьте заявку и&#160;получите консультацию по&#160;безопасности уже сегодня</h2>
-					<div class="cta__socials">
-						<a href="#" class="cta__socials-item">
-							<svg class="icon icon--whatsapp">
-								<use href="./img/svgsprite/sprite.symbol.svg#whatsapp"><span>Whatsapp</span></use>
-							</svg>
-						</a>
-						<a href="#" class="cta__socials-item">
-							<svg class="icon icon--telegram">
-								<use href="./img/svgsprite/sprite.symbol.svg#telegram"><span>Telegram</span></use>
-							</svg>
-						</a>
-					</div>
-
-					<form class="cta__form" action="" autocomplete="on">
-						<input type="text" placeholder="Ваше имя" />
-						<input type="text" placeholder="Ваш email" />
-						<input type="text" placeholder="Ваш телефон" />
-						<input type="text" placeholder="Ваш вопрос" />
-						<div class="g-recaptcha" data-sitekey="6LcZ9qQbAAAAAID9Z9J9J9Z9J9Z9J9Z9J9Z9J9Z9"></div>
-						<div class="cta__btn">
-							<a href="#" class="btn">Получить консультацию </a>
+					<div class="cta__wrapper">
+						<div class="cta__socials">
+							<a href="#" class="cta__socials-item">
+								<svg class="icon icon--whatsapp">
+									<use href="./img/svgsprite/sprite.symbol.svg#whatsapp"><span>Whatsapp</span></use>
+								</svg>
+							</a>
+							<a href="#" class="cta__socials-item">
+								<svg class="icon icon--telegram">
+									<use href="./img/svgsprite/sprite.symbol.svg#telegram"><span>Telegram</span></use>
+								</svg>
+							</a>
+							<a href="#" class="cta__socials-item">
+								<svg class="icon-social icon--telegram">
+									<use href="./img/svgsprite/sprite.symbol.svg#telegram">Telegram</use>
+								</svg>
+							</a>
 						</div>
-					</form>
+
+						<form class="cta__form" action="" autocomplete="on">
+							<input type="text" placeholder="Ваше имя" />
+							<input type="text" placeholder="Ваш email" />
+							<input type="text" placeholder="Ваш телефон" />
+							<textarea name="message" placeholder="Ваше сообщение" wrap="hard"></textarea>
+							<div class="g-recaptcha" data-sitekey="6LcZ9qQbAAAAAID9Z9J9J9Z9J9Z9J9Z9J9Z9J9Z9"></div>
+							<div class="cta__btn">
+								<a href="#!" class="btn">Оставить заявку </a>
+							</div>
+						</form>
+					</div>
 				</div>
 			</section>
 		</main>

@@ -38,8 +38,32 @@
 	}
 }
 
-.icon--facebook, 
-.icon--instagram,
+
+.icon--whatsapp, .icon--telegram {
+	width: 25px;
+	height: 25px;
+	// fill: var(--accent-2);
+	transition: all 0.2s ease-in;
+	margin-right: 10px;
+
+	&:hover{
+		fill: var(--accent);
+		scale: 1.5;
+		rotate: 10deg;
+	}
+
+	@include mobile {
+		width: 20px;
+		height: 20px;
+		margin-right: 0;
+	}
+}
+
+.icon-social{
+	width: 50px;
+	height: 50px;	
+}
+
 .icon--email,
 .icon--phone {
 	width: 25px;
@@ -82,7 +106,7 @@
 	width: 70px;
 	height: 70px;
 	fill:var(--accent);
-	stroke: var(--accent-2);
+	// stroke: var(--accent-2);
 
 	@include mobile {
 		width: 50px;
@@ -90,11 +114,11 @@
 	}
 }
 
-.icon--choice {
+.icon--shield {
 	width: 70px;
 	height: 70px;
-	// fill: var(--accent-2);
-	stroke: var(--accent);
+	fill: var(--accent);
+	// stroke: var(--accent-2);
 
 	@include mobile {
 		width: 50px;

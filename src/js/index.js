@@ -7,11 +7,8 @@ placeholderBehavior();
 import mobileNav from './modules/mobile-nav.js';
 mobileNav();
 
-import getSwiper1 from './modules/swiper1.js';
-getSwiper1();
-
-import getSwiperMobile from './modules/swiper-mobile.js';
-getSwiperMobile();
+import getSwiperFeedback from './modules/swiper-feedbacks.js';
+getSwiperFeedback();
 
 import scrollReveal from './modules/scrollReveal.js';
 scrollReveal();
@@ -27,9 +24,6 @@ getModalForm();
 
 import sendContactsForm from './modules/form-validation.js';
 sendContactsForm();
-
-import getSwiperWave from './modules/swiper-wave.js';
-getSwiperWave();
 
 import getCookiesConsent from './modules/agreement-cookies.js';
 getCookiesConsent();
