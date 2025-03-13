@@ -486,14 +486,23 @@
 							</a>
 						</div>
 
-						<form class="cta__form" action="" autocomplete="on">
-							<input type="text" placeholder="Ваше имя" />
-							<input type="text" placeholder="Ваш email" />
-							<input type="text" placeholder="Ваш телефон" />
+						<form action="/send.php" method="post" id="form" class="form" name="form" enctype="multipart/form-data" autocomplete="on">
+							<input type="text" placeholder="Ваше имя" name="name" id="formName" class="form__input _req" />
+							<input type="text" placeholder="Ваш email" name="email" id="formEmail" class="form__input _req _email" />
+							<input type="tel" placeholder="Ваш телефон" name="tel" id="formTel" class="form__input _req" />
 							<textarea name="message" placeholder="Ваше сообщение" wrap="hard"></textarea>
-							<div class="g-recaptcha" data-sitekey="6LcZ9qQbAAAAAID9Z9J9J9Z9J9Z9J9Z9J9Z9J9Z9"></div>
-							<div class="cta__btn">
-								<a href="#!" class="btn">Оставить заявку </a>
+							<div class="form-group">
+								<input id="formAgreement" type="checkbox" name="agreement" class="checkbox__input _req " />
+								<label for="formAgreement" class="checkbox__label">
+									<span class="checkbox__box-span">
+										<span>Я&#160;принимаю условия</span><a href="./files/agreement-Iluxsiir_ee_en_ru.pdf" target="_blank"> политики конфиденциальности</a
+										><span> компании и&#160;даю согласие на&#160;обработку своих персональных данных. </span>
+									</span>
+								</label>
+							</div>
+							<div class="form__footer">
+								<div class="g-recaptcha" data-sitekey="6LeJwZUqAAAAAMrbxL2n3XUKihLOCFePHqIpYQR9"></div>
+								<button type="submit" class="btn form__button">Оставить заявку</button>
 							</div>
 						</form>
 					</div>
