@@ -106,7 +106,7 @@
 	width: 70px;
 	height: 70px;
 	fill:var(--accent);
-	// stroke: var(--accent-2);
+	stroke: var(--accent);
 
 	@include mobile {
 		width: 50px;
