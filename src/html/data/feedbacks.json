@@ -1,54 +1,64 @@
 [
 	{
-		"img": "beauty",
-		"name": "Client1",
-		"text": "Very good!"
+		"img": "person",
+		"name": "Mr. A.Prokudins",
+		"position": "president of Zolitude", 
+		"text": "Very good stuff! I am in ahuj! Should recommend it to every in fucking Universe! Very good stuff! I am in ahuj! Should recommend it to every in fucking Universe! Very good stuff! I am in ahuj! Should recommend it to every in fucking Universe! Very good stuff! I am in ahuj! Should recommend it to every in fucking Universe! Very good stuff! I am in ahuj! Should recommend it to every in fucking Universe! Very good stuff! I am in ahuj! Should recommend it to every in fucking Universe! Very good stuff! I am in ahuj! Should recommend it to every in fucking Universe! Very good stuff! I am in ahuj! Should recommend it to every in fucking Universe! Very good stuff! I am in ahuj! Should recommend it to every in fucking Universe! Very good stuff! I am in ahuj! Should recommend it to every in fucking Universe!d recommend it to every in fucking Universe! Very good stuff! I am in ahuj! Should recommend it to every in fucking Universe! Very good stuff! I am in ahuj! Should recommend it to every in fucking Universe! Very good stuff! I am in ahuj! Should recommend it to every in fucking Universe! Very good stuff! I am in ahuj! Should recommend it to every in fucking Universe! "
 	},
 	{
-		"img": "feetcalm",
+		"img": "person",
 		"name": "Client2",
+		"position": "president of Zolitude", 
 		"text": "Not very good!"
 	},
 	{
-		"img": "gehwol",
+		"img": "person",
 		"name": "Client3",
+		"position": "president of Zolitude", 
 		"text": "Very No good!"
 	},
 	{
-		"img": "hairwell",
+		"img": "person",
 		"name": "Client4",
+		"position": "president of Zolitude", 
 		"text": "Very fucking good!"
 	},
 	{
-		"img": "refectocil",
+		"img": "person",
 		"name": "Client5",
+		"position": "president of Zolitude", 
 		"text": "Nice & good!"
 	},
 	
 	{
-		"img": "wella",
+		"img": "person",
 		"name": "Client6",
+		"position": "president of Zolitude", 
 		"text": "Very nice!"
 	},
 	
 	{
-		"img": "kiepe",
+		"img": "person",
 		"name": "Client7",
+		"position": "president of Zolitude", 
 		"text": "Very well!"
 	},
 	{
-		"img": "moser",
+		"img": "person",
 		"name": "Client8",
+		"position": "president of Zolitude", 
 		"text": "Very well done!"
 	},
 	{
-		"img": "olaplex",
+		"img": "person",
 		"name": "Client9",
+		"position": "president of Zolitude", 
 		"text": "Awesome good!"
 	},
 	{
-		"img": "black",
+		"img": "person",
 		"name": "Client10",
+		"position": "president of Zolitude", 
 		"text": "Brilliantly good!"
 	}
 ]

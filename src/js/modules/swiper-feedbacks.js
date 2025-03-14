@@ -1,21 +1,23 @@
-import mySwiper from 'swiper/bundle';
+import Swiper from 'swiper/bundle';
 import 'swiper/css/bundle';
 
 function getSwiperFeedback() {
-    new mySwiper (".swiper", {
+    new Swiper (".swiper", {
       direction: 'horizontal',
-      autoplay: true,
       loop: true,
-      speed: 700,
-      initialSlide: 0,
-      freeMode: true,
-      slidesPerView: 1,
-      centeredSlides: true,
-      spaceBetween: 20,
-
+      
       pagination: {
-        el: '.swiper-pagination',
-      },    
+      el: '.swiper-pagination',
+    },
+
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+
+      scrollbar: {
+      el: '.swiper-scrollbar',
+    },  
   });
 }
 export default getSwiperFeedback;

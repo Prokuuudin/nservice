@@ -1,32 +1,22 @@
 .swiper-container {
-    height: 1000px;
     padding-top: 40px;
-  
     display: flex;
     flex-direction: column;
     align-items: center;
     overflow: hidden;
     justify-content: center;        
 }
-  
-  .feedbacks__swiper{
-    width: 60%;
-    overflow: hidden;
-    margin: 0 auto;
-    
-    
-}
-
-  .swiper-wrapper {
-    // height:fit-content !important;
+    .swiper-wrapper {
+    height:fit-content !important;
   }
   
   .swiper-slide {
       text-align: center;
       display: flex;
       justify-content: center;
-      align-items: center;
-    }
+      align-items: center;          
+  }
+  
   
     .swiper-slide__img {
       display: block;
@@ -37,18 +27,29 @@
     }
 
     .feedbacks-slide {
-      min-width: 200px;
-      min-height: 400px;
-      align-items: center;
+      display: flex;
+      width: 600px;
+      max-height: 400px;
+      margin: 20px;   
+  }
+
+    .feedbacks__person{
+      display: flex;
+      width: 50%;
+      flex-direction: column;
+      margin: 20px;
+      gap: 20px;
     }
 
     .feedbacks-slide__img {
       width: 100%;
     }
     .feedbacks-slide__name {
-      font-size: 40px;
+      font-size: 20px;
       font-weight: 700;
     }
     .feedbacks-slide__text {
       font-size: 20px;
+      margin: 20px;
+      overflow: hidden;
     }
