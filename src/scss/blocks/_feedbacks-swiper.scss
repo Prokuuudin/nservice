@@ -1,55 +1,91 @@
+.swiper{
+  max-width: 80%;  
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: var(--accent-2);
+  
+}
+
 .swiper-container {
-    padding-top: 40px;
+  padding-top: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
     overflow: hidden;
     justify-content: center;        
 }
-    .swiper-wrapper {
-    height:fit-content !important;
-  }
-  
-  .swiper-slide {
-      text-align: center;
-      display: flex;
-      justify-content: center;
-      align-items: center;          
-  }
-  
-  
-    .swiper-slide__img {
-      display: block;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      background-color: rgba(255, 255, 255, 0.83); 
+
+.swiper-wrapper{
+  padding: 40px;
+}
+.swiper-slide.feedbacks-slide{
+    display: flex;
+    gap: 20px; 
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.feedbacks__person {
+    display: flex;
+    flex-direction: column;
+    padding:40px  20px;
+    align-items: center;
+    text-align: center;
+    width: 250px; /* Фиксированная ширина */
+    flex-shrink: 0; /* Не уменьшается */
+    background-color: var(--accent);
+    border-radius: 10px;
+}
+
+.feedbacks-slide__img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.feedbacks-slide__name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.feedbacks-slide__position {
+    font-size: 16px;
+    color: #000;
+    margin-top: 5px;
+}
+
+
+.feedbacks-slide__text {
+    display: flex;
+    flex: 1;
+    max-width: 400px;
+    height: 280px;
+    padding: 15px;
+    overflow: auto;
+    font-size: 20px;
+    line-height: 1.5;
+    color: var(--accent-2);
+
+    
+}
+
+@media (max-width: 768px) {
+    .swiper-slide {
+        flex-direction: column;
+        text-align: center;
     }
 
-    .feedbacks-slide {
-      display: flex;
-      width: 600px;
-      max-height: 400px;
-      margin: 20px;   
-  }
-
-    .feedbacks__person{
-      display: flex;
-      width: 50%;
-      flex-direction: column;
-      margin: 20px;
-      gap: 20px;
+    .feedbacks__person {
+        width: 100%;
     }
 
-    .feedbacks-slide__img {
-      width: 100%;
-    }
-    .feedbacks-slide__name {
-      font-size: 20px;
-      font-weight: 700;
-    }
     .feedbacks-slide__text {
-      font-size: 20px;
-      margin: 20px;
-      overflow: hidden;
+        width: 100%;
+        text-align: left;
+        
     }
+}
