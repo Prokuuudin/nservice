@@ -17,83 +17,319 @@
 	</head>
 
 	<body>
+		<header class="header" id="top">
+			<div class="container">
+				<div class="header__row ">
+					<a href="#about" class="logo">
+						<picture>
+							<source srcset="./img/logo.webp 1x, ./img/logo@2x.webp 2x" type="image/webp" />
+							<source srcset="./img/logo.png 1x, ./img/logo@2x.png 2x" type="image/png" />
+							<img src="./img/logo.png" srcset="./img/logo@2x.png" alt="logo" />
+						</picture>
+					</a>
+					<!-- <div class="header__links_socials">
+                <a href="https://www.facebook.com/profile.php?id=61566023952182" target="_blank">
+                    <abbr title="facebook">
+                        <svg class="icon icon--facebook">
+                            <use href="./img/svgsprite/sprite.symbol.svg#facebook"></use>
+                        </svg>
+                    </abbr>
+                </a>
+                <a href="https://www.instagram.com/iluxsiir.ee/" target="_blank">
+                    <abbr title="instagram">
+                        <svg class="icon icon--instagram">
+                            <use href="./img/svgsprite/sprite.symbol.svg#instagram"></use>
+                        </svg>
+                    </abbr>
+                </a>
+            </div> -->
+					<nav class="header__nav nav">
+						<ul class="nav__list">
+							<li><a href="#about" data-key="about-us" class="active hover-underline-animation center">О&#160;нас</a></li>
+							<li><a href="#trendmicro" data-key="brands" class="hover-underline-animation center">trendmicro</a></li>
+							<li><a href="#howtobuy" data-key="for-clients" class="hover-underline-animation center">тарифы</a></li>
+							<li><a href="#cta" data-key="contacts" class="hover-underline-animation center">Контакты</a></li>
+						</ul>
+					</nav>
+
+					<div class="switcher-wrapper">
+						<input type="radio" name="language" value="lv" id="lang-lv" />
+						<label class="switcher" for="lang-lv">LV</label>
+						<input type="radio" name="language" value="en" id="lang-eng" />
+						<label class="switcher" for="lang-eng">EN</label>
+						<input type="radio" name="language" value="ru" id="lang-ru" checked />
+						<label class="switcher" for="lang-ru">RU</label>
+						<span class="lang-placeholder"></span>
+					</div>
+					<button class="mobile-nav-btn">
+						<span class="nav-icon"></span>
+					</button>
+				</div>
+			</div>
+		</header>
+		<div class="mobile-nav">
+			<ul class="mobile-nav__list">
+				<li><a href="#about" data-key="about-us" class="hover-underline-animation center">о&#160;нас</a></li>
+				<li><a href="#brands" data-key="brands" class="hover-underline-animation center">Бренды</a></li>
+				<li><a href="#proposals" data-key="for-clients" class="hover-underline-animation center">Для клиентов</a></li>
+				<li><a href="https://shopforhair.ee/ee/" target="_blank" data-key="online-store" class="hover-underline-animation center">интернет-магазин</a></li>
+				<li><a href="#contacts" data-key="contacts" class="hover-underline-animation center">Контакты</a></li>
+			</ul>
+		</div>
+
 		<main class="main">
+			<section class="about" id="about">
+				<div class="container">
+					<div class="about__flex">
+						<div class="about__title-wrapper">
+							<h1 class="about__title">Надежная антивирусная защита <small class="about__title-small">для вашего бизнеса</small></h1>
+						</div>
+						<div class="about__desc">
+							<h2 class="about__product-title">&#171;Trend Micro Worry-Free&#187;</h2>
+							<div class="about__product-subtitle">
+								<p class="animated-text">
+									<span>Комплексная</span> <span>защита</span> <span>от</span> <span>вирусов,</span> <span>атак</span> <span>и</span>
+									<span>программ-вымогателей.</span> <span>Облачная</span> <span>безопасность</span> <span>без</span> <span>нагрузки</span> <span>на</span>
+									<span>систему.</span>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="about__consult">
+						<p class="about__consult-text">Получите консультацию по&#160;установке и&#160;защите уже сегодня!</p>
+						<div class="about__btns">
+							<a href="#cta" class="btn">
+								Получить консультацию
+							</a>
+						</div>
+					</div>
+					<ul class="about__list">
+						<li>✅ Полная защита корпоративных устройств</li>
+						<li>✅ Централизованное управление и&#160;мониторинг</li>
+						<li>✅ Высокая степень выявления угроз (AI&#160;и&#160;машинное обучение)</li>
+					</ul>
+				</div>
+			</section>
+			<section class="benefits">
+				<div class="container">
+					<h2 class="title-2">Преимущества Trend Micro Worry-Free</h2>
+					<ul class="benefits__wrapper">
+						<li class="benefits__item">
+							<div class="benefits__item-img">
+								<svg class="icon icon--shield">
+									<use href="./img/svgsprite/sprite.symbol.svg#cloud"></use>
+								</svg>
+							</div>
+							<div class="benefits__icon-text">
+								<div class="benefits__item-title">
+									<h3 data-key="card1-title" class="title-4">Облачное размещение</h3>
+								</div>
+								<p data-key="card1-text" class="benefits__item-desc">Зашита не&#160;нагружает систему и&#160;всегда соответствует актуальной версии</p>
+							</div>
+						</li>
+						<li class="benefits__item">
+							<div class="benefits__item-img">
+								<svg class="icon icon--emergency">
+									<use href="./img/svgsprite/sprite.symbol.svg#siren"></use>
+								</svg>
+							</div>
+							<div class="benefits__icon-text">
+								<div class="benefits__item-title">
+									<h3 data-key="card2-title" class="title-4">Высокая степень выявления угроз</h3>
+								</div>
+								<p data-key="card2-text" class="benefits__item-desc">Применяется искусственный интеллект и&#160;машинное обучение</p>
+							</div>
+						</li>
+						<li class="benefits__item">
+							<div class="benefits__item-img">
+								<svg class="icon icon--control">
+									<use href="./img/svgsprite/sprite.symbol.svg#tuning"></use>
+								</svg>
+							</div>
+							<div class="benefits__icon-text">
+								<div class="benefits__item-title">
+									<h3 data-key="card3-title" class="title-4">Удаленное администрирование</h3>
+								</div>
+								<p data-key="card3-text" class="benefits__item-desc">Удобный контроль всех устройств</p>
+							</div>
+						</li>
+						<li class="benefits__item">
+							<div class="benefits__item-img">
+								<svg class="icon icon--complex-protection">
+									<use href="./img/svgsprite/sprite.symbol.svg#umbrella"></use>
+								</svg>
+							</div>
+							<div class="benefits__icon-text">
+								<div class="benefits__item-title">
+									<h3 data-key="card4-title" class="title-4">Комплексная защита</h3>
+								</div>
+								<p data-key="card4-text" class="benefits__item-desc">Одновременная защита от&#160;вирусов, фишинга, атак и&#160;других неприятностей</p>
+							</div>
+						</li>
+						<li class="benefits__item">
+							<div class="benefits__item-img">
+								<svg class="icon icon--license">
+									<use href="./img/svgsprite/sprite.symbol.svg#license"></use>
+								</svg>
+							</div>
+							<div class="benefits__icon-text">
+								<div class="benefits__item-title">
+									<h3 data-key="card5-title" class="title-4">Гибкие лицензии</h3>
+								</div>
+								<p data-key="card5-text" class="benefits__item-desc">Лицензионные пакеты от&#160;1 до&#160;100 конечных точек.</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</section>
+
+			<section class="video" id="trendmicro">
+				<h2 class="visually-hidden">title</h2>
+				<div class="container">
+					<div class="video__wrapper">
+						<div class="video__title">
+							<h2 class="title-2">trend micro: видео-описание</h2>
+						</div>
+						<iframe
+							height="600px"
+							src="https://www.youtube.com/embed/Dh6K9DTlPvM"
+							title="YouTube video player"
+							frameborder="0"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen
+							>VIDEO</iframe
+						>
+					</div>
+				</div>
+			</section>
+
+			<section class="why">
+				<div class="container">
+					<div class="why__header">
+						<h2 class="title-2">Почему N&#160;SERVICE?</h2>
+					</div>
+					<div class="why__wrapper">
+						<p class="subtitle why__subtitle">
+							N&#160;Service сотрудничает с&#160;Trend Micro миллион лет и&#160;предоставяет услуги этой компании в&#160;полном объеме, с&#160;гарантией персонального
+							подхода к&#160;каждому клиенту
+						</p>
+						<div class="why__list-wrapper">
+							<div class="why__list-title">
+								<p class="subtitle">Наши особенности</p>
+							</div>
+							<ul class="why__list">
+								<li class="list-item">Настройка антивируса под ваш бизнес, с&#160;учетом его особенностей</li>
+								<li class="list-item">Комплексная защита &#171;под ключ&#187;&#160;&#8212; полный спектр безопасности ваших данных.</li>
+								<li class="list-item">Аудит безопасности&#160;&#8212; выявляем &#171;слабые места&#187; вашей системы.</li>
+								<li class="list-item">Постоянная техническая поддержка.</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="bonus">
+				<div class="container">
+					<div class="bonus__wrapper">
+						<h3 class="bonus__title title-2">Бонусы от&#160;N&#160;service:</h3>
+						<ul class="bonus__list">
+							<li class="bonus__list-item">
+								<svg class="icon--gift1">
+									<use href="./img/svgsprite/stack/svg/sprite.stack.svg#gift1"></use>
+								</svg>
+								Бесплатная установка антивируса
+							</li>
+							<li class="bonus__list-item">
+								<svg class="icon--gift2">
+									<use href="./img/svgsprite/stack/svg/sprite.stack.svg#gift2"></use>
+								</svg>
+								Скидки на&#160;обновления и&#160;услуги для постоянных клиентов
+							</li>
+							<li class="bonus__list-item">
+								<svg class="icon--gift3">
+									<use href="./img/svgsprite/stack/svg/sprite.stack.svg#gift3"></use>
+								</svg>
+								Консультация экспертов по&#160;выбору оптимального решения
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
 			<section class="partners">
 				<div class="container">
 					<h2 class="title-2">Наши партнеры</h2>
 					<div class="gallery">
-						<div class="partner">
+						<a href="https://www.via-una.lv" class="partner">
 							<picture>
 								<source srcset="viauna_logo.webp 1x, viauna_logo@2x.webp 2x" type="image/webp" />
 								<source srcset="viauna_logo.jpg 1x, viauna_logo@2x.jpg 2x" type="image/jpeg" />
 								<img src="viauna_logo.jpg" alt="VIA UNA, SIA" />
 							</picture>
-							<a href="#">VIA UNA, SIA</a>
-						</div>
-						<div class="partner">
+							<p>VIA UNA, SIA</p>
+						</a>
+						<a href="https://aktualaspreces.lv" class="partner">
 							<picture>
 								<source srcset="siaes_logo.webp 1x, siaes_logo@2x.webp 2x" type="image/webp" />
 								<source srcset="siaes_logo.jpg 1x, siaes_logo@2x.jpg 2x" type="image/jpeg" />
 								<img src="siaes_logo.jpg" alt="SIA ES TE RĪGA" />
 							</picture>
-							<a href="#">SIA ES&#160;TE&#160;RĪGA</a>
-						</div>
-						<div class="partner">
+							<p>SIA ES&#160;TE&#160;RĪGA</p>
+						</a>
+						<a href="https://miksplus.eu" class="partner">
 							<picture>
 								<source srcset="miksplus_logo.webp 1x, miksplus_logo@2x.webp 2x" type="image/webp" />
 								<source srcset="miksplus_logo.jpg 1x, miksplus_logo@2x.jpg 2x" type="image/jpeg" />
 								<img src="miksplus_logo.jpg" alt="Miks Plus, SIA" />
 							</picture>
-							<a href="#">Miks Plus, SIA</a>
-						</div>
-						<div class="partner">
-							<picture>
-								<source srcset="markslapunovs_logo.webp 1x, markslapunovs_logo@2x.webp 2x" type="image/webp" />
-								<source srcset="markslapunovs_logo.jpg 1x, markslapunovs_logo@2x.jpg 2x" type="image/jpeg" />
-								<img src="markslapunovs_logo.jpg" alt="Marks Lapunovs" />
-							</picture>
-							<a href="#">Marks Lapunovs</a>
-						</div>
-						<div class="partner">
-							<picture>
-								<source srcset="lolitavovka_logo.webp 1x, lolitavovka_logo@2x.webp 2x" type="image/webp" />
-								<source srcset="lolitavovka_logo.jpg 1x, lolitavovka_logo@2x.jpg 2x" type="image/jpeg" />
-								<img src="lolitavovka_logo.jpg" alt="LOLITA VOVKA" />
-							</picture>
-							<a href="#">LOLITA VOVKA</a>
-						</div>
-						<div class="partner">
-							<picture>
-								<source srcset="livonia_logo.webp 1x, livonia_logo@2x.webp 2x" type="image/webp" />
-								<source srcset="livonia_logo.jpg 1x, livonia_logo@2x.jpg 2x" type="image/jpeg" />
-								<img src="livonia_logo.jpg" alt="LIVONIA SHIPPING COMPANY, SIA" />
-							</picture>
-							<a href="#">LIVONIA SHIPPING COMPANY, SIA</a>
-						</div>
-						<div class="partner">
+							<p>Miks Plus, SIA</p>
+						</a>
+						<a href="https://iluxsiir.ee" class="partner">
 							<picture>
 								<source srcset="iluxsiir_logo.webp 1x, iluxsiir_logo@2x.webp 2x" type="image/webp" />
 								<source srcset="iluxsiir_logo.jpg 1x, iluxsiir_logo@2x.jpg 2x" type="image/jpeg" />
 								<img src="iluxsiir_logo.jpg" alt="IluXsiir OÜ" />
 							</picture>
-							<a href="#">IluXsiir OÜ</a>
-						</div>
-						<div class="partner">
+							<p>IluXsiir OÜ</p>
+						</a>
+						<a href="https://i-work.lv" class="partner">
 							<picture>
 								<source srcset="iwork_logo.webp 1x, iwork_logo@2x.webp 2x" type="image/webp" />
 								<source srcset="iwork_logo.jpg 1x, iwork_logo@2x.jpg 2x" type="image/jpeg" />
 								<img src="iwork_logo.jpg" alt="I-Work Group, SIA" />
 							</picture>
-							<a href="#">I-Work Group, SIA</a>
-						</div>
-						<div class="partner">
+							<p>I-Work Group, SIA</p>
+						</a>
+						<a href="#!" class="partner">
+							<picture>
+								<source srcset="livonia_logo.webp 1x, livonia_logo@2x.webp 2x" type="image/webp" />
+								<source srcset="livonia_logo.jpg 1x, livonia_logo@2x.jpg 2x" type="image/jpeg" />
+								<img src="livonia_logo.jpg" alt="LIVONIA SHIPPING COMPANY, SIA" />
+							</picture>
+							<p>LIVONIA SHIPPING COMPANY, SIA</p>
+						</a>
+						<a href="#!" class="partner">
+							<picture>
+								<source srcset="markslapunovs_logo.webp 1x, markslapunovs_logo@2x.webp 2x" type="image/webp" />
+								<source srcset="markslapunovs_logo.jpg 1x, markslapunovs_logo@2x.jpg 2x" type="image/jpeg" />
+								<img src="markslapunovs_logo.jpg" alt="Marks Lapunovs" />
+							</picture>
+							<p>Marks Lapunovs</p>
+						</a>
+						<a href="#!" class="partner">
+							<picture>
+								<source srcset="lolitavovka_logo.webp 1x, lolitavovka_logo@2x.webp 2x" type="image/webp" />
+								<source srcset="lolitavovka_logo.jpg 1x, lolitavovka_logo@2x.jpg 2x" type="image/jpeg" />
+								<img src="lolitavovka_logo.jpg" alt="LOLITA VOVKA" />
+							</picture>
+							<p>LOLITA VOVKA</p>
+						</a>
+						<a href="#!" class="partner">
 							<picture>
 								<source srcset="aleksandrs_logo.webp 1x, aleksandrs_logo@2x.webp 2x" type="image/webp" />
 								<source srcset="aleksandrs_logo.jpg 1x, aleksandrs_logo@2x.jpg 2x" type="image/jpeg" />
 								<img src="aleksandrs_logo.jpg" alt="Aleksandrs Vovks" />
 							</picture>
-							<a href="#">Aleksandrs Vovks</a>
-						</div>
+							<p>Aleksandrs Vovks</p>
+						</a>
 					</div>
 				</div>
 			</section>
@@ -274,19 +510,133 @@
 									</div>
 								</div>
 							</div>
+							<div class="swiper-pagination"></div>
 						</div>
 
-						<div class="swiper-pagination"></div>
-
 						<div class="swiper__btns">
-							<div class="swiper-btn-next"></div>
-							<div class="swiper-btn-prev"></div>
+							<div class="swiper-btn-next">
+								<svg class="icon icon--arrow-left">
+									<use href="./img/svgsprite/sprite.symbol.svg#arrow-left"></use>
+								</svg>
+							</div>
+							<div class="swiper-btn-prev">
+								<svg class="icon icon--arrow-right">
+									<use href="./img/svgsprite/sprite.symbol.svg#arrow-right"></use>
+								</svg>
+							</div>
 						</div>
 					</div>
 				</div>
 			</section>
-		</main>
+			<section class="howtobuy" id="howtobuy">
+				<div class="container">
+					<h2 class="title-2">Как купить?</h2>
+					<ul class="howtobuy__list">
+						<li class="howtobuy__list-item">1️⃣ Оставляете заявку: заполняете форму или делаете звонок.</li>
+						<li class="howtobuy__list-item">2️⃣ N&#160;Service подбирает для вас оптимальный тариф.</li>
+						<li class="howtobuy__list-item">3️⃣ Мы&#160;бесплатно устанавливаем и&#160;настраиваем выбранное вами ПО.</li>
+					</ul>
 
+					<div class="howtobuy__licenses">
+						<table>
+							<tr>
+								<th>Продукт</th>
+								<th>Количество услуг</th>
+								<th>Оплата за&#160;месяц</th>
+								<th>Оплата за&#160;год</th>
+							</tr>
+							<tr>
+								<td>Продукт 1</td>
+								<td>10</td>
+								<td>500 ₽</td>
+								<td>5000 ₽</td>
+							</tr>
+							<tr>
+								<td>Продукт 2</td>
+								<td>20</td>
+								<td>900 ₽</td>
+								<td>9000 ₽</td>
+							</tr>
+							<tr>
+								<td>Продукт 3</td>
+								<td>30</td>
+								<td>1300 ₽</td>
+								<td>13000 ₽</td>
+							</tr>
+						</table>
+					</div>
+
+					<div class="data_to_pay">💳 Оплата по&#160;счету (указать реквизиты для юр.лиц)</div>
+				</div>
+			</section>
+			<section class="cta" id="cta">
+				<div class="container">
+					<h2 class="title-2">Оставьте заявку и&#160;получите консультацию по&#160;безопасности уже сегодня</h2>
+					<div class="cta__wrapper">
+						<div class="cta__left-side">
+							<div class="cta__socials">
+								<a href="#" class="cta__socials-item">
+									<svg class="icon icon--whatsapp">
+										<use href="./img/svgsprite/stack/svg/sprite.stack.svg#whatsapp"><span>Whatsapp</span></use>
+									</svg>
+								</a>
+								<a href="#" class="cta__socials-item">
+									<svg class="icon icon--telegram">
+										<use href="./img/svgsprite/stack/svg/sprite.stack.svg#telegram"><span>Telegram</span></use>
+									</svg>
+								</a>
+							</div>
+							<picture>
+								<source srcset="./img/nservice-img/business2.webp 1x, ./img/nservice-img/business2@2x.webp 2x" type="image/webp" />
+								<source srcset="./img/nservice-img/business2.png 1x, ./img/nservice-img/business2@2x.png 2x" type="image/png" />
+								<img src="./img/nservice-img/business2.png" alt="" />
+							</picture>
+						</div>
+
+						<form action="/send.php" method="post" id="form" class="form" name="form" enctype="multipart/form-data" autocomplete="on">
+							<input type="text" placeholder="Ваше имя" name="name" id="formName" class="form__input _req" />
+							<input type="text" placeholder="Ваш email" name="email" id="formEmail" class="form__input _req _email" />
+							<input type="tel" placeholder="Ваш телефон" name="tel" id="formTel" class="form__input _req" />
+							<textarea name="message" placeholder="Ваше сообщение" wrap="hard"></textarea>
+							<div class="form-group">
+								<input id="formAgreement" type="checkbox" name="agreement" class="checkbox__input _req " />
+								<label for="formAgreement" class="checkbox__label">
+									<span class="checkbox__box-span">
+										<span>Я&#160;принимаю условия</span><a href="./files/agreement-Iluxsiir_ee_en_ru.pdf" target="_blank"> политики конфиденциальности</a
+										><span> компании и&#160;даю согласие на&#160;обработку своих персональных данных. </span>
+									</span>
+								</label>
+							</div>
+							<div class="form__footer">
+								<div class="g-recaptcha" data-sitekey="6LeJwZUqAAAAAMrbxL2n3XUKihLOCFePHqIpYQR9"></div>
+								<button type="submit" class="btn form__button">Оставить заявку</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__row">
+					<div class="footer__left-side">
+						<div class="footer__data">
+							<p>
+								&#171;N&#160;SERVICE&#187;, SIA<br />
+								Рег. номер: 40203287886 <br />
+								Рига, ул.&#160;Русес 26-135, LV-1029, Латвия <br />
+								<a href="mailTo:service@nservice.lv"> service@nservice.lv </a>
+								<br />
+								<a href="https://nservice.lv/" target="_blank"> www.nservice.lv</a>
+							</p>
+						</div>
+					</div>
+					<div class="footer__right-side">
+						<div class="footer__copyright">Copyright &#169; 2025. <span data-key="all-rights">Все права защищены</span></div>
+					</div>
+				</div>
+			</div>
+		</footer>
 		<script src="./js/index.bundle.js"></script>
 	</body>
 </html>

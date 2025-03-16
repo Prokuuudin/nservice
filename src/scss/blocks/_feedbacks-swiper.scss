@@ -18,6 +18,7 @@
 .swiper-wrapper{
   padding: 40px;
   display: flex;
+  position: relative;
 
 }
 .swiper-slide.feedbacks-slide{
@@ -32,22 +33,23 @@
 .feedbacks__swiper {
     display: flex;
     align-items: center;
+    justify-content: left;
 }
 .feedbacks__person {
     display: flex;
     flex-direction: column;
-    padding:40px  20px;
+    padding:30px  20px;
     align-items: center;
     text-align: center;
     width: 250px; /* Фиксированная ширина */
     flex-shrink: 0; /* Не уменьшается */
-    background-color: var(--accent);
+    // background-color: var(--accent);
     border-radius: 10px;
 }
 
 .feedbacks-slide__img {
-    width: 150px;
-    height: 150px;
+    width: 170px;
+    height: 170px;
     object-fit: cover;
     border-radius: 50%;
 }
@@ -55,7 +57,7 @@
 .feedbacks-slide__name {
     font-size: 20px;
     font-weight: bold;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 .feedbacks-slide__position {
@@ -67,7 +69,7 @@
 .feedbacks-slide__text {
     display: flex;
     flex: 1;
-    max-width: 400px;
+    max-width: 550px;
     height: 280px;
     padding: 15px;
     overflow: auto;
@@ -82,13 +84,19 @@
     gap: 20px;
 }
 
-.swiper-btn-prev, .swiper-btn-next {   
+.swiper-btn-prev, .swiper-btn-next {
+    display: flex;   
     background-color:var(--accent);
     border-radius: 50%;
     width: 75px;
     height: 75px;
     cursor: pointer;
-    
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper-pagination {
+    top: var(--swiper-pagination-top);
 }
 
 @media (max-width: 768px) {

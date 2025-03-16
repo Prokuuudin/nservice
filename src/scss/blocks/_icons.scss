@@ -11,73 +11,24 @@
 	height: 22px;
 }
 
-
-.icon--arrow-up{
-	fill: var(--accent);
-	background-color: #fff;
-	width: 60px;
-	height: 60px;
-	border-radius: 50%;
-	border: 5px solid var(--accent);
-	position: fixed;
-	right: 3rem;
-	// bottom: -50%;
-	bottom: 2rem;
-	z-index: 999;
-	box-shadow: 0 4px 16px rgba(0, 0, 0, 0.9);
-	transition: bottom 0.3s;
-	transform: 0.3s;
-	animation: move 2s infinite linear;
-	opacity: 0.5;
-	transition: all 0.2s ease-in;
-		
-	&:hover{
-		opacity: 1;
-		animation: stop;
-		// bottom: 2rem;		
-	}
+.icon--arrow-left, .icon--arrow-right {
+	width: 50px;
+	height: 50px;
+	stroke: #000;
 }
 
+.icon--gift1, .icon--gift2, .icon--gift3{
+	width: 100px;
+	height: 100px;
+}
 
 .icon--whatsapp, .icon--telegram {
 	width: 25px;
 	height: 25px;
-	// fill: var(--accent-2);
 	transition: all 0.2s ease-in;
 	margin-right: 10px;
 
 	&:hover{
-		fill: var(--accent);
-		scale: 1.5;
-		rotate: 10deg;
-	}
-
-	@include mobile {
-		width: 20px;
-		height: 20px;
-		margin-right: 0;
-	}
-}
-
-.icon-social{
-	fill: transparent;
-	stroke: transparent;
-	
-	width: 50px;
-	height: 50px;
-	
-}
-
-.icon--email,
-.icon--phone {
-	width: 25px;
-	height: 25px;
-	fill: var(--accent-2);
-	transition: all 0.2s ease-in;
-	margin-right: 10px;
-
-	&:hover{
-		fill: var(--accent);
 		scale: 1.5;
 		rotate: 10deg;
 	}
@@ -104,7 +55,6 @@
 		height: 50px;
 	}
 }
-
 
 
 
