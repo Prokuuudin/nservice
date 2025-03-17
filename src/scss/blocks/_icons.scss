@@ -40,6 +40,7 @@
 	}
 }
 
+
 .icon--license,
 .icon--shield,
 .icon--emergency,
@@ -55,6 +56,17 @@
 		height: 50px;
 	}
 }
-
+.icon--email, .icon--phone {
+	width: 25px;
+	height: 25px;
+	fill: var(--accent-2);
+	stroke: var(--accent-2);
+	transition: all 0.2s ease-in;
+	
+	&:hover{
+		scale: 1.5;
+		rotate: 10deg;
+	}
+}
 
 

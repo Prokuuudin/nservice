@@ -3,10 +3,10 @@
     display: flex;
     align-items: center;
     height: 35px;
-    width: 135px;
+    width: 140px;
     padding: 0 10px;
     cursor: pointer;
-    font-size: 20px;    
+    font-size: 22px;    
 
     @include tablet {
         width: 70px;
@@ -60,13 +60,14 @@
     }
 }
 .switcher-wrapper input[type="radio"]:nth-of-type(2):checked ~ .lang-placeholder {
-    left: 50px;
+    left: 52px;
+
     @include tablet {
         left: 25px;
     }
 }
 .switcher-wrapper input[type="radio"]:nth-of-type(3):checked ~ .lang-placeholder {
-    left: 88px;
+    left: 91px;
 
     @include tablet {
         left: 46px;

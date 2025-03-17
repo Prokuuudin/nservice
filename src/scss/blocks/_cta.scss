@@ -23,11 +23,46 @@
     align-items: center;
 }
 
-.cta__socials{
+.cta__socials, .cta__contacts{
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+}
+
+.cta__contacts a {
+    display: flex;
+    align-items: center;     
+}
+
+span.cta__email, span.cta__phone{
+    margin-left: 10px;
+    transition: all 0.2s ease-in;
+    font-weight: 600;
+    
+
+    &:hover{
+        color: var(--accent-2);
+    }
+
+
+}
+
+.cta__socials-item{
+    display: flex;
+    align-items: center;
+}
+
+.icon-text{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+
+    &:hover{
+        color: var(--accent-2);
+    }
+
+
 }
 
 .cta__form {
