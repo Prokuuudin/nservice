@@ -49,6 +49,12 @@
     height: 300px;
 }
 
+.why__list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .why__list ul{
     padding: 20px;
 }
@@ -58,16 +64,25 @@
     background: #f8f9fa;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    margin-top: 20px;
 }
 
 .why__list li{
     list-style: disc;
 }
 
+.Why__link a{
+	color: var(--accent-2);
+	opacity: 0.7;
+	transition: all 0.2s ease-in;
+	
+	&:hover{
+		opacity: 1;
+	}
+}
 .list-item {
     margin-left: 20px;
 }
+
 
 .bonus__list {
     display: flex;
@@ -80,6 +95,11 @@
     align-items: center;
     justify-content: space-between;
     gap: 20px;
+    padding: 20px;
     font-size: 20px;
     font-weight: 600;
+
+    background: var(--accent-2);
+    border-radius: 10px;
+
 }
