@@ -5,6 +5,10 @@
 	color: var(--accent-2);
 	transition: all 0.2s ease-in;
 
+	&:hover {
+		color: var(--accent);
+	}
+
 }
 
 .nav__list {
@@ -29,7 +33,7 @@
 	height: 2px;
 	bottom: -3px;
 	left: 0;
-	background-color: var(--accent);
+	background-color: #000;
 	transition: transform 0.2s ease-out;
 }
   
