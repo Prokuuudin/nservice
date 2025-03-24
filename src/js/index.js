@@ -10,18 +10,8 @@ placeholderBehavior();
 import mobileNav from './modules/mobile-nav.js';
 mobileNav();
 
-
 import scrollReveal from './modules/scrollReveal.js';
 scrollReveal();
-
-import getModalInfo from './modules/modal-info.js';
-getModalInfo();
-
-import getModalShop from './modules/modal-shop.js';
-getModalShop();
-
-import getModalForm from './modules/modal-form.js';
-getModalForm();
 
 import sendContactsForm from './modules/form-validation.js';
 sendContactsForm();
