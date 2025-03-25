@@ -1,4 +1,3 @@
-// 
 function mobileNav() {
 	// Mobile nav button
 	const navBtn = document.querySelector('.mobile-nav-btn');

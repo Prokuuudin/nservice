@@ -43,6 +43,7 @@
     font-weight: 600;
     text-transform: uppercase;
     color: var(--accent); 
+    text-decoration: solid underline #000;
 }
 .partners__partners-list ul li a{
     font-size: 28px;
@@ -54,6 +55,6 @@
 
     &:hover{
         color: orangered;
-        top: 1px;
+        top: -2px;
     }
 }

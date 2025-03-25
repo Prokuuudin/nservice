@@ -52,9 +52,7 @@
 
   .form-group {
     position: relative;
-    width: 90%;
-    margin-bottom: 20px;
-    
+    width: 90%;    
     @include mobile {
         margin-bottom: 10px;
     }
@@ -133,7 +131,6 @@
 
 .form__footer{
     width: 100%;
-    margin-top: 40px;
     padding: 0 20px 10px;
     display: flex;
     justify-content:space-around;
