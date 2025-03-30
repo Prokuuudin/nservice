@@ -14,7 +14,13 @@
 }
 
 .partners__gallery a{
-    align-items: center;
+    align-items: center;    
+}
+
+.partner {
+    &:hover{
+        
+    }
 }
 
 .partner {
@@ -22,6 +28,11 @@
     padding: 15px;
     width: 200px;
     text-align: center;
+    position: relative;
+
+    &:hover{
+        top: -2px;
+    }
 }
 
 .partner a {
