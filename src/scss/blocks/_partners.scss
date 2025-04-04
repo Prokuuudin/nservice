@@ -1,9 +1,14 @@
-.partners-wrapper{
+.partners {
+    padding-top: var(--section-padding-top);
+}
+
+.partners-box{
     background: #fff;
-    padding: 0 20px;
     margin-top: 20px;
+    padding: 0 100px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
 }
 .partners__gallery {
     display: flex;
@@ -29,7 +34,7 @@
     width: 200px;
     text-align: center;
     position: relative;
-
+   
     &:hover{
         top: -2px;
     }
@@ -50,14 +55,14 @@
     display: flex;
     justify-content: space-between;
     gap: 40px;
-    font-size: 28px;
+    font-size: 22px;
     font-weight: 600;
     text-transform: uppercase;
     color: var(--accent); 
     text-decoration: solid underline #000;
 }
 .partners__partners-list ul li a{
-    font-size: 28px;
+    font-size: 22px;
     font-weight: 600;
     text-transform: uppercase;
     color: var(--accent); 

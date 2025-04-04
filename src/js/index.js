@@ -1,5 +1,7 @@
 // import setLanguage from './modules/setLanguage.js';
 // setLanguage();
+import scrollReveal from './modules/scrollReveal.js';
+scrollReveal();
 
 import mobileNav from './modules/mobile-nav.js';
 mobileNav();
@@ -10,8 +12,6 @@ getSwiperFeedback();
 import placeholderBehavior from './modules/placeholder-behavior.js';
 placeholderBehavior();
 
-import scrollReveal from './modules/scrollReveal.js';
-scrollReveal();
 
 import sendContactsForm from './modules/form-validation.js';
 sendContactsForm();

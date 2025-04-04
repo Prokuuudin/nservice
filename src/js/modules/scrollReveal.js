@@ -14,22 +14,22 @@ function scrollRevealFunc () {
 		opacity: 0,
 	});
 
-	ScrollReveal().reveal(`.about__text`,  {
+	ScrollReveal().reveal(``,  {
 		delay: 900,
 		distance: '0px',
 		opacity: 0,
 	});
 
-	ScrollReveal().reveal(`.about__title, .brands__title-group, .proposals__title-group, .contacts__title-group `, {
+	ScrollReveal().reveal(`.about__title, .about__desc `, {
 		origin: 'top',
 	});
 	
-	ScrollReveal().reveal(`.header`, {
+	ScrollReveal().reveal(`.header__row`, {
 		delay: 400,
 		origin: 'top',
 	});
 
-	ScrollReveal().reveal(` .proposals__customers, .contacts__data, .footer__left-side`, {
+	ScrollReveal().reveal(` .about__consult `, {
 		origin: 'left',
 	});
 
@@ -39,10 +39,9 @@ function scrollRevealFunc () {
 		}
 	);
 
-	ScrollReveal().reveal(`.about__btns, .benefits__wrapper, .brands__desc, .visual__img, .visual__desc, .proposals__corporates, .contacts__connect, footer, .footer__right-side`,  {
+	ScrollReveal().reveal(` .about__list, .footer`,  {
 		origin: 'bottom',
-	});
-	
+	});	
 }
 
 export default scrollRevealFunc;

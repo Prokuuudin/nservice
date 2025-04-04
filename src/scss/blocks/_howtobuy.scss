@@ -1,18 +1,46 @@
 .howtobuy {
+    padding-top: var(--section-padding-top);
 }
 .howtobuy__list {
     display: flex;
     flex-direction: column;
     gap: 20px;
     font-size: 36px;
+    margin-top: 50px;  
+    margin-left: 100px;
+}
 
-}
 .howtobuy__list-item {
+    display: flex;
+    align-items: baseline;
+    gap: 20px;
 }
+
+.howtobuy__list-item span{
+    text-transform: uppercase;
+}
+
 .howtobuy__licenses {
-    margin-top: var(--section-margin-top);
+    margin-top: 50px;;
 }
 .howtobuy__licenses-title {
 }
-.data_to_pay {
+.howtobuy__payment {
+    margin-top: 50px;
+}
+
+.howtobuy__link{
+    color: var(--accent-2);
+	opacity: 0.7;
+	transition: all 0.2s ease-in;
+	
+	&:hover{
+		opacity: 1;
+	}
+}
+
+.howtobuy__img{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
 }
