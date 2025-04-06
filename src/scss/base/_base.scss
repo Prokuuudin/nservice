@@ -36,10 +36,26 @@ pre.code {
 p {
 	padding: 5px;
 	font-family: "Roboto", sans-serif;
-	font-size: 24px;	
+	font-size: 24px;
+	
+	@include tablet {
+		font-size: 20px;
+	}
+
+	@include mobile {
+		font-size: 16px;
+	}
 }
 
 small {
 	font-size: 0.7em;
 	color: black;
+}
+
+.colored{
+	color: var(--accent);
+	
+}
+.colored2{
+	color: var(--accent-2);
 }

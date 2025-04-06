@@ -8,12 +8,26 @@
     font-size: 36px;
     margin-top: 50px;  
     margin-left: 100px;
+
+    @include desktop-sm{
+        font-size: 24px;;
+    }
+    @include tablet{
+        font-size: 20px;;
+    }
+
+    @include mobile {
+        margin-left: 40px;
+        font-size: 18px;             
+    }
+
 }
 
 .howtobuy__list-item {
     display: flex;
     align-items: baseline;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .howtobuy__list-item span{

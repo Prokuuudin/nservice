@@ -9,7 +9,12 @@
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 
+    @include desktop-sm{
+        padding: 0 40px;
+    }
+    
 }
+
 .partners__gallery {
     display: flex;
     justify-content: space-between;
@@ -60,6 +65,11 @@
     text-transform: uppercase;
     color: var(--accent); 
     text-decoration: solid underline #000;
+
+    @include desktop-sm{
+        font-size: 20px;
+        gap: 20px;
+    }
 }
 .partners__partners-list ul li a{
     font-size: 22px;
@@ -72,5 +82,9 @@
     &:hover{
         color: orangered;
         top: -2px;
+    }
+
+    @include desktop-sm{
+        font-size: 20px;
     }
 }

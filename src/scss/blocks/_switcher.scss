@@ -9,11 +9,16 @@
     font-size: 22px;    
 
     @include tablet {
-        width: 70px;
+        width: 100px;
         height: 20px;
         padding: 0 2px;
-        font-size: 12px;        
+        font-size: 18px;        
     }
+
+    @include mobile {
+        font-size: 16px;                
+    }
+
 }
 .switcher-wrapper:hover {
     opacity: 1;
@@ -42,13 +47,13 @@
     transition: left .25s ease-in-out;
 
     @include tablet {
-        width: 20px;
-        height: 18px;
-    }
+        width: 30px;
+        height: 26px;
+    }    
 
     @include mobile {
-        width: 18px;
-        height: 16px;
+       width: 26px;
+       height: 22px; 
     }
 }
 
@@ -57,19 +62,32 @@
 
     @include tablet {
         left: 3px;
+    }  
+    
+    @include mobile {
+        left: 5px;
     }
 }
+
 .switcher-wrapper input[type="radio"]:nth-of-type(2):checked ~ .lang-placeholder {
     left: 52px;
 
     @include tablet {
-        left: 25px;
+        left: 35px;
+    }
+
+    @include mobile {
+        left: 36px;
     }
 }
 .switcher-wrapper input[type="radio"]:nth-of-type(3):checked ~ .lang-placeholder {
     left: 91px;
 
     @include tablet {
-        left: 46px;
+        left: 66px;
+    }
+
+    @include mobile {
+        left: 68px;
     }
 }

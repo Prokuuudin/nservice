@@ -8,6 +8,9 @@
 	&:hover {
 		color: var(--accent);
 	}
+	@include tablet {
+		font-size: 18px;
+	}	
 
 }
 

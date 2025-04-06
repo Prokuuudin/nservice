@@ -2,7 +2,7 @@
 a.btn {
 	display: inline-block;
 	padding: 12px;
-	min-width: 150px;
+	min-width: 180px;
 	height: auto;
 	border-radius: 5px;
 	background-color: #fff;
@@ -32,7 +32,7 @@ a.btn {
 
 	@include mobile {
 		padding: 8px 9px;
-		min-width: 120px;
+		min-width: 170px;
 		font-size: 14px;
 	}
 
