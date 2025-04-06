@@ -27,15 +27,41 @@
 }
 .howtobuy__payment {
     margin-top: 50px;
+    content: "";
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: auto;
+    min-height: 600px;
+    
+    background-image: url('./../../img/nservice-img/businessman@2x.jpg');
+    background-color: #999;
+    background-position: center center; /* x y */
+    background-size: cover;
+    background-repeat: no-repeat;    
+    position: relative;
+    padding: 40px;    
+}
+
+.howtobuy__payment-desc{
+    width: 100%;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 2.0;
+    padding: 40px;
+    border-radius: 12px;
+    margin-bottom: 50px;
+    border-radius: 12px;
+    background: rgb(234, 98, 17, 0.9);
+    text-transform: uppercase;
 }
 
 .howtobuy__link{
-    color: var(--accent-2);
-	opacity: 0.7;
-	transition: all 0.2s ease-in;
-	
+    color: #fff;
+    transition: all 0.2s ease-in;
+    
 	&:hover{
-		opacity: 1;
+        text-decoration: underline;
 	}
 }
 

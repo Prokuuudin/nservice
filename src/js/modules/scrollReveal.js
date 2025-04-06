@@ -24,12 +24,12 @@ function scrollRevealFunc () {
 		origin: 'top',
 	});
 	
-	ScrollReveal().reveal(`.header__row`, {
-		delay: 400,
+	ScrollReveal().reveal(`.header__row, .title-2`, {
+		delay: 150,
 		origin: 'top',
 	});
 
-	ScrollReveal().reveal(` .about__consult `, {
+	ScrollReveal().reveal(` .about__consult, .benefits__wrapper, .logo-square, .title-3, .feedbacks__swiper, .howtobuy__list, .cta__left-side`, {
 		origin: 'left',
 	});
 
@@ -39,7 +39,7 @@ function scrollRevealFunc () {
 		}
 	);
 
-	ScrollReveal().reveal(` .about__list, .footer`,  {
+	ScrollReveal().reveal(` .about__list, .video__frame, .why__wrapper, .why__list-item, .partners-box, .howtobuy__licenses, .form, .footer`,  {
 		origin: 'bottom',
 	});	
 }
