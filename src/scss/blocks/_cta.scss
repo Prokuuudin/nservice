@@ -1,5 +1,8 @@
 .cta{
     padding-top: var(--section-padding-top);
+    @include mobile {
+        padding-top: var(--section-padding-top-mobile);
+    }
 }
 
 .cta__wrapper{
@@ -14,6 +17,13 @@
         grid-template-columns: 1fr;
         padding: 0 20px;
     }
+      
+   @include small-mobile{
+    min-width: 300px;
+    padding: 5px;
+   }
+
+    
 }
 
 .cta__left-side{
@@ -125,4 +135,9 @@ span.cta__email, span.cta__phone{
     display: flex;
     justify-content: center;
     margin: 10px 0;
+
+    @include small-mobile{
+        max-width: 200px
+
+    }
 }

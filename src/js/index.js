@@ -1,7 +1,7 @@
 // import setLanguage from './modules/setLanguage.js';
 // setLanguage();
-import scrollReveal from './modules/scrollReveal.js';
-scrollReveal();
+// import scrollReveal from './modules/scrollReveal.js';
+// scrollReveal();
 
 import mobileNav from './modules/mobile-nav.js';
 mobileNav();

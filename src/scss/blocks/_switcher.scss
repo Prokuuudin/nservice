@@ -18,6 +18,9 @@
     @include mobile {
         font-size: 16px;                
     }
+    @include small-mobile {
+        width: 90px;             
+    }
 
 }
 .switcher-wrapper:hover {
@@ -55,6 +58,11 @@
        width: 26px;
        height: 22px; 
     }
+
+    @include small-mobile {
+        width: 22px;
+        height: 20px; 
+    }
 }
 
 .switcher-wrapper input[type="radio"]:nth-of-type(1):checked ~ .lang-placeholder {
@@ -66,6 +74,10 @@
     
     @include mobile {
         left: 5px;
+    }
+
+    @include small-mobile {
+        left: 6px;
     }
 }
 
@@ -79,6 +91,12 @@
     @include mobile {
         left: 36px;
     }
+
+    @include small-mobile {
+        left: 34px;
+    }
+
+
 }
 .switcher-wrapper input[type="radio"]:nth-of-type(3):checked ~ .lang-placeholder {
     left: 91px;
@@ -89,5 +107,9 @@
 
     @include mobile {
         left: 68px;
+    }
+
+    @include small-mobile {
+        left: 62px;
     }
 }

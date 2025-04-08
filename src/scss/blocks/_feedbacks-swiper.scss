@@ -7,7 +7,7 @@
 }
 
 .swiper-container {
-  padding-top: 40px;
+    padding-top: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,8 +19,13 @@
   padding: 40px;
   display: flex;
   position: relative;
+  
+  @include mobile {
+      max-height: 350px;
+  }
 
 }
+
 .swiper-slide.feedbacks-slide{
     display: flex;
     gap: 20px; 
@@ -28,19 +33,23 @@
     background: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+    @include mobile {
+        flex-direction: column;
+        gap: 10px;    
+    }
 }
 
 .feedbacks__swiper {
     display: flex;
     align-items: center;
     justify-content: left;
-
+    
     @include mobile {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        flex-direction:column;
     }
 }
+
 .feedbacks__person {
     display: flex;
     flex-direction: column;
@@ -51,6 +60,12 @@
     flex-shrink: 0; /* Не уменьшается */
     // background-color: var(--accent);
     border-radius: 10px;
+
+    @include mobile {
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+    }
 }
 
 .feedbacks-slide__img {
@@ -58,18 +73,28 @@
     height: 170px;
     object-fit: cover;
     border-radius: 50%;
+
+    @include mobile {
+        width: 70px;
+        height: 70px;
+    }
 }
 
 .feedbacks-slide__name {
     font-size: 20px;
     font-weight: bold;
     margin-top: 30px;
+
+    @include mobile {
+        margin-top: 0;
+    }
 }
 
 .feedbacks-slide__position {
     font-size: 16px;
     color: #000;
     margin-top: 5px;
+    flex-wrap: wrap;
 }
 
 .feedbacks-slide__text {
@@ -81,13 +106,22 @@
     overflow: auto;
     font-size: 20px;
     line-height: 1.5;
-    color: var(--accent-2);    
+    color: var(--accent-2);
+    
+    @include mobile {
+        font-size: 16px;
+    }
 }
 
 .swiper__btns{
     display: flex;
     flex-direction: column;
     gap: 20px;
+
+    @include mobile {
+        flex-direction: row;
+        gap: 10px;
+    }
 }
 
 .swiper-btn-prev, .swiper-btn-next {
@@ -108,6 +142,7 @@
     @include mobile {        
         width: 50px;
         height: 50px;
+
     }
 
 }

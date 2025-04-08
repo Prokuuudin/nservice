@@ -1,5 +1,9 @@
 .partners {
     padding-top: var(--section-padding-top);
+
+    @include mobile {
+        padding-top: var(--section-padding-top-mobile);
+    }
 }
 
 .partners-box{
@@ -11,8 +15,7 @@
 
     @include desktop-sm{
         padding: 0 40px;
-    }
-    
+    }    
 }
 
 .partners__gallery {
@@ -21,24 +24,19 @@
     gap: 20px;
     padding: 20px;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
 
-    
+    @include small-mobile{
+        padding-bottom: 0;
+    }
 }
 
 .partners__gallery a{
-    align-items: center;    
-}
-
-.partner {
-    &:hover{
-        
-    }
+    align-items: center;        
 }
 
 .partner {
     background: white;
-    padding: 15px;
     width: 200px;
     text-align: center;
     position: relative;
@@ -55,6 +53,7 @@
     color: var(--accent);
     font-weight: bold;
     text-transform: uppercase;
+    
 }
 
 .partners__partners-list ul{
@@ -67,14 +66,30 @@
     font-weight: 600;
     text-transform: uppercase;
     color: var(--accent); 
-    text-decoration: solid underline #000;
-    flex-wrap: wrap;    
+    // text-decoration: solid underline #000;
+    flex-wrap: wrap;        
 
     @include desktop-sm{
         font-size: 20px;
         gap: 20px;
     }
+    @include mobile{
+        font-size: 16px;
+        gap: 10px;
+        justify-content: center;
+        padding-top: 0;
+    }
+
 }
+
+.partners__partners-list ul li{
+    margin-bottom: 20px;
+    
+    @include small-mobile {
+        text-align: center;
+    }
+}
+
 .partners__partners-list ul li a{
     font-size: 22px;
     font-weight: 600;
@@ -82,6 +97,8 @@
     color: var(--accent); 
     transition: all 0.2s ease-in;
     position: relative;
+    padding: 10px;        
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 
     &:hover{
         color: orangered;
@@ -90,5 +107,10 @@
 
     @include desktop-sm{
         font-size: 20px;
+    }
+
+    @include mobile{
+        font-size: 16px;
+        justify-content: center;        
     }
 }

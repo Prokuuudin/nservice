@@ -1,5 +1,8 @@
 .howtobuy {
     padding-top: var(--section-padding-top);
+    @include mobile {
+        padding-top: var(--section-padding-top-mobile);
+    }
 }
 .howtobuy__list {
     display: flex;
@@ -18,7 +21,9 @@
 
     @include mobile {
         margin-left: 40px;
-        font-size: 18px;             
+        font-size: 18px;
+        
+        margin-top: 20px;
     }
 
 }
@@ -28,6 +33,10 @@
     align-items: baseline;
     gap: 20px;
     flex-wrap: wrap;
+
+    @include small-mobile{
+        gap: 0;
+    }
 }
 
 .howtobuy__list-item span{
@@ -35,9 +44,16 @@
 }
 
 .howtobuy__licenses {
-    margin-top: 50px;;
+    margin-top: 50px;
+    @include small-mobile{
+        margin-top: 20px;
+    }
+
 }
 .howtobuy__licenses-title {
+    @include small-mobile{
+        align-items: center;
+    }
 }
 .howtobuy__payment {
     margin-top: 50px;
@@ -68,15 +84,27 @@
     border-radius: 12px;
     background: rgb(234, 98, 17, 0.9);
     text-transform: uppercase;
+
+    @include small-mobile{
+        font-size: 28px;
+        padding: 10px;        
+    }
 }
 
 .howtobuy__link{
     color: #fff;
     transition: all 0.2s ease-in;
     
+    @include small-mobile{
+        text-decoration: underline;               
+    }
+    
 	&:hover{
         text-decoration: underline;
 	}
+
+    
+
 }
 
 .howtobuy__img{

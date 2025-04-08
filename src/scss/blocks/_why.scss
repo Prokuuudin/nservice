@@ -22,12 +22,11 @@
     background-repeat: no-repeat;    
     position: relative;
     padding: 40px;
-}
 
-.why__wrapper::before{
-    position: absolute;
-    display: flex;
-    flex-direction: column;        
+    @include small-mobile {
+        padding: 20px;
+        justify-content: center;
+    }
 }
 
 .why__desc{
@@ -41,7 +40,14 @@
     margin-bottom: 50px;
     border-radius: 12px;
     background: rgb(234, 98, 17, 0.9);
-       
+    
+    @include tablet {
+        padding: 40px 20px;
+    }
+
+    @include small-mobile{
+        padding: 20px 10px;        
+    }
 }
 
 .why__logo{
@@ -56,7 +62,7 @@
 }
 
 .why__list ul{
-    padding: 20px;
+    padding: 0 20px;
 }
 
 .why__list-item{
@@ -64,6 +70,10 @@
     background: #f8f9fa;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+    @include small-mobile {
+        padding: 10px;
+    }
 }
 
 .why__list li{
@@ -94,8 +104,10 @@
         flex-direction: column;
         align-items: start;
         gap: 30px;
+        margin-top: 20px;
     }
 }
+
 .bonus__list-item {
     display: flex;
     align-items: center;
@@ -113,5 +125,11 @@
         align-items: start;
         gap: 10px;
     }
+
+    @include small-mobile {
+        padding: 15px;
+        padding-top: 0;
+    }
+
 
 }

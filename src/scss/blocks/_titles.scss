@@ -25,10 +25,10 @@
 	letter-spacing: 1.5px;
 	text-transform: uppercase;
 
-	@include mobile {
-		// font-size: 20px;
-		// letter-spacing: 1.2px;
+	@include small-mobile{
+		margin-bottom: 0;
 	}
+
 }
 
 .title-4 {
@@ -38,7 +38,8 @@
 	font-family: var(--font-titles);
 
 	@include mobile {
-		// font-size: 16px;
+		font-size: 20px;
+		margin: 0.5em 0 0.5em;
 	}
 }
 
@@ -46,6 +47,10 @@
 	font-weight: 600;
 	color: var(--accent);
 	margin: 20px 0;
+
+	@include small-mobile{
+		margin: 10px 0 0;
+	}
 }
 
 .why__title{
