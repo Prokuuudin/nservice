@@ -3,6 +3,7 @@
     @include mobile {
         padding-top: var(--section-padding-top-mobile);
     }
+   
 }
 
 .cta__wrapper{
@@ -21,9 +22,7 @@
    @include small-mobile{
     min-width: 300px;
     padding: 5px;
-   }
-
-    
+   }    
 }
 
 .cta__left-side{
@@ -41,6 +40,7 @@
     @include tablet {
         padding: 20px;        
     }
+
 }
 
 .cta__socials, .cta__contacts{
@@ -60,6 +60,13 @@
         align-items: center;
         margin-bottom: 30px;
         gap: 30px;
+    }
+
+    @include small-mobile{
+        flex-direction: column;
+        align-items: start;
+        gap: 15px;
+        margin-bottom: 15px;
     }
 }
 
@@ -94,6 +101,10 @@ span.cta__email, span.cta__phone{
 
     &:hover{
         color: var(--accent-2);
+    }
+
+    @include mobile {
+        font-size: 16px;
     }
 }
 

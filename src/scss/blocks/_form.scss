@@ -10,18 +10,13 @@
     flex-direction: column;
     gap: 15px;
     // align-items: center;
-
-    @include mobile {
-    //  padding: 20px;   
-    }
-
+   
     @small-mobile{
         padding: 10px;   
     }
 
    @include small-mobile{
-    min-width: 300px;
-    padding: 5px;
+        padding: 5px;
    }
 }
 
