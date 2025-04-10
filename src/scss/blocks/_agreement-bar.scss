@@ -8,12 +8,13 @@
     left: 10px;
     bottom: 10px;
     background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     font-size: 0.9em;
     line-height: 1.5;
     transition: all 0.7s ease-in;    
     transform: translateX(-500px);
-    z-index: 3;
+    z-index: 2000;
     
     @include mobile {
         width: 300px;
