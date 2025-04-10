@@ -6,6 +6,7 @@
 	
 	@include small-mobile{
 		padding: 10px 5px;
+		margin-top: var(--section-padding-top-mobile);
 	}
 }
 
@@ -27,9 +28,9 @@
 
 	@include small-mobile{
 		font-size: 16px;
+		line-height: 1.2;
 	}	
 }
-
 
 .footer__data a{
 	font-size: 20px;
@@ -45,20 +46,20 @@
 }
 
 .footer__copyright {
-	margin-top: 88px;
+	margin-top: 130px;
 	padding: 10px 0;
 	font-size: 20px;
 	
 	@include mobile {
 		margin-top: 15px;
 		font-size: 14px;
+		margin-left: 5px;
 	}
 
 	@include small-mobile{
 		font-size: 12px;
 		margin-top: 10px;
 	}
-
 }
 
 .footer__right-side{

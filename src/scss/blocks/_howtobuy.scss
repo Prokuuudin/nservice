@@ -15,15 +15,20 @@
     @include desktop-sm{
         font-size: 24px;;
     }
+
     @include tablet{
         font-size: 20px;;
     }
 
     @include mobile {
         margin-left: 40px;
-        font-size: 18px;
-        
+        font-size: 18px;        
         margin-top: 20px;
+    }
+
+    @include small-mobile{
+        margin-left: 20px;
+        font-size: 16px;        
     }
 
 }
@@ -41,6 +46,7 @@
 
 .howtobuy__list-item span{
     text-transform: uppercase;
+    
 }
 
 .howtobuy__licenses {
@@ -87,7 +93,8 @@
 
     @include small-mobile{
         font-size: 28px;
-        padding: 10px;        
+        padding: 10px;
+        line-height: 1.5;        
     }
 }
 

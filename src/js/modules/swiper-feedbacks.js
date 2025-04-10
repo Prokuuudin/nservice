@@ -6,11 +6,14 @@ function getSwiperFeedback() {
       direction: 'horizontal',
       slidesPerView: 1,
       spaceBetween: 40,
-      loop: true,
+      centeredSlides: true,
+      loop: true,     
+      initialSlide: 0, 
       
       breakpoints: {
-        960: {
-          slidesPerView: 1.3,          
+        990: {
+          slidesPerView: 1.3,
+          centeredSlides: false,                    
         },
         
       },
