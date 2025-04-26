@@ -32,8 +32,8 @@
 					<nav class="header__nav nav">
 						<ul class="nav__list">
 							<li><a href="#about" data-key="about-us" class="active hover-underline-animation center">О&#160;нас</a></li>
-							<li><a href="#trendmicro" data-key="brands" class="hover-underline-animation center">trendmicro</a></li>
-							<li><a href="#howtobuy" data-key="for-clients" class="hover-underline-animation center">купить</a></li>
+							<li><a href="#trendmicro" data-key="product" class="hover-underline-animation center">trendmicro</a></li>
+							<li><a href="#howtobuy" data-key="howtobuy" class="hover-underline-animation center">купить</a></li>
 							<li><a href="#cta" data-key="contacts" class="hover-underline-animation center">Контакты</a></li>
 						</ul>
 					</nav>
@@ -53,12 +53,22 @@
 				</div>
 			</div>
 		</header>
+
+		<!-- <div class="mobile-nav">
+	<ul class="mobile-nav__list">
+		<li><a href="#about" class="hover-underline-animation center">о нас</a></li>
+			<li><a href="#trendmicro" class="hover-underline-animation center">trendmicro</a></li>
+			<li><a href="#howtobuy" class="hover-underline-animation center">купить</a></li>
+			<li><a href="#cta" class="hover-underline-animation center">Контакты</a></li>
+	</ul>
+</div> -->
+
 		<div class="mobile-nav">
 			<ul class="mobile-nav__list">
-				<li><a href="#about" class="hover-underline-animation center">о&#160;нас</a></li>
-				<li><a href="#trendmicro" class="hover-underline-animation center">trendmicro</a></li>
-				<li><a href="#howtobuy" class="hover-underline-animation center">купить</a></li>
-				<li><a href="#cta" class="hover-underline-animation center">Контакты</a></li>
+				<li><a href="#about" class="hover-underline-animation center" data-key="nav-about">о&#160;нас</a></li>
+				<li><a href="#trendmicro" class="hover-underline-animation center" data-key="nav-trendmicro">trendmicro</a></li>
+				<li><a href="#howtobuy" class="hover-underline-animation center" data-key="nav-buy">купить</a></li>
+				<li><a href="#cta" class="hover-underline-animation center" data-key="nav-contacts">Контакты</a></li>
 			</ul>
 		</div>
 
@@ -84,46 +94,161 @@
 		</div>
 
 		<main class="main">
+			<!-- <section class="about" id="about">
+    <div class="container">
+        <div class="about__flex">
+            <div class="about__title-wrapper">
+                <h1 class="about__title">Надежная антивирусная защита <br> <small class="about__title-small">для вашего бизнеса</small></h1>
+            </div>
+            <div class="about__desc">
+                <h2 class="about__product-title">"Trend Micro Worry-Free"</h2 >
+                    <div class="about__product-subtitle">
+                        <div class="animated-text">
+                            <span style="--delay:1">Комплексная</span> <span style="--delay:2">защита</span> <span style="--delay:3">от</span> 
+                            <span style="--delay:4">вирусов,</span> <span style="--delay:5">атак</span> <span style="--delay:6">и</span> 
+                            <span style="--delay:7">программ-вымогателей.</span> <span style="--delay:8">Облачная</span> 
+                            <span style="--delay:9">безопасность</span> <span style="--delay:10">без</span> 
+                            <span style="--delay:11">нагрузки</span> <span style="--delay:12">на</span> 
+                            <span style="--delay:13">систему.</span>
+                        </div>                       
+                    </div>
+                </div>                
+            </div> 
+            <div class="about__consult">              
+                <p class="about__consult-text">Получите консультацию по установке и защите уже сегодня!</p>
+                <div class="about__btns"><a href="#cta" class="btn">
+                        Получить консультацию
+                    </a>
+                </div>
+            </div>                
+            <div class="about__list">
+                    <p>✅ Полная защита корпоративных устройств </p>
+                    <p>✅ Централизованное управление и мониторинг</p>
+                    <p>✅ Высокая степень выявления угроз (AI и машинное обучение)</p>
+            </div>                                          
+        </div>
+</section> -->
+
 			<section class="about" id="about">
 				<div class="container">
 					<div class="about__flex">
 						<div class="about__title-wrapper">
-							<h1 class="about__title">
+							<h1 class="about__title" data-key="about-title">
 								Надежная антивирусная защита <br />
-								<small class="about__title-small">для вашего бизнеса</small>
+								<small class="about__title-small" data-key="about-title-small">для вашего бизнеса</small>
 							</h1>
 						</div>
 						<div class="about__desc">
-							<h2 class="about__product-title">&#171;Trend Micro Worry-Free&#187;</h2>
+							<h2 class="about__product-title" data-key="product-title">&#171;Trend Micro Worry-Free&#187;</h2>
 							<div class="about__product-subtitle">
 								<div class="animated-text">
-									<span style="--delay:1">Комплексная</span> <span style="--delay:2">защита</span> <span style="--delay:3">от</span>
-									<span style="--delay:4">вирусов,</span> <span style="--delay:5">атак</span> <span style="--delay:6">и</span>
-									<span style="--delay:7">программ-вымогателей.</span> <span style="--delay:8">Облачная</span> <span style="--delay:9">безопасность</span>
-									<span style="--delay:10">без</span> <span style="--delay:11">нагрузки</span> <span style="--delay:12">на</span>
-									<span style="--delay:13">систему.</span>
+									<span style="--delay:1" data-key="animated-1">Комплексная</span>
+									<span style="--delay:2" data-key="animated-2">защита</span>
+									<span style="--delay:3" data-key="animated-3">от</span>
+									<span style="--delay:4" data-key="animated-4">вирусов,</span>
+									<span style="--delay:5" data-key="animated-5">атак</span>
+									<span style="--delay:6" data-key="animated-6">и</span>
+									<span style="--delay:7" data-key="animated-7">программ-вымогателей.</span>
+									<span style="--delay:8" data-key="animated-8">Облачная</span>
+									<span style="--delay:9" data-key="animated-9">безопасность</span>
+									<span style="--delay:10" data-key="animated-10">без</span>
+									<span style="--delay:11" data-key="animated-11">нагрузки</span>
+									<span style="--delay:12" data-key="animated-12">на</span>
+									<span style="--delay:13" data-key="animated-13">систему.</span>
 								</div>
 							</div>
 						</div>
 					</div>
 					<div class="about__consult">
-						<p class="about__consult-text">Получите консультацию по&#160;установке и&#160;защите уже сегодня!</p>
+						<p class="about__consult-text" data-key="consult-text">Получите консультацию по&#160;установке и&#160;защите уже сегодня!</p>
 						<div class="about__btns">
-							<a href="#cta" class="btn">
-								Получить консультацию
-							</a>
+							<a href="#cta" class="btn" data-key="consult-button">Получить консультацию</a>
 						</div>
 					</div>
 					<div class="about__list">
-						<p>✅ Полная защита корпоративных устройств</p>
-						<p>✅ Централизованное управление и&#160;мониторинг</p>
-						<p>✅ Высокая степень выявления угроз (AI&#160;и&#160;машинное обучение)</p>
+						<p data-key="feature-1">✅ Полная защита корпоративных устройств</p>
+						<p data-key="feature-2">✅ Централизованное управление и&#160;мониторинг</p>
+						<p data-key="feature-3">✅ Высокая степень выявления угроз (AI&#160;и&#160;машинное обучение)</p>
 					</div>
 				</div>
 			</section>
+
+			<!-- <section class="benefits">
+    <div class="container">    
+        <h2 class="title-2">Преимущества Trend Micro Worry-Free</h2>
+        <ul class="benefits__wrapper">
+            <li class="benefits__item">
+                <div class="benefits__item-img">
+                    <svg class="icon icon--shield">
+                        <use href="./img/svgsprite/sprite.symbol.svg#cloud"></use>
+                    </svg>
+                </div>
+                <div class="benefits__icon-text">
+                    <div class="benefits__item-title">
+                        <p>Облачное размещение</p>
+                    </div>
+                    <p class="benefits__item-desc">Зашита не нагружает систему, всегда соответствует актуальной версии</p>
+                </div>
+            </li>
+            <li class="benefits__item">
+                <div class="benefits__item-img">
+                    <svg class="icon icon--emergency">
+                        <use href="./img/svgsprite/sprite.symbol.svg#siren"></use>
+                    </svg>
+                </div>
+                <div class="benefits__icon-text">
+                    <div class="benefits__item-title">
+                        <p>Надежное выявление угроз </p>
+                    </div>
+                    <p class="benefits__item-desc">Применяются ИИ и машинное обучение</p>
+                </div>
+            </li>
+            <li class="benefits__item">
+                <div class="benefits__item-img">
+                    <svg class="icon icon--control">
+                        <use href="./img/svgsprite/sprite.symbol.svg#tuning"></use>
+                    </svg>
+                </div>
+                <div class="benefits__icon-text">
+                    <div class="benefits__item-title">
+                        <p>Удаленное управление</p>
+                    </div>
+                    <p class="benefits__item-desc">Удобный контроль всех устройств</p>
+                </div>
+            </li>
+            <li class="benefits__item">
+                <div class="benefits__item-img">
+                    <svg class="icon icon--complex-protection">
+                        <use href="./img/svgsprite/sprite.symbol.svg#umbrella"></use>
+                    </svg>
+                </div>
+                <div class="benefits__icon-text">
+                    <div class="benefits__item-title">
+                        <p>Комплексная защита </p>
+                    </div>
+                    <p class="benefits__item-desc"> От вирусов, фишинга, хакерских атак, вредоносного ПО</p>
+                </div>
+            </li>
+            <li class="benefits__item">
+                <div class="benefits__item-img">
+                    <svg class="icon icon--license">
+                        <use href="./img/svgsprite/sprite.symbol.svg#license"></use>
+                    </svg>
+                </div>
+                <div class="benefits__icon-text">
+                    <div class="benefits__item-title">
+                        <p>Гибкие лицензии </p>
+                    </div>
+                    <p class="benefits__item-desc">Лицензионные пакеты от 1 до 100 конечных точек</p>
+                </div>
+            </li>            
+        </ul>
+        
+    </div>
+</section> -->
 			<section class="benefits">
 				<div class="container">
-					<h2 class="title-2">Преимущества Trend Micro Worry-Free</h2>
+					<h2 class="title-2" data-key="benefits-title">Преимущества Trend Micro Worry-Free</h2>
 					<ul class="benefits__wrapper">
 						<li class="benefits__item">
 							<div class="benefits__item-img">
@@ -133,9 +258,11 @@
 							</div>
 							<div class="benefits__icon-text">
 								<div class="benefits__item-title">
-									<p>Облачное размещение</p>
+									<p data-key="benefit-1-title">Облачное размещение</p>
 								</div>
-								<p class="benefits__item-desc">Зашита не&#160;нагружает систему, всегда соответствует актуальной версии</p>
+								<p class="benefits__item-desc" data-key="benefit-1-desc">
+									Зашита не&#160;нагружает систему, всегда соответствует актуальной версии
+								</p>
 							</div>
 						</li>
 						<li class="benefits__item">
@@ -146,9 +273,11 @@
 							</div>
 							<div class="benefits__icon-text">
 								<div class="benefits__item-title">
-									<p>Надежное выявление угроз</p>
+									<p data-key="benefit-2-title">Надежное выявление угроз</p>
 								</div>
-								<p class="benefits__item-desc">Применяются ИИ&#160;и&#160;машинное обучение</p>
+								<p class="benefits__item-desc" data-key="benefit-2-desc">
+									Применяются ИИ&#160;и&#160;машинное обучение
+								</p>
 							</div>
 						</li>
 						<li class="benefits__item">
@@ -159,9 +288,11 @@
 							</div>
 							<div class="benefits__icon-text">
 								<div class="benefits__item-title">
-									<p>Удаленное управление</p>
+									<p data-key="benefit-3-title">Удаленное управление</p>
 								</div>
-								<p class="benefits__item-desc">Удобный контроль всех устройств</p>
+								<p class="benefits__item-desc" data-key="benefit-3-desc">
+									Удобный контроль всех устройств
+								</p>
 							</div>
 						</li>
 						<li class="benefits__item">
@@ -172,9 +303,11 @@
 							</div>
 							<div class="benefits__icon-text">
 								<div class="benefits__item-title">
-									<p>Комплексная защита</p>
+									<p data-key="benefit-4-title">Комплексная защита</p>
 								</div>
-								<p class="benefits__item-desc">От&#160;вирусов, фишинга, хакерских атак, вредоносного ПО</p>
+								<p class="benefits__item-desc" data-key="benefit-4-desc">
+									От&#160;вирусов, фишинга, хакерских атак, вредоносного ПО
+								</p>
 							</div>
 						</li>
 						<li class="benefits__item">
@@ -185,21 +318,38 @@
 							</div>
 							<div class="benefits__icon-text">
 								<div class="benefits__item-title">
-									<p>Гибкие лицензии</p>
+									<p data-key="benefit-5-title">Гибкие лицензии</p>
 								</div>
-								<p class="benefits__item-desc">Лицензионные пакеты от&#160;1 до&#160;100 конечных точек</p>
+								<p class="benefits__item-desc" data-key="benefit-5-desc">
+									Лицензионные пакеты от&#160;1 до&#160;100 конечных точек
+								</p>
 							</div>
 						</li>
 					</ul>
 				</div>
 			</section>
 
+			<!-- <section class="video" id="trendmicro">
+    <h2 class="visually-hidden">title</h2>
+    <div class="container">
+        <div class="video__wrapper">
+            <div class="video__title">
+                <h2 class="title-2">trend micro: <small>видеописание</small></h2>
+            </div>
+            <iframe class="video__frame"  height="600" src="https://www.youtube.com/embed/Dh6K9DTlPvM" title="YouTube video player" style="border: none;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+</section> -->
+
 			<section class="video" id="trendmicro">
-				<h2 class="visually-hidden">title</h2>
+				<h2 class="visually-hidden" data-key="video-hidden-title">title</h2>
 				<div class="container">
 					<div class="video__wrapper">
 						<div class="video__title">
-							<h2 class="title-2">trend micro: <small>видеописание</small></h2>
+							<h2 class="title-2">
+								<span data-key="video-title">trend micro: </span>
+								<small data-key="video-subtitle">видеописание</small>
+							</h2>
 						</div>
 						<iframe
 							class="video__frame"
@@ -214,6 +364,76 @@
 				</div>
 			</section>
 
+			<!-- <section class="why">
+    <div class="container">
+        <div class="why__header">
+            <picture>
+<source srcset="./img/logo_square.webp 1x, ./img/logo_square@2x.webp 2x" type="image/webp">
+<source srcset="./img/logo_square.jpg 1x, ./img/logo_square@2x.jpg 2x" type="image/jpeg">
+<img class="logo-square" src="./img/logo_square.jpg" srcset="./img/logo_square@2x.jpg" alt="logo">
+</picture>
+            <h2 class="title-2 why__title">Почему N SERVICE?</h2>
+        </div>        
+        <div class="why__wrapper">            
+            <div class="why__desc">
+                <p>
+                    Выбирая N SERVICE, вы приобретаете не только высококачественный антивирус, но и всестороннюю сервисную поддержку опытной команды профессионалов. Компания N Service работает на рынке IT-услуг с 2020 года. Её "коэффициент удержания клиентов" составляет 85%, что превосходит средний показатель почти на 5%.
+                </p>
+                </div>            
+        </div>
+        
+        <div class="why__list">
+            <h3 class="title-3">Клиенты N SERVICE получают:</h3>
+            <div class="why__list-item">
+                <h4 class="item-title title-4">1.	Расширенное предложение</h4>
+                <p class="item-subtitle" >Помимо самого антивируса, в пакет услуг для клиентов N SERVICE входит:</p>
+                <ul>
+                    <li><p>Антивирусное ПО под индивидуальные потребности вашего бизнеса;</p></li>
+                    <li><p>Постоянная техническая поддержка;</p></li>
+                    <li><p>Аудит безопасности, с выявлением и устранением потенциальных уязвимостей в вашей IT-структуре.</p></li>
+                </ul>                
+             </div>
+            
+             <div class="why__list-item">
+                <h4 class="item-title title-4"> 2. Опыт компании</h4>
+                <p class="item-subtitle">N SERVICE обладает многолетней практикой в сфере кибербезопасности.
+                </p>
+                <p class="Why__link">
+                    В подтверждение можем предоставить конкретные кейсы своего практического опыта, а также <a href="#partners">отзывы сотрудничающих с нами компаний.
+                    </a> 
+                </p>                    
+            </div>
+            
+            <div class="why__list-item">
+                <h4 class="item-title title-4">3. Бонусы N SERVICE</h4>
+                <div class="bonus__wrapper">
+                    <p class="item-subtitle">При покупке антивируса через N SERVICE, наши клиенты получают ряд дополнительных преимуществ:               
+                    </p>
+                    <ul class="bonus__list">
+                        <li class="bonus__list-item">
+                            <svg class="icon--gift1">
+                                <use href="./img/svgsprite/stack/svg/sprite.stack.svg#gift1"></use>
+                            </svg>
+                            Бесплатная установка антивируса
+                        </li>
+                        <li class="bonus__list-item">
+                            <svg class="icon--gift2">
+                                <use href="./img/svgsprite/stack/svg/sprite.stack.svg#gift2"></use>
+                            </svg>
+                            Скидки на обновления и услуги для постоянных клиентов
+                        </li>
+                        <li class="bonus__list-item">
+                            <svg class="icon--gift3">
+                                <use href="./img/svgsprite/stack/svg/sprite.stack.svg#gift3"></use>
+                            </svg>
+                            Бесплатные консультации экспертов по выбору оптимальных решений защиты
+                        </li>
+                    </ul>                    
+                </div>             </div>
+        </div>
+    </div>
+</section> -->
+
 			<section class="why">
 				<div class="container">
 					<div class="why__header">
@@ -222,11 +442,11 @@
 							<source srcset="./img/logo_square.jpg 1x, ./img/logo_square@2x.jpg 2x" type="image/jpeg" />
 							<img class="logo-square" src="./img/logo_square.jpg" srcset="./img/logo_square@2x.jpg" alt="logo" />
 						</picture>
-						<h2 class="title-2 why__title">Почему N&#160;SERVICE?</h2>
+						<h2 class="title-2 why__title" data-key="why-title">Почему N&#160;SERVICE?</h2>
 					</div>
 					<div class="why__wrapper">
 						<div class="why__desc">
-							<p>
+							<p data-key="why-description">
 								Выбирая N&#160;SERVICE, вы&#160;приобретаете не&#160;только высококачественный антивирус, но&#160;и&#160;всестороннюю сервисную поддержку опытной
 								команды профессионалов. Компания N&#160;Service работает на&#160;рынке IT-услуг с&#160;2020 года. Её&#160;&#171;коэффициент удержания клиентов&#187;
 								составляет 85%, что превосходит средний показатель почти на&#160;5%.
@@ -235,48 +455,53 @@
 					</div>
 
 					<div class="why__list">
-						<h3 class="title-3">Клиенты N&#160;SERVICE получают:</h3>
+						<h3 class="title-3" data-key="why-clients-get">Клиенты N&#160;SERVICE получают:</h3>
+
 						<div class="why__list-item">
-							<h4 class="item-title title-4">1. Расширенное предложение</h4>
-							<p class="item-subtitle">Помимо самого антивируса, в&#160;пакет услуг для клиентов N&#160;SERVICE входит:</p>
+							<h4 class="item-title title-4" data-key="why-item1-title">1. Расширенное предложение</h4>
+							<p class="item-subtitle" data-key="why-item1-subtitle">Помимо самого антивируса, в&#160;пакет услуг для клиентов N&#160;SERVICE входит:</p>
 							<ul>
-								<li><p>Антивирусное ПО&#160;под индивидуальные потребности вашего бизнеса;</p></li>
-								<li><p>Постоянная техническая поддержка;</p></li>
-								<li><p>Аудит безопасности, с&#160;выявлением и&#160;устранением потенциальных уязвимостей в&#160;вашей IT-структуре.</p></li>
+								<li><p data-key="why-item1-point1">Антивирусное ПО&#160;под индивидуальные потребности вашего бизнеса;</p></li>
+								<li><p data-key="why-item1-point2">Постоянная техническая поддержка;</p></li>
+								<li>
+									<p data-key="why-item1-point3">Аудит безопасности, с&#160;выявлением и&#160;устранением потенциальных уязвимостей в&#160;вашей IT-структуре.</p>
+								</li>
 							</ul>
 						</div>
 
 						<div class="why__list-item">
-							<h4 class="item-title title-4">2. Опыт компании</h4>
-							<p class="item-subtitle">N&#160;SERVICE обладает многолетней практикой в&#160;сфере кибербезопасности.</p>
-							<p class="Why__link">
+							<h4 class="item-title title-4" data-key="why-item2-title">2. Опыт компании</h4>
+							<p class="item-subtitle" data-key="why-item2-subtitle">N&#160;SERVICE обладает многолетней практикой в&#160;сфере кибербезопасности.</p>
+							<p class="Why__link" data-key="why-item2-link">
 								В&#160;подтверждение можем предоставить конкретные кейсы своего практического опыта, а&#160;также
-								<a href="#partners">отзывы сотрудничающих с&#160;нами компаний. </a>
+								<a href="#partners" data-key="why-item2-link-inner">отзывы сотрудничающих с&#160;нами компаний.</a>
 							</p>
 						</div>
 
 						<div class="why__list-item">
-							<h4 class="item-title title-4">3. Бонусы N&#160;SERVICE</h4>
+							<h4 class="item-title title-4" data-key="why-item3-title">3. Бонусы N&#160;SERVICE</h4>
 							<div class="bonus__wrapper">
-								<p class="item-subtitle">При покупке антивируса через N&#160;SERVICE, наши клиенты получают ряд дополнительных преимуществ:</p>
+								<p class="item-subtitle" data-key="why-item3-subtitle">
+									При покупке антивируса через N&#160;SERVICE, наши клиенты получают ряд дополнительных преимуществ:
+								</p>
 								<ul class="bonus__list">
 									<li class="bonus__list-item">
 										<svg class="icon--gift1">
 											<use href="./img/svgsprite/stack/svg/sprite.stack.svg#gift1"></use>
 										</svg>
-										Бесплатная установка антивируса
+										<span data-key="why-bonus1">Бесплатная установка антивируса</span>
 									</li>
 									<li class="bonus__list-item">
 										<svg class="icon--gift2">
 											<use href="./img/svgsprite/stack/svg/sprite.stack.svg#gift2"></use>
 										</svg>
-										Скидки на&#160;обновления и&#160;услуги для постоянных клиентов
+										<span data-key="why-bonus2">Скидки на&#160;обновления и&#160;услуги для постоянных клиентов</span>
 									</li>
 									<li class="bonus__list-item">
 										<svg class="icon--gift3">
 											<use href="./img/svgsprite/stack/svg/sprite.stack.svg#gift3"></use>
 										</svg>
-										Бесплатные консультации экспертов по&#160;выбору оптимальных решений защиты
+										<span data-key="why-bonus3">Бесплатные консультации экспертов по&#160;выбору оптимальных решений защиты</span>
 									</li>
 								</ul>
 							</div>
@@ -284,10 +509,11 @@
 					</div>
 				</div>
 			</section>
+
 			<section class="partners" id="partners">
 				<div class="container">
 					<div class="partners-wrapper">
-						<h2 class="title-2">партнеры</h2>
+						<h2 class="title-2" data-key="partners-title">партнеры</h2>
 						<div class="partners-box">
 							<div class="partners__gallery">
 								<a href="https://www.via-una.lv" class="partner" target="_blank">
@@ -340,7 +566,7 @@
 			</section>
 			<section class="feedbacks" id="feedbacks">
 				<div class="container">
-					<h2 class="title-2">Отзывы</h2>
+					<h2 class="title-2" data-key="feedbacks-title">Отзывы</h2>
 					<div class="feedbacks__swiper">
 						<div class="swiper">
 							<div class="swiper-wrapper">
@@ -540,53 +766,101 @@
 					</div>
 				</div>
 			</section>
+			<!-- <section class="howtobuy" id="howtobuy">
+    <div class="container">
+        <h2 class="title-2">Как купить?</h2>
+        <ul class="howtobuy__list">
+            <li class="howtobuy__list-item"><span class="colored2">Шаг 1:</span><p>Оставляете заявку: через форму или мессенджер;</p> </li>
+            <li class="howtobuy__list-item"><span class="colored2">Шаг 2:</span><p>N Service подбирает для вас оптимальный тариф;</p> </li>
+            <li class="howtobuy__list-item"><span class="colored2">Шаг 3:</span><p> N Service <span class="colored">бесплатно</span> устанавливает и настраивает <br> выбранное вами ПО.</p></li>
+        </ul>
+
+        <div class="howtobuy__licenses">
+            <p class="title-4">Oзнакомьтесь с тарифами Trend Micro Worry-Free</p>
+                <table>
+        <tr>
+            <th data-key="table-product">Продукт</th>
+            <th data-key="table-device-count">Количество устройств</th>
+            <th data-key="table-monthly-payment">Оплата за месяц</th>
+            <th data-key="table-annual-payment">Оплата за год</th>
+        </tr>
+        <tr>
+            <td class="table__product-name" data-key="product-worry-free">Worry Free Services</td>
+            <td data-key="devices-1-25">1-25</td>
+            <td data-key="monthly-payment-1">7.10 €</td>
+            <td data-key="annual-payment-1">6.0 €</td>
+        </tr>
+        <tr>
+            <td class="table__product-name" data-key="product-worry-free">Worry Free Services</td>
+            <td data-key="devices-26-50">26-50</td>
+            <td data-key="monthly-payment-2">5.10 €</td>
+            <td data-key="annual-payment-2">4.90 €</td>
+        </tr>
+        <tr>
+            <td class="table__product-name" data-key="product-worry-free">Worry Free Services</td>
+            <td data-key="devices-51-100">51-100</td>
+            <td data-key="monthly-payment-3">4.50 €</td>
+            <td data-key="annual-payment-3">4.30 €</td>
+        </tr>
+    </table>
+               
+        </div>
+
+        <div class="howtobuy__payment">
+            <div class="howtobuy__payment-desc">
+                <p>Оплата по выставленному для юридических лиц счету - после оформления заказа. <br> Более подробная информация - <a class="howtobuy__link" href="#cta">при получении консультации</a>
+            .</p></div>
+        </div>
+        </div>
+</section> -->
+
 			<section class="howtobuy" id="howtobuy">
 				<div class="container">
-					<h2 class="title-2">Как купить?</h2>
+					<h2 class="title-2" data-key="howtobuy-title">Как купить?</h2>
 					<ul class="howtobuy__list">
 						<li class="howtobuy__list-item">
-							<span class="colored2">Шаг 1:</span>
-							<p>Оставляете заявку: через форму или мессенджер;</p>
+							<span class="colored2" data-key="step-1">Шаг 1:</span>
+							<p data-key="step-1-desc">Оставляете заявку: через форму или мессенджер;</p>
 						</li>
 						<li class="howtobuy__list-item">
-							<span class="colored2">Шаг 2:</span>
-							<p>N&#160;Service подбирает для вас оптимальный тариф;</p>
+							<span class="colored2" data-key="step-2">Шаг 2:</span>
+							<p data-key="step-2-desc">N&#160;Service подбирает для вас оптимальный тариф;</p>
 						</li>
 						<li class="howtobuy__list-item">
-							<span class="colored2">Шаг 3:</span>
+							<span class="colored2" data-key="step-3">Шаг 3:</span>
 							<p>
-								N&#160;Service <span class="colored">бесплатно</span> устанавливает и&#160;настраивает <br />
-								выбранное вами ПО.
+								N&#160;Service <span class="colored" data-key="free">бесплатно</span> <span data-key="step-3-desc-1">устанавливает и&#160;настраивает</span> <br />
+								<span data-key="step-3-desc-2">выбранное вами ПО. </span>
 							</p>
 						</li>
 					</ul>
 
 					<div class="howtobuy__licenses">
-						<p class="title-4">Ознакомьтесь с&#160;тарифами Trend Micro Worry-Free</p>
+						<p class="title-4" data-key="tariffs-title">Ознакомьтесь с&#160;тарифами Trend Micro Worry-Free</p>
 						<table>
 							<tr>
-								<th>Продукт</th>
-								<th>Количество устройств</th>
-								<th>Оплата за&#160;месяц</th>
-								<th>Оплата за&#160;год</th>
+								<th data-key="table-product">Продукт</th>
+								<th data-key="table-device-count">Количество устройств</th>
+								<th data-key="table-monthly-payment">Оплата за&#160;месяц</th>
+								<th data-key="table-annual-payment">Оплата за&#160;год</th>
 							</tr>
 							<tr>
-								<td class="table__product-name">Worry Free Services</td>
-								<td>1-25</td>
-								<td>7.10 &#8364;</td>
-								<td>6.0 &#8364;</td>
+								<td class="table__product-name" data-key="product-worry-free">Worry Free Services</td>
+								<td data-key="devices-1-25">1-25</td>
+								<td data-key="monthly-payment-1">7.10 &#8364;</td>
+								<td data-key="annual-payment-1">6.0 &#8364;</td>
 							</tr>
 							<tr>
-								<td class="table__product-name">Worry Free Services</td>
-								<td>26-50</td>
-								<td>5.10 &#8364;</td>
-								<td>4.90 &#8364;</td>
+								<td class="table__product-name" data-key="product-worry-free">Worry Free Services</td>
+								<td data-key="devices-26-50">26-50</td>
+								<td data-key="monthly-payment-2">5.10 &#8364;</td>
+								<td data-key="annual-payment-2">4.90 &#8364;</td>
 							</tr>
 							<tr>
-								<td class="table__product-name">Worry Free Services</td>
-								<td>51-100</td>
-								<td>4.50 &#8364;</td>
-								<td>4.30 &#8364;</td>
+								<td class="table__product-name" data-key="product-worry-free">Worry Free Services</td>
+								<td data-key="devices-51-100">51-100</td>
+								<td data-key="monthly-payment-3">4.50 &#8364;</td>
+								<td data-key="annual-payment-3">4.30 &#8364;</td>
 							</tr>
 						</table>
 					</div>
@@ -594,16 +868,83 @@
 					<div class="howtobuy__payment">
 						<div class="howtobuy__payment-desc">
 							<p>
-								Оплата по&#160;выставленному для юридических лиц счету&#160;&#8212; после оформления заказа. <br />
-								Более подробная информация&#160;&#8212; <a class="howtobuy__link" href="#cta">при получении консультации</a> .
+								<span data-key="payment-desc"
+									>Оплата по&#160;выставленному для юридических лиц счету&#160;&#8212; после оформления заказа. Более подробная информация&#160;&#8212; </span
+								><a class="howtobuy__link" href="#cta"><span data-key="payment-info-link">при получении консультации</span></a
+								>.
 							</p>
 						</div>
 					</div>
 				</div>
 			</section>
+
+			<!-- <section class="cta" id="cta">
+    <div class="container">
+        <h2 class="title-3">Оставьте заявку и получите консультацию по безопасности уже сегодня</h2>
+        <div class="cta__wrapper">
+            <div class="cta__left-side">
+                <div class="cta__socials">
+                    <a href="https://wa.me/37129503980" target="_blank" class="cta__socials-item">
+                        <svg class="icon icon--whatsapp">
+                            <use href="./img/svgsprite/stack/svg/sprite.stack.svg#whatsapp"></use>                            
+                        </svg>
+                        <span class="icon-text">Whatsapp</span>
+                    </a>
+                    <a href="https://t.me/username" target="_blank" class="cta__socials-item">
+                        <svg class="icon icon--telegram">
+                            <use href="./img/svgsprite/stack/svg/sprite.stack.svg#telegram"></use>
+                        </svg>
+                        <span class="icon-text">Telegram</span>
+                    </a>
+                </div>
+                <div class="cta__contacts">
+                    <a href="mailTo:service@nservice.lv">
+                        <svg class="icon icon--email">
+                            <use href="./img/svgsprite/sprite.symbol.svg#email"></use>
+                        </svg>
+                        <span class="cta__email">service@nservice.lv</span>                        
+                    </a>
+                    <a href="tel:+37129503980">
+                        <svg class="icon icon--phone">
+                            <use href="./img/svgsprite/sprite.symbol.svg#phone"></use>
+                        </svg>
+                        <span class="cta__phone">+371 29 503 980</span>                        
+                    </a>
+                </div>
+                <picture>
+<source srcset="./img/nservice-img/business2.webp 1x, ./img/nservice-img/business2@2x.webp 2x" type="image/webp">
+<source srcset="./img/nservice-img/business2.png 1x, ./img/nservice-img/business2@2x.png 2x" type="image/png">
+<img class="cta__img" src="./img/nservice-img/business2.png" alt="">
+</picture>                
+            </div>
+                            
+            <form action="/send.php" method="post" id="form" class="form" name="form"
+                        enctype="multipart/form-data" autocomplete="on">
+                <input type="text" placeholder="Ваше имя" name="name" id="formName" class="form__input _req">
+                <input type="text" placeholder="Ваш email" name="email" id="formEmail" class="form__input _req _email">
+                <input type="tel" placeholder="Ваш телефон" name="tel" id="formTel" class="form__input _req">
+                <textarea name="message" placeholder="Ваше сообщение" wrap="hard"></textarea>
+                <div class="form-group">
+                    <input id="formAgreement" type="checkbox" name="agreement" class="checkbox__input _req ">
+                    <label for="formAgreement" class="checkbox__label" >
+                        <span class="checkbox__box-span">
+                            <span>Я принимаю условия</span><a href="./files/agreement-Iluxsiir_ee_en_ru.pdf" target="_blank"> политики конфиденциальности</a><span> компании и даю согласие на обработку своих персональных данных.
+                            </span>
+                        </span>                                                          
+                    </label>
+                </div>
+                <div class="form__footer">
+                    <div class="g-recaptcha" data-sitekey="6LeJwZUqAAAAAMrbxL2n3XUKihLOCFePHqIpYQR9"></div>
+                    <button type="submit" class="btn form__button">Оставить заявку</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section> -->
+
 			<section class="cta" id="cta">
 				<div class="container">
-					<h2 class="title-3">Оставьте заявку и&#160;получите консультацию по&#160;безопасности уже сегодня</h2>
+					<h2 class="title-3" data-key="cta-title">Оставьте заявку и&#160;получите консультацию по&#160;безопасности уже сегодня</h2>
 					<div class="cta__wrapper">
 						<div class="cta__left-side">
 							<div class="cta__socials">
@@ -611,13 +952,13 @@
 									<svg class="icon icon--whatsapp">
 										<use href="./img/svgsprite/stack/svg/sprite.stack.svg#whatsapp"></use>
 									</svg>
-									<span class="icon-text">Whatsapp</span>
+									<span class="icon-text" data-key="whatsapp">Whatsapp</span>
 								</a>
 								<a href="https://t.me/username" target="_blank" class="cta__socials-item">
 									<svg class="icon icon--telegram">
 										<use href="./img/svgsprite/stack/svg/sprite.stack.svg#telegram"></use>
 									</svg>
-									<span class="icon-text">Telegram</span>
+									<span class="icon-text" data-key="telegram">Telegram</span>
 								</a>
 							</div>
 							<div class="cta__contacts">
@@ -625,13 +966,13 @@
 									<svg class="icon icon--email">
 										<use href="./img/svgsprite/sprite.symbol.svg#email"></use>
 									</svg>
-									<span class="cta__email">service@nservice.lv</span>
+									<span class="cta__email" data-key="email">service@nservice.lv</span>
 								</a>
 								<a href="tel:+37129503980">
 									<svg class="icon icon--phone">
 										<use href="./img/svgsprite/sprite.symbol.svg#phone"></use>
 									</svg>
-									<span class="cta__phone">+371 29 503 980</span>
+									<span class="cta__phone" data-key="phone">+371 29 503 980</span>
 								</a>
 							</div>
 							<picture>
@@ -642,40 +983,65 @@
 						</div>
 
 						<form action="/send.php" method="post" id="form" class="form" name="form" enctype="multipart/form-data" autocomplete="on">
-							<input type="text" placeholder="Ваше имя" name="name" id="formName" class="form__input _req" />
-							<input type="text" placeholder="Ваш email" name="email" id="formEmail" class="form__input _req _email" />
-							<input type="tel" placeholder="Ваш телефон" name="tel" id="formTel" class="form__input _req" />
-							<textarea name="message" placeholder="Ваше сообщение" wrap="hard"></textarea>
+							<input type="text" placeholder="Ваше имя" name="name" id="formName" class="form__input _req" data-key="form-name" />
+							<input type="text" placeholder="Ваш email" name="email" id="formEmail" class="form__input _req _email" data-key="form-email" />
+							<input type="tel" placeholder="Ваш телефон" name="tel" id="formTel" class="form__input _req" data-key="form-phone" />
+							<textarea name="message" placeholder="Ваше сообщение" wrap="hard" data-key="form-message"></textarea>
 							<div class="form-group">
-								<input id="formAgreement" type="checkbox" name="agreement" class="checkbox__input _req " />
-								<label for="formAgreement" class="checkbox__label">
+								<input id="formAgreement" type="checkbox" name="agreement" class="checkbox__input _req " data-key="form-agreement" />
+								<label for="formAgreement" class="checkbox__label" data-key="form-agreement-label">
 									<span class="checkbox__box-span">
-										<span>Я&#160;принимаю условия</span><a href="./files/agreement-Iluxsiir_ee_en_ru.pdf" target="_blank"> политики конфиденциальности</a
-										><span> компании и&#160;даю согласие на&#160;обработку своих персональных данных. </span>
+										<span data-key="form-agreement-text">Я&#160;принимаю условия</span
+										><a href="./files/agreement-Iluxsiir_ee_en_ru.pdf" target="_blank" data-key="form-agreement-link"> политики конфиденциальности</a
+										><span data-key="form-agreement-consent"> компании и&#160;даю согласие на&#160;обработку своих персональных данных.</span>
 									</span>
 								</label>
 							</div>
 							<div class="form__footer">
 								<div class="g-recaptcha" data-sitekey="6LeJwZUqAAAAAMrbxL2n3XUKihLOCFePHqIpYQR9"></div>
-								<button type="submit" class="btn form__button">Оставить заявку</button>
+								<button type="submit" class="btn form__button" data-key="form-submit">Оставить заявку</button>
 							</div>
 						</form>
 					</div>
 				</div>
 			</section>
 		</main>
+		<!-- <footer class="footer">
+    <div class="container">
+        <div class="footer__row">
+            <div class="footer__left-side">
+                <div class="footer__data">
+            
+            <div class="h3 title-3">
+                "N SERVICE", SIA
+            </div><br>
+                    <p> Рег. номер: 40203287886<br><br>
+                        Адрес: Рига, ул. Русес 26-135, LV-1029, Латвия<br><br>                    
+                        <a href="mailTo:service@nservice.lv">service@nservice.lv</a> 
+                        <br>                                            
+                        <a href="https://nservice.lv/" target="_blank">www.nservice.lv</a>
+                    </p>
+                </div>
+            </div>
+            <div class="footer__right-side">
+                <p class="footer__copyright">Copyright © 2025. <span>Все права защищены</span> 
+                </p>
+            </div>
+        </div>
+    </div>
+</footer> -->
 		<footer class="footer">
 			<div class="container">
 				<div class="footer__row">
 					<div class="footer__left-side">
 						<div class="footer__data">
-							<div class="h3 title-3">
+							<div class="h3 title-3" data-key="footer-company-name">
 								&#171;N&#160;SERVICE&#187;, SIA
 							</div>
 							<br />
 							<p>
-								Рег. номер: 40203287886<br /><br />
-								Адрес: Рига, ул.&#160;Русес 26-135, LV-1029, Латвия<br /><br />
+								<span data-key="footer-company-registration">Рег. номер: 40203287886</span><br /><br />
+								<span data-key="footer-company-address">Адрес: Рига, ул.&#160;Русес 26-135, LV-1029, Латвия</span><br /><br />
 								<a href="mailTo:service@nservice.lv">service@nservice.lv</a>
 								<br />
 								<a href="https://nservice.lv/" target="_blank">www.nservice.lv</a>
@@ -683,7 +1049,7 @@
 						</div>
 					</div>
 					<div class="footer__right-side">
-						<p class="footer__copyright">Copyright &#169; 2025. <span>Все права защищены</span></p>
+						<p class="footer__copyright">Copyright &#169; 2025. <span data-key="footer-rights">Все права защищены</span></p>
 					</div>
 				</div>
 			</div>

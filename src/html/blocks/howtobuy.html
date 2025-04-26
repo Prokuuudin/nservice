@@ -1,4 +1,4 @@
-<section class="howtobuy" id="howtobuy">
+<!-- <section class="howtobuy" id="howtobuy">
     <div class="container">
         <h2 class="title-2">Как купить?</h2>
         <ul class="howtobuy__list">
@@ -18,4 +18,35 @@
             .</p></div>
         </div>
         </div>
+</section> -->
+
+<section class="howtobuy" id="howtobuy">
+    <div class="container">
+        <h2 class="title-2" data-key="howtobuy-title">Как купить?</h2>
+        <ul class="howtobuy__list">
+            <li class="howtobuy__list-item">
+                <span class="colored2" data-key="step-1">Шаг 1:</span>
+                <p data-key="step-1-desc">Оставляете заявку: через форму или мессенджер;</p>
+            </li>
+            <li class="howtobuy__list-item">
+                <span class="colored2" data-key="step-2">Шаг 2:</span>
+                <p data-key="step-2-desc">N Service подбирает для вас оптимальный тариф;</p>
+            </li>
+            <li class="howtobuy__list-item">
+                <span class="colored2" data-key="step-3">Шаг 3:</span>
+                <p>N Service <span class="colored" data-key="free">бесплатно</span> <span data-key="step-3-desc-1">устанавливает и настраивает</span> <br> <span data-key="step-3-desc-2">выбранное вами ПО. </span></p>
+            </li>
+        </ul>
+
+        <div class="howtobuy__licenses">
+            <p class="title-4" data-key="tariffs-title">Oзнакомьтесь с тарифами Trend Micro Worry-Free</p>
+            @@include('templates/table.html')           
+        </div>
+
+        <div class="howtobuy__payment">
+            <div class="howtobuy__payment-desc">
+                <p ><span data-key="payment-desc">Оплата по выставленному для юридических лиц счету - после оформления заказа. Более подробная информация - </span><a class="howtobuy__link" href="#cta"><span data-key="payment-info-link">при получении консультации</span></a>.</p>
+            </div>
+        </div>
+    </div>
 </section>

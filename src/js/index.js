@@ -1,5 +1,6 @@
-// import setLanguage from './modules/setLanguage.js';
-// setLanguage();
+import setLanguage from './modules/setLanguage.js';
+setLanguage();
+
 import scrollReveal from './modules/scrollReveal.js';
 scrollReveal();
 
