@@ -124,11 +124,9 @@ const translations = {
     "form-email": "Jūsu e-pasts",
     "form-phone": "Jūsu tālrunis",
     "form-message": "Jūsu ziņa",
-    "form-agreement": "Es piekrītu",
-    "form-agreement-label": "es piekrītu nosacījumiem",
-    "form-agreement-text": "es piekrītu nosacījumiem",
-    "form-agreement-link": "privātuma politiku",
-    "form-agreement-consent": "un piekrītu personas datu apstrādei.",
+    "users-agreement-1": "Es piekrītu ",
+    "policy-link": "privātuma politikai",
+    "users-agreement-2": " un piekrītu savu personas datu apstrādei.",
     "form-submit": "Atstājiet pieprasījumu",
     
     // FOOTER
@@ -265,11 +263,9 @@ const translations = {
     "form-email": "Your email",
     "form-phone": "Your phone",
     "form-message": "Your message",
-    "form-agreement": "I accept",
-    "form-agreement-label": "I accept the terms",
-    "form-agreement-text": "I accept the terms",
-    "form-agreement-link": "privacy policy",
-    "form-agreement-consent": "and consent to the processing of my personal data.",
+    "users-agreement-1": "I accept the terms of the ",
+    "policy-link": "Privacy Policy",
+    "users-agreement-2": " and consent to the processing of my personal data.",
     "form-submit": "Submit request",
 
     // FOOTER
@@ -405,11 +401,9 @@ const translations = {
     "form-email": "Ваш email",
     "form-phone": "Ваш телефон",
     "form-message": "Ваше сообщение",
-    "form-agreement": "Я принимаю",
-    "form-agreement-label": "я принимаю условия",
-    "form-agreement-text": "я принимаю условия",
-    "form-agreement-link": "политики конфиденциальности",
-    "form-agreement-consent": "и даю согласие на обработку своих персональных данных.",
+    "users-agreement-1": "Я принимаю условия ",
+    "policy-link": "политики конфиденциальности ",
+    "users-agreement-2": "компании и даю согласие на обработку своих персональных данных.",
     "form-submit": "Оставить заявку",
 
     // FOOTER

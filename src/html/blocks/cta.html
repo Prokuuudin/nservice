@@ -64,17 +64,17 @@
         <div class="cta__wrapper">
             <div class="cta__left-side">
                 <div class="cta__socials">
-                    <a href="https://wa.me/37129503980" target="_blank" class="cta__socials-item">
-                        <svg class="icon icon--whatsapp">
-                            <use href="./img/svgsprite/stack/svg/sprite.stack.svg#whatsapp"></use>                             
+                    <a href="https://www.facebook.com/profile.php?id=100076170825394" target="_blank" class="cta__socials-item">
+                        <svg class="icon icon--facebook">
+                            <use href="./img/svgsprite/sprite.symbol.svg#facebook"></use>                             
                         </svg>
-                        <span class="icon-text" data-key="whatsapp">Whatsapp</span>
+                        <span class="icon-text">facebook</span>
                     </a>
-                    <a href="https://t.me/username" target="_blank" class="cta__socials-item">
-                        <svg class="icon icon--telegram">
-                            <use href="./img/svgsprite/stack/svg/sprite.stack.svg#telegram"></use>
+                    <a href="https://www.instagram.com/nservice_it_help/" target="_blank" class="cta__socials-item">
+                        <svg class="icon icon--instagram">
+                            <use href="./img/svgsprite/sprite.symbol.svg#instagram"></use>
                         </svg>
-                        <span class="icon-text" data-key="telegram">Telegram</span>
+                        <span class="icon-text">instagram</span>
                     </a>
                 </div>
                 <div class="cta__contacts">
@@ -82,13 +82,13 @@
                         <svg class="icon icon--email">
                             <use href="./img/svgsprite/sprite.symbol.svg#email"></use>
                         </svg>
-                        <span class="cta__email" data-key="email">service@nservice.lv</span>                        
+                        <span class="cta__email">service@nservice.lv</span>                        
                     </a>
                     <a href="tel:+37129503980">
                         <svg class="icon icon--phone">
                             <use href="./img/svgsprite/sprite.symbol.svg#phone"></use>
                         </svg>
-                        <span class="cta__phone" data-key="phone">+371 29 503 980</span>                        
+                        <span class="cta__phone">+371 29 503 980</span>                        
                     </a>
                 </div>
                 <img class="cta__img" src="./../../img/nservice-img/business2.png" alt="">                
@@ -96,20 +96,21 @@
                             
             <form action="/send.php" method="post" id="form" class="form" name="form"
                         enctype="multipart/form-data" autocomplete="on">
-                <input type="text" placeholder="Ваше имя" name="name" id="formName" class="form__input _req" data-key="form-name">
-                <input type="text" placeholder="Ваш email" name="email" id="formEmail" class="form__input _req _email" data-key="form-email">
-                <input type="tel" placeholder="Ваш телефон" name="tel" id="formTel" class="form__input _req" data-key="form-phone">
-                <textarea name="message" placeholder="Ваше сообщение" wrap="hard" data-key="form-message"></textarea>
+                <input type="text" placeholder="Ваше имя" name="name" id="formName" class="form__input _req" data-placeholder-key="form-name">
+                <input type="text" placeholder="Ваш email" name="email" id="formEmail" class="form__input _req _email" data-placeholder-key="form-email">
+                <input type="tel" placeholder="Ваш телефон" name="tel" id="formTel" class="form__input _req" data-placeholder-key="form-phone">
+                <textarea name="message" data-placeholder-key="form-message" wrap="hard"></textarea>
                 <div class="form-group">
                     <input id="formAgreement" type="checkbox" name="agreement" class="checkbox__input _req " data-key="form-agreement">
-                    <label for="formAgreement" class="checkbox__label" data-key="form-agreement-label">
+                    <label for="formAgreement" class="checkbox__label" >
                         <span class="checkbox__box-span">
-                            <span data-key="form-agreement-text">Я принимаю условия</span><a href="./../../files/agreement-Iluxsiir_ee_en_ru.pdf" target="_blank" data-key="form-agreement-link"> политики конфиденциальности</a><span data-key="form-agreement-consent"> компании и даю согласие на обработку своих персональных данных.</span>
-                        </span>                                                          
+                            <span data-key="users-agreement-1">Я принимаю условия </span><a data-key="policy-link" href="./../../files/agreement-nservice_lv_en_ru" target="_blank">политики конфиденциальности </a><span data-key="users-agreement-2">компании и даю согласие на обработку своих персональных данных.
+                            </span>
+                        </span>                                                           
                     </label>
                 </div>
                 <div class="form__footer">
-                    <div class="g-recaptcha" data-sitekey="6LeJwZUqAAAAAMrbxL2n3XUKihLOCFePHqIpYQR9"></div>
+                    <div class="g-recaptcha" data-sitekey="6LeexcMqAAAAALf7UwggZPjjlxHMjUBXz-EHdo0M"></div>
                     <button type="submit" class="btn form__button" data-key="form-submit">Оставить заявку</button>
                 </div>
             </form>

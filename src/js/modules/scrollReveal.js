@@ -39,7 +39,7 @@ function scrollRevealFunc () {
 		}
 	);
 
-	ScrollReveal().reveal(` .about__list, .video__frame, .why__wrapper, .why__list-item, .partners-box, .howtobuy__licenses, .form, .footer`,  {
+	ScrollReveal().reveal(` .about__list, .video__frame, .why__wrapper, .why__list-item, .partners-box, .howtobuy__licenses, .howtobuy__payment-desc, .form, .footer`,  {
 		origin: 'bottom',
 	});	
 }

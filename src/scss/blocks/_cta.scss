@@ -77,8 +77,9 @@
 
 span.cta__email, span.cta__phone{
     margin-left: 10px;
+    font-size: 20px;
     transition: all 0.2s ease-in;
-    font-weight: 600;   
+       
 
     &:hover{
         color: var(--accent-2);
@@ -95,12 +96,12 @@ span.cta__email, span.cta__phone{
 }
 
 .icon-text{
-    text-transform: uppercase;
+    text-transform: lowercase;
     font-size: 20px;
-    font-weight: 600;
+    /* font-weight: 400; */
 
     &:hover{
-        color: var(--accent-2);
+        color: var(--accent);
     }
 
     @include mobile {
