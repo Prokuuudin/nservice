@@ -1,9 +1,154 @@
-  <div class="swiper">
-    <div class="swiper-wrapper">
-        @@loop('feedbacks-slide.html', './data/feedbacks.json')         
+<!-- <div class="swiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide feedbacks-slide">
+      <div class="feedbacks__person">        
+        <div class="feedbacks-slide__img" alt="Person">
+          <svg class="icon icon--avatar_male">
+            <use href="./img/svgsprite/stack/svg/sprite.stack.svg#avatar_male"></use>
+          </svg>
+        </div>
+        <div class="feedbacks-slide__name">Bob</div>
+        <div class="feedbacks-slide__position">cleaner</div>
+      </div>
+      <div class="feedbacks__text">
+        <div class="feedbacks-slide__text">All is shit!</div>
+      </div>
     </div>
-    <div class="swiper-pagination"></div> 
+    <div class="swiper-slide feedbacks-slide">
+      <div class="feedbacks__person">        
+        <div class="feedbacks-slide__img" alt="Person">
+          <svg class="icon icon--avatar_male">
+            <use href="./img/svgsprite/stack/svg/sprite.stack.svg#avatar_male"></use>
+          </svg>
+        </div>
+        <div class="feedbacks-slide__name">Bob</div>
+        <div class="feedbacks-slide__position">cleaner</div>
+      </div>
+      <div class="feedbacks__text">
+        <div class="feedbacks-slide__text">All is shit!</div>
+      </div>
+    </div>
+    <div class="swiper-slide feedbacks-slide">
+      <div class="feedbacks__person">        
+        <div class="feedbacks-slide__img" alt="Person">
+          <svg class="icon icon--avatar_male">
+            <use href="./img/svgsprite/stack/svg/sprite.stack.svg#avatar_male"></use>
+          </svg>
+        </div>
+        <div class="feedbacks-slide__name">Bob</div>
+        <div class="feedbacks-slide__position">cleaner</div>
+      </div>
+      <div class="feedbacks__text">
+        <div class="feedbacks-slide__text">All is shit!</div>
+      </div>
+    </div>    
+    <div class="swiper-slide feedbacks-slide">
+      <div class="feedbacks__person">
+        <div class="feedbacks-slide__img">
+        <svg class="icon icon--avatar_female">
+          <use href="./img/svgsprite/stack/svg/sprite.stack.svg#avatar_female"></use>
+        </svg>
+      </div>
+        <div class="feedbacks-slide__name">@@name</div>
+        <div class="feedbacks-slide__position">@@position</div>
+      </div>
+      <div class="feedbacks__text">
+        <div class="feedbacks-slide__text">@@text</div>
+      </div>
+    </div>
+    <div class="swiper-slide feedbacks-slide">
+      <div class="feedbacks__person">        
+        <div class="feedbacks-slide__img" alt="Person">
+          <svg class="icon icon--avatar_male">
+            <use href="./img/svgsprite/stack/svg/sprite.stack.svg#avatar_male"></use>
+          </svg>
+        </div>
+        <div class="feedbacks-slide__name">Bob</div>
+        <div class="feedbacks-slide__position">cleaner</div>
+      </div>
+      <div class="feedbacks__text">
+        <div class="feedbacks-slide__text">All is shit!</div>
+      </div>
+    </div>
+
   </div>
- 
-  
-  
+  <div class="swiper-pagination"></div>
+</div> -->
+
+<div class="swiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide feedbacks-slide">
+      <div class="feedbacks__person">
+        <div class="feedbacks-slide__img" alt="Person">
+          <svg class="icon icon--avatar_male">
+            <use href="./img/svgsprite/stack/svg/sprite.stack.svg#avatar_male"></use>
+          </svg>
+        </div>
+        <div class="feedbacks-slide__name" data-key="feedback-name-1">Bob</div>
+        <div class="feedbacks-slide__position" data-key="feedback-position-1">Cleaner</div>
+      </div>
+      <div class="feedbacks__text">
+        <div class="feedbacks-slide__text" data-key="feedback-text-1">All is great!</div>
+      </div>
+    </div>
+    <div class="swiper-slide feedbacks-slide">
+      <div class="feedbacks__person">
+        <div class="feedbacks-slide__img" alt="Person">
+          <svg class="icon icon--avatar_male">
+            <use href="./img/svgsprite/stack/svg/sprite.stack.svg#avatar_male"></use>
+          </svg>
+        </div>
+        <div class="feedbacks-slide__name" data-key="feedback-name-2">Alice</div>
+        <div class="feedbacks-slide__position" data-key="feedback-position-2">Manager</div>
+      </div>
+      <div class="feedbacks__text">
+        <div class="feedbacks-slide__text" data-key="feedback-text-2">Excellent service!</div>
+      </div>
+    </div>
+    <div class="swiper-slide feedbacks-slide">
+      <div class="feedbacks__person">
+        <div class="feedbacks-slide__img" alt="Person">
+          <svg class="icon icon--avatar_male">
+            <use href="./img/svgsprite/stack/svg/sprite.stack.svg#avatar_male"></use>
+          </svg>
+        </div>
+        <div class="feedbacks-slide__name" data-key="feedback-name-3"></div>
+        <div class="feedbacks-slide__position" data-key="feedback-position-3"></div>
+      </div>
+      <div class="feedbacks__text">
+        <div class="feedbacks-slide__text" data-key="feedback-text-3"></div>
+      </div>
+    </div>    
+    <div class="swiper-slide feedbacks-slide">
+      <div class="feedbacks__person">
+        <div class="feedbacks-slide__img" alt="Person">
+          <svg class="icon icon--avatar_female">
+            <use href="./img/svgsprite/stack/svg/sprite.stack.svg#avatar_female"></use>
+          </svg>
+        </div>
+        <div class="feedbacks-slide__name" data-key="feedback-name-4"></div>
+        <div class="feedbacks-slide__position" data-key="feedback-position-4"></div>
+      </div>
+      <div class="feedbacks__text">
+        <div class="feedbacks-slide__text" data-key="feedback-text-4"></div>
+      </div>
+    </div>    
+    <div class="swiper-slide feedbacks-slide">
+      <div class="feedbacks__person">
+        <div class="feedbacks-slide__img" alt="Person">
+          <svg class="icon icon--avatar_female">
+            <use href="./img/svgsprite/stack/svg/sprite.stack.svg#avatar_female"></use>
+          </svg>
+        </div>
+        <div class="feedbacks-slide__name" data-key="feedback-name-5">алоиткпо</div>
+        <div class="feedbacks-slide__position" data-key="feedback-position-5">ипколтик</div>
+      </div>
+      <div class="feedbacks__text">
+        <div class="feedbacks-slide__text" data-key="feedback-text-5">4еи</div>
+      </div>
+    </div>    
+
+  </div>
+  <div class="swiper-pagination"></div>
+</div>
+

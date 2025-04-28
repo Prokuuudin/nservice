@@ -568,183 +568,153 @@
 				<div class="container">
 					<h2 class="title-2" data-key="feedbacks-title">Отзывы</h2>
 					<div class="feedbacks__swiper">
+						<!-- <div class="swiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide feedbacks-slide">
+      <div class="feedbacks__person">        
+        <div class="feedbacks-slide__img" alt="Person">
+          <svg class="icon icon--avatar_male">
+            <use href="./img/svgsprite/stack/svg/sprite.stack.svg#avatar_male"></use>
+          </svg>
+        </div>
+        <div class="feedbacks-slide__name">Bob</div>
+        <div class="feedbacks-slide__position">cleaner</div>
+      </div>
+      <div class="feedbacks__text">
+        <div class="feedbacks-slide__text">All is shit!</div>
+      </div>
+    </div>
+    <div class="swiper-slide feedbacks-slide">
+      <div class="feedbacks__person">        
+        <div class="feedbacks-slide__img" alt="Person">
+          <svg class="icon icon--avatar_male">
+            <use href="./img/svgsprite/stack/svg/sprite.stack.svg#avatar_male"></use>
+          </svg>
+        </div>
+        <div class="feedbacks-slide__name">Bob</div>
+        <div class="feedbacks-slide__position">cleaner</div>
+      </div>
+      <div class="feedbacks__text">
+        <div class="feedbacks-slide__text">All is shit!</div>
+      </div>
+    </div>
+    <div class="swiper-slide feedbacks-slide">
+      <div class="feedbacks__person">        
+        <div class="feedbacks-slide__img" alt="Person">
+          <svg class="icon icon--avatar_male">
+            <use href="./img/svgsprite/stack/svg/sprite.stack.svg#avatar_male"></use>
+          </svg>
+        </div>
+        <div class="feedbacks-slide__name">Bob</div>
+        <div class="feedbacks-slide__position">cleaner</div>
+      </div>
+      <div class="feedbacks__text">
+        <div class="feedbacks-slide__text">All is shit!</div>
+      </div>
+    </div>    
+    <div class="swiper-slide feedbacks-slide">
+      <div class="feedbacks__person">
+        <div class="feedbacks-slide__img">
+        <svg class="icon icon--avatar_female">
+          <use href="./img/svgsprite/stack/svg/sprite.stack.svg#avatar_female"></use>
+        </svg>
+      </div>
+        <div class="feedbacks-slide__name">@@name</div>
+        <div class="feedbacks-slide__position">@@position</div>
+      </div>
+      <div class="feedbacks__text">
+        <div class="feedbacks-slide__text">@@text</div>
+      </div>
+    </div>
+    <div class="swiper-slide feedbacks-slide">
+      <div class="feedbacks__person">        
+        <div class="feedbacks-slide__img" alt="Person">
+          <svg class="icon icon--avatar_male">
+            <use href="./img/svgsprite/stack/svg/sprite.stack.svg#avatar_male"></use>
+          </svg>
+        </div>
+        <div class="feedbacks-slide__name">Bob</div>
+        <div class="feedbacks-slide__position">cleaner</div>
+      </div>
+      <div class="feedbacks__text">
+        <div class="feedbacks-slide__text">All is shit!</div>
+      </div>
+    </div>
+
+  </div>
+  <div class="swiper-pagination"></div>
+</div> -->
+
 						<div class="swiper">
 							<div class="swiper-wrapper">
 								<div class="swiper-slide feedbacks-slide">
 									<div class="feedbacks__person">
-										<picture>
-											<source srcset="./img/feedbacks/person.webp 1x, ./img/feedbacks/person@2x.webp 2x" type="image/webp" />
-											<source srcset="./img/feedbacks/person.jpg 1x, ./img/feedbacks/person@2x.jpg 2x" type="image/jpeg" />
-											<img class="feedbacks-slide__img" src="./img/feedbacks/person.jpg" alt="Person" />
-										</picture>
-										<div class="feedbacks-slide__name">Олег</div>
-										<div class="feedbacks-slide__position">Miks Plus SIA, IT-специалист</div>
-									</div>
-									<div class="feedbacks__text">
-										<div class="feedbacks-slide__text">
-											Отличное решение для бизнеса, где безопасность и&#160;надежность&#160;&#8212; на&#160;первых местах! Как IT-специалист компании,
-											управляющей сетью магазинов, готов отметить, что удалённое администрирование и&#160;автоматические обновления значительно упростили мою
-											работу. А&#160;качественная поддержка от&#160;N&#160;Service позволила оперативно решать любые вопросы. Рекомендую!
+										<div class="feedbacks-slide__img" alt="Person">
+											<svg class="icon icon--avatar_male">
+												<use href="./img/svgsprite/stack/svg/sprite.stack.svg#avatar_male"></use>
+											</svg>
 										</div>
+										<div class="feedbacks-slide__name" data-key="feedback-name-1">Bob</div>
+										<div class="feedbacks-slide__position" data-key="feedback-position-1">Cleaner</div>
+									</div>
+									<div class="feedbacks__text">
+										<div class="feedbacks-slide__text" data-key="feedback-text-1">All is&#160;great!</div>
 									</div>
 								</div>
 								<div class="swiper-slide feedbacks-slide">
 									<div class="feedbacks__person">
-										<picture>
-											<source srcset="./img/feedbacks/person.webp 1x, ./img/feedbacks/person@2x.webp 2x" type="image/webp" />
-											<source srcset="./img/feedbacks/person.jpg 1x, ./img/feedbacks/person@2x.jpg 2x" type="image/jpeg" />
-											<img class="feedbacks-slide__img" src="./img/feedbacks/person.jpg" alt="Person" />
-										</picture>
-										<div class="feedbacks-slide__name">Герман</div>
-										<div class="feedbacks-slide__position">I-Work, IT-специалист</div>
-									</div>
-									<div class="feedbacks__text">
-										<div class="feedbacks-slide__text">
-											Безопасность данных&#160;&#8212; один из&#160;приоритетов нашей бизнес-деятельности. Благодаря сотрудничеству с&#160;N&#160;Service,
-											мы&#160;получили не&#160;только надежное антивирусное решение, но&#160;и&#160;его высококвалифицированную поддержку. Простота
-											развертывания, централизованное управление и&#160;продвинутая система обнаружения угроз Trend Micro позволяют быть уверенными в&#160;своей
-											защите. Уже более года мы&#160;не&#160;сталкиваемся с&#160;серьезными инцидентами. Выражаем за&#160;это благодарность: как N&#160;Service,
-											так и&#160;Trend Micro!
+										<div class="feedbacks-slide__img" alt="Person">
+											<svg class="icon icon--avatar_male">
+												<use href="./img/svgsprite/stack/svg/sprite.stack.svg#avatar_male"></use>
+											</svg>
 										</div>
+										<div class="feedbacks-slide__name" data-key="feedback-name-2">Alice</div>
+										<div class="feedbacks-slide__position" data-key="feedback-position-2">Manager</div>
+									</div>
+									<div class="feedbacks__text">
+										<div class="feedbacks-slide__text" data-key="feedback-text-2">Excellent service!</div>
 									</div>
 								</div>
 								<div class="swiper-slide feedbacks-slide">
 									<div class="feedbacks__person">
-										<picture>
-											<source srcset="./img/feedbacks/person.webp 1x, ./img/feedbacks/person@2x.webp 2x" type="image/webp" />
-											<source srcset="./img/feedbacks/person.jpg 1x, ./img/feedbacks/person@2x.jpg 2x" type="image/jpeg" />
-											<img class="feedbacks-slide__img" src="./img/feedbacks/person.jpg" alt="Person" />
-										</picture>
-										<div class="feedbacks-slide__name">Борис</div>
-										<div class="feedbacks-slide__position">VIA UNA, IT-администратор</div>
-									</div>
-									<div class="feedbacks__text">
-										<div class="feedbacks-slide__text">
-											В&#160;медицинском учреждении безопасность данных&#160;&#8212; вопрос критически необходимый. После внедрения Trend Micro Worry-Free
-											с&#160;поддержкой от&#160;N&#160;Service риски фишинговых атак и&#160;вреда от&#160;подозрительных вложений в&#160;почте значительно
-											снизились. Система XDR помогает вовремя выявлять потенциальные угрозы, и&#160;теперь мы&#160;можем сосредоточиться на&#160;основной
-											работе, а&#160;не&#160;на&#160;борьбе с&#160;вирусами)). Благодарим N&#160;Service за&#160;профессионализм и&#160;надежное решение!
+										<div class="feedbacks-slide__img" alt="Person">
+											<svg class="icon icon--avatar_male">
+												<use href="./img/svgsprite/stack/svg/sprite.stack.svg#avatar_male"></use>
+											</svg>
 										</div>
+										<div class="feedbacks-slide__name" data-key="feedback-name-3"></div>
+										<div class="feedbacks-slide__position" data-key="feedback-position-3"></div>
+									</div>
+									<div class="feedbacks__text">
+										<div class="feedbacks-slide__text" data-key="feedback-text-3"></div>
 									</div>
 								</div>
 								<div class="swiper-slide feedbacks-slide">
 									<div class="feedbacks__person">
-										<picture>
-											<source srcset="./img/feedbacks/person.webp 1x, ./img/feedbacks/person@2x.webp 2x" type="image/webp" />
-											<source srcset="./img/feedbacks/person.jpg 1x, ./img/feedbacks/person@2x.jpg 2x" type="image/jpeg" />
-											<img class="feedbacks-slide__img" src="./img/feedbacks/person.jpg" alt="Person" />
-										</picture>
-										<div class="feedbacks-slide__name">Client4</div>
-										<div class="feedbacks-slide__position">president of&#160;Zolitude</div>
-									</div>
-									<div class="feedbacks__text">
-										<div class="feedbacks-slide__text">
-											Very fucking good! Thanks to&#160;N&#160;Service, we&#160;received the best guidance, support, and service while implementing Trend Micro
-											Worry-Free into our system. Their team is&#160;not only highly knowledgeable but also incredibly responsive and solution-oriented, making
-											every interaction smooth and effective. I&#160;wholeheartedly recommend N&#160;Service to&#160;anyone looking for top-tier distribution
-											services and world-class cybersecurity solutions. They go&#160;above and beyond in&#160;delivering excellence, and I&#160;couldn&#8217;t
-											be&#160;more satisfied.
+										<div class="feedbacks-slide__img" alt="Person">
+											<svg class="icon icon--avatar_female">
+												<use href="./img/svgsprite/stack/svg/sprite.stack.svg#avatar_female"></use>
+											</svg>
 										</div>
+										<div class="feedbacks-slide__name" data-key="feedback-name-4"></div>
+										<div class="feedbacks-slide__position" data-key="feedback-position-4"></div>
+									</div>
+									<div class="feedbacks__text">
+										<div class="feedbacks-slide__text" data-key="feedback-text-4"></div>
 									</div>
 								</div>
 								<div class="swiper-slide feedbacks-slide">
 									<div class="feedbacks__person">
-										<picture>
-											<source srcset="./img/feedbacks/person.webp 1x, ./img/feedbacks/person@2x.webp 2x" type="image/webp" />
-											<source srcset="./img/feedbacks/person.jpg 1x, ./img/feedbacks/person@2x.jpg 2x" type="image/jpeg" />
-											<img class="feedbacks-slide__img" src="./img/feedbacks/person.jpg" alt="Person" />
-										</picture>
-										<div class="feedbacks-slide__name">Client5</div>
-										<div class="feedbacks-slide__position">president of&#160;Zolitude</div>
-									</div>
-									<div class="feedbacks__text">
-										<div class="feedbacks-slide__text">
-											Nice & good! I&#160;cannot express enough how incredibly impressed I&#160;am&#160;with N&#160;Service! From start to&#160;finish, their
-											professionalism, dedication, and customer-centric approach have been absolutely outstanding. They are truly a&#160;gold standard
-											in&#160;the distribution industry, setting themselves apart with unmatched reliability, expertise, and efficiency.
+										<div class="feedbacks-slide__img" alt="Person">
+											<svg class="icon icon--avatar_female">
+												<use href="./img/svgsprite/stack/svg/sprite.stack.svg#avatar_female"></use>
+											</svg>
 										</div>
-									</div>
-								</div>
-								<div class="swiper-slide feedbacks-slide">
-									<div class="feedbacks__person">
-										<picture>
-											<source srcset="./img/feedbacks/person.webp 1x, ./img/feedbacks/person@2x.webp 2x" type="image/webp" />
-											<source srcset="./img/feedbacks/person.jpg 1x, ./img/feedbacks/person@2x.jpg 2x" type="image/jpeg" />
-											<img class="feedbacks-slide__img" src="./img/feedbacks/person.jpg" alt="Person" />
-										</picture>
-										<div class="feedbacks-slide__name">Client6</div>
-										<div class="feedbacks-slide__position">president of&#160;Zolitude</div>
+										<div class="feedbacks-slide__name" data-key="feedback-name-5">алоиткпо</div>
+										<div class="feedbacks-slide__position" data-key="feedback-position-5">ипколтик</div>
 									</div>
 									<div class="feedbacks__text">
-										<div class="feedbacks-slide__text">
-											Very nice! I&#160;wholeheartedly recommend N&#160;Service to&#160;anyone looking for top-tier distribution services and world-class
-											cybersecurity solutions. They go&#160;above and beyond in&#160;delivering excellence, and I&#160;couldn&#8217;t be&#160;more satisfied!
-											🌟🌟🌟🌟🌟
-										</div>
-									</div>
-								</div>
-								<div class="swiper-slide feedbacks-slide">
-									<div class="feedbacks__person">
-										<picture>
-											<source srcset="./img/feedbacks/person.webp 1x, ./img/feedbacks/person@2x.webp 2x" type="image/webp" />
-											<source srcset="./img/feedbacks/person.jpg 1x, ./img/feedbacks/person@2x.jpg 2x" type="image/jpeg" />
-											<img class="feedbacks-slide__img" src="./img/feedbacks/person.jpg" alt="Person" />
-										</picture>
-										<div class="feedbacks-slide__name">Client7</div>
-										<div class="feedbacks-slide__position">president of&#160;Zolitude</div>
-									</div>
-									<div class="feedbacks__text">
-										<div class="feedbacks-slide__text">Very well!</div>
-									</div>
-								</div>
-								<div class="swiper-slide feedbacks-slide">
-									<div class="feedbacks__person">
-										<picture>
-											<source srcset="./img/feedbacks/person.webp 1x, ./img/feedbacks/person@2x.webp 2x" type="image/webp" />
-											<source srcset="./img/feedbacks/person.jpg 1x, ./img/feedbacks/person@2x.jpg 2x" type="image/jpeg" />
-											<img class="feedbacks-slide__img" src="./img/feedbacks/person.jpg" alt="Person" />
-										</picture>
-										<div class="feedbacks-slide__name">Client8</div>
-										<div class="feedbacks-slide__position">president of&#160;Zolitude</div>
-									</div>
-									<div class="feedbacks__text">
-										<div class="feedbacks-slide__text">
-											Very well done! But what truly elevates N&#160;Service to&#160;an&#160;elite level is&#160;their exceptional product&#160;&#8212; Trend
-											Micro Worry-Free. This security solution is&#160;nothing short of&#160;phenomenal! It&#160;provides robust, seamless, and worry-free
-											protection that businesses and individuals can fully depend&#160;on. The level of&#160;cybersecurity it&#160;delivers
-											is&#160;unparalleled, ensuring peace of&#160;mind in&#160;an&#160;era where digital threats are ever-evolving.
-										</div>
-									</div>
-								</div>
-								<div class="swiper-slide feedbacks-slide">
-									<div class="feedbacks__person">
-										<picture>
-											<source srcset="./img/feedbacks/person.webp 1x, ./img/feedbacks/person@2x.webp 2x" type="image/webp" />
-											<source srcset="./img/feedbacks/person.jpg 1x, ./img/feedbacks/person@2x.jpg 2x" type="image/jpeg" />
-											<img class="feedbacks-slide__img" src="./img/feedbacks/person.jpg" alt="Person" />
-										</picture>
-										<div class="feedbacks-slide__name">Client9</div>
-										<div class="feedbacks-slide__position">president of&#160;Zolitude</div>
-									</div>
-									<div class="feedbacks__text">
-										<div class="feedbacks-slide__text">Awesome good!</div>
-									</div>
-								</div>
-								<div class="swiper-slide feedbacks-slide">
-									<div class="feedbacks__person">
-										<picture>
-											<source srcset="./img/feedbacks/person.webp 1x, ./img/feedbacks/person@2x.webp 2x" type="image/webp" />
-											<source srcset="./img/feedbacks/person.jpg 1x, ./img/feedbacks/person@2x.jpg 2x" type="image/jpeg" />
-											<img class="feedbacks-slide__img" src="./img/feedbacks/person.jpg" alt="Person" />
-										</picture>
-										<div class="feedbacks-slide__name">Client10</div>
-										<div class="feedbacks-slide__position">president of&#160;Zolitude</div>
-									</div>
-									<div class="feedbacks__text">
-										<div class="feedbacks-slide__text">
-											Brilliantly good! I&#160;cannot express enough how incredibly impressed I&#160;am&#160;with N&#160;Service! From start to&#160;finish,
-											their professionalism, dedication, and customer-centric approach have been absolutely outstanding.
-										</div>
+										<div class="feedbacks-slide__text" data-key="feedback-text-5">4еи</div>
 									</div>
 								</div>
 							</div>

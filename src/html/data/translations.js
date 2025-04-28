@@ -82,7 +82,22 @@ const translations = {
     "partners-title": "partneri",
 
     //FEEDBACKS
-    "feedbacks-title": "Atsauksmes",
+    "feedbacks-title": "Atsauksmes",    
+    "feedback-name-1": "Olegs",
+    "feedback-name-2": "Germans",
+    "feedback-name-3": "Boriss",
+    "feedback-name-4": "Helēna",
+    "feedback-name-5": "Gunita",
+    "feedback-position-1": "Miks Plus SIA, IT speciālists",
+    "feedback-position-2": "I-Work, IT speciālists",
+    "feedback-position-3": "VIA UNA, IT administrators",
+    "feedback-position-4": "IT speciāliste",
+    "feedback-position-5": "IT administratore",
+    "feedback-text-1": "Lielisks risinājums biznesam, kur drošība un uzticamība ir pirmajā vietā. Kā IT speciālists uzņēmumā, kas pārvalda veikalu tīklu, vēlos uzsvērt, ka attālinātā administrēšana un automātiskie atjauninājumi ievērojami atviegloja manu darbu. Kvalitatīvais atbalsts no N Service ļāva operatīvi atrisināt gandrīz jebkuru jautājumu. Iesaku!",
+    "feedback-text-2": "Datu drošība ir viena no mūsu uzņēmējdarbības prioritātēm. Sadarbojoties ar N Service, mēs esam ieguvuši ne tikai uzticamu pretvīrusu risinājumu, bet arī augsti kvalificētu atbalstu. Vienkārša ieviešana, centralizēta pārvaldība un uzlabotā Trend Micro draudu atklāšanas sistēma ļauj mums būt pārliecinātiem par aizsardzību. Jau vairāk nekā gadu mēs neesam saskārušies ar nopietniem incidentiem. Mēs izsakām pateicību gan N Service, gan Trend Micro!",
+    "feedback-text-3": "Medicīnas iestādē datu drošība ir kritiski svarīgs jautājums. Pateicoties Trend Micro Worry-Free ieviešanai ar N Service atbalstu, pikšķerēšanas uzbrukumu un aizdomīgu e-pasta pielikumu radītie riski ir ievērojami samazinājušies. XDR sistēma palīdz savlaicīgi atklāt potenciālos draudus, un tagad mēs varam koncentrēties uz savu pamatdarbu, nevis cīņu ar vīrusiem. Pateicamies N Service par profesionalitāti un uzticamu risinājumu!",
+    "feedback-text-4": "Mūsu uzņēmuma vārdā vēlos izteikt patiesu pateicību par augsto piedāvātā pretvīrusu risinājuma kvalitāti un profesionālo atbalstu. Pateicoties jūsu produktam, mums ir izdevies nodrošināt uzticamu visas korporatīvās tīkla aizsardzību, minimizēt kiberdraudu riskus un paaugstināt kopējo informācijas drošību. Īpaša pateicība jūsu atbalsta dienestam: speciālisti ātri reaģē uz pieprasījumiem, sniedz detalizētas konsultācijas un vienmēr palīdz ātri atrisināt radušās problēmas. Strādāt ar jums ir patīkami.",
+    "feedback-text-5": "Vēlos pateikties jūsu komandai par lieliski paveikto darbu. Antivīruss lieliski tiek galā ar aizsardzības uzdevumiem, darbojas stabili un bez traucējumiem. Īpaša pateicība par operatīvo atbalstu — visi jautājumi tiek risināti ātri un profesionāli. Esam priecīgi, ka izvēlējāmies tieši jūs!",
 
     // HOW TO BUY
     "howtobuy-title": "Kā iegādāties?",
@@ -221,7 +236,23 @@ const translations = {
     "partners-title": "Partners",
 
     //FEEDBACKS
-    "feedbacks-title": "Feedbacks",
+    "feedbacks-title": "Feedbacks",  
+    "feedback-name-1": "Oleg",
+    "feedback-name-2": "German",
+    "feedback-name-3": "Boris",
+    "feedback-name-4": "Helen",
+    "feedback-name-5": "Gunita",
+    "feedback-position-1": "Miks Plus SIA, IT Specialist",
+    "feedback-position-2": "I-Work, IT Specialist",
+    "feedback-position-3": "VIA UNA, IT Administrator",
+    "feedback-position-4": "IT Specialist",
+    "feedback-position-5": "IT Administrator",
+    "feedback-text-1": "An excellent solution for businesses where security and reliability come first. As an IT specialist in a company managing a network of stores, I would like to highlight that remote administration and automatic updates have significantly simplified my work. The high-quality support from N Service has allowed me to resolve almost any issue promptly. Highly recommended!",
+    "feedback-text-2": "Data security is one of the priorities of our business operations. Thanks to our cooperation with N Service, we have gained not only a reliable antivirus solution but also highly qualified support. Easy deployment, centralized management, and Trend Micro's advanced threat detection system give us confidence in our protection. For over a year now, we have not encountered any serious incidents. We would like to express our gratitude to both N Service and Trend Micro!",
+    "feedback-text-3": "In a medical institution, data security is a critically important issue. After implementing Trend Micro Worry-Free with support from N Service, the risks of phishing attacks and harm from suspicious email attachments have significantly decreased. The XDR system helps detect potential threats in a timely manner, and now we can focus on our core work instead of fighting viruses. We thank N Service for their professionalism and the reliable solution!",
+    "feedback-text-4": "On behalf of our company, I would like to express our sincere gratitude for the high quality of the antivirus solution provided and the professional support. Thanks to your product, we have successfully ensured reliable protection of our entire corporate network, minimized cybersecurity risks, and enhanced overall information security. Special thanks to your support team: the specialists respond promptly to requests, provide detailed consultations, and always help quickly resolve any issues that arise. It is a true pleasure working with you.",
+    "feedback-text-5": "I would like to thank your team for the excellent work. The antivirus solution performs its protection tasks perfectly, operating stably and without failures. Special thanks for the prompt support — all issues are resolved quickly and professionally. We are glad that we chose you!",
+
 
     // HOW TO BUY
     "howtobuy-title": "How to Buy?",
@@ -359,6 +390,21 @@ const translations = {
 
     //FEEDBACKS
     "feedbacks-title": "Отзывы",
+    "feedback-name-1": "Олег",
+    "feedback-name-2": "Герман",
+    "feedback-name-3": "Борис",
+    "feedback-name-4": "Хелен",
+    "feedback-name-5": "Гунита",
+    "feedback-position-1": "Miks Plus SIA, IT-специалист",
+    "feedback-position-2": "I-Work, IT-специалист",
+    "feedback-position-3": "VIA UNA, IT-администратор",
+    "feedback-position-4": "IT-администратор",
+    "feedback-position-5": "IT-специалист",
+    "feedback-text-1": "Отличное решение для бизнеса, где безопасность и надежность на первых местах. Как IT-специалист компании, управляющей сетью магазинов, хочу отметить, что удалённое администрирование и автоматические обновления значительно упростили мне работу. А качественная поддержка от N Service позволила оперативно решать практически любые вопросы. Рекомендую!",
+    "feedback-text-2": "Безопасность данных – один из приоритетов нашей бизнес-деятельности. Благодаря сотрудничеству с  N Service, мы получили не только надежное антивирусное решение, но и его высококвалифицированную поддержку. Простота развертывания, централизованное управление и продвинутая система обнаружения угроз Trend Micro позволяют быть уверенными в защите. Уже более года мы не сталкиваемся с серьезными инцидентами. Выражаем за это благодарность как N Service, так и Trend Micro!",
+    "feedback-text-3": "В медицинском учреждении безопасность данных является критически важным вопросом. После внедрения Trend Micro Worry-Free с поддержкой от N Service риски фишинговых атак и вреда от  подозрительных вложений в почте значительно снизились. Система XDR помогает вовремя выявлять потенциальные угрозы, и теперь мы можем сосредоточиться на основной работе, а не на борьбе с вирусами)). Благодарим N Service за профессионализм и надежное решение!",
+    "feedback-text-4": "От лица нашей компании хочу выразить искреннюю благодарность за высокое качество предоставляемого антивирусного решения и профессиональное сопровождение. Благодаря вашему продукту нам удалось обеспечить надежную защиту всей корпоративной сети, минимизировать риски киберугроз и повысить общую информационную безопасность. Отдельное спасибо вашей службе поддержки: специалисты оперативно реагируют на запросы, подробно консультируют и всегда помогают быстро решать возникающие вопросы. Работать с вами — весьма приятно.",
+    "feedback-text-5": "Хочу поблагодарить вашу команду за отличную работу. Антивирус отлично справляется с задачами защиты, работает стабильно и без сбоев. Особая благодарность за оперативную поддержку — все вопросы решаются быстро и профессионально. Рады, что выбрали именно вас!",
 
     // HOW TO BUY
     "howtobuy-title": "Как купить?",
