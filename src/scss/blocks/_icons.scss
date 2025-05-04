@@ -25,6 +25,16 @@
 .icon--avatar_female, .icon--avatar_male{
 	width: 200px;
 	height: 160px;
+
+	@include mobile {
+		width: 100px;
+		height: 80px;
+	}
+
+	@include small-mobile{
+		width: 70px;
+		height: 60px;
+	}
 }
 
 .icon--facebook, .icon--instagram {

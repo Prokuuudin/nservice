@@ -1,11 +1,14 @@
 import setLanguage from './modules/setLanguage.js';
 setLanguage();
 
-// import scrollReveal from './modules/scrollReveal.js';
-// scrollReveal();
+import scrollReveal from './modules/scrollReveal.js';
+scrollReveal();
 
-// import getCookiesConsent from './modules/agreement-cookies.js';
-// getCookiesConsent();
+import getCookiesConsent from './modules/agreement-cookies.js';
+getCookiesConsent();
+
+import sendContactsForm from './modules/form-validation.js';
+sendContactsForm();
 
 import mobileNav from './modules/mobile-nav.js';
 mobileNav();
@@ -16,6 +19,3 @@ getSwiperFeedback();
 import placeholderBehavior from './modules/placeholder-behavior.js';
 placeholderBehavior();
 
-
-import sendContactsForm from './modules/form-validation.js';
-sendContactsForm();

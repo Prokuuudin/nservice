@@ -97,7 +97,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->Encoding = 'base64'; // Кодируем тело письма в base64
 
         $mail->setFrom($email, '=?UTF-8?B?'.base64_encode($name).'?=');
-        $mail->addAddress('office@iluxsiir.ee');
+        $mail->addAddress('service@nservice.lv');
         $mail->isHTML(false);
         $mail->Subject = '=?UTF-8?B?'.base64_encode('New message from the website').'?=';
         $mail->Body = "Name: $name\nEmail: $email\nPhone: $tel\nMessage:\n$message";
