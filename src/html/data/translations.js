@@ -1,5 +1,10 @@
 const translations = {
   "lv": {
+    // META-TEGS
+    "desc-content": "Uzticama un visaptveroša pretvīrusu aizsardzība jūsu biznesam — ar diennakts tehnisko atbalstu",
+    "keywords-content": "pretvīrusu, aizsardzība, hakeru uzbrukumi, aizsardzība pret surogātpastu, atbalsts, TREND MICRO, biznesa drošība",
+    "landing-title": "N SERVICE — pretvīrusu aizsardzība TREND MICRO ",
+
     // MOBILE
     "nav-about": "Par mums",
 		"nav-trendmicro": "Trend Micro",
@@ -153,6 +158,11 @@ const translations = {
   
 
   "en": {
+    // META-TEGS
+    "desc-content": "Reliable and comprehensive antivirus protection for your business — with 24/7 support service",
+    "keywords-content": "antivirus, protection, hacker attacks, spam protection, support, TREND MICRO, business security",
+    "landing-title": "N SERVICE — Antivirus Protection TREND MICRO ",
+
      // MOBILE
      "nav-about": "About",
 		"nav-trendmicro": "Trend Micro",
@@ -307,6 +317,11 @@ const translations = {
   },
 
   "ru": {
+    // META-TEGS     
+     "desc-content":"надежная всесторонняя антивирусная защита для вашего бизнеса - с круглосуточной сервисной поддержкой",
+     "keywords-content":"антивирус, защита, хакерские атаки, защита от спама, поддержка, TREND MICRO, безопасность бизнеса",
+     "landing-title": "N SERVICE - антивирусная защита TREND MICRO",
+
     // MOBILE
     "nav-about": "о нас",
 		"nav-trendmicro": "trendmicro",
