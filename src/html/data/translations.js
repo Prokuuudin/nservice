@@ -7,9 +7,9 @@ const translations = {
 
     // MOBILE
     "nav-about": "Par mums",
-		"nav-trendmicro": "Trend Micro",
-		"nav-buy": "Pirkt",
-		"nav-contacts": "Kontakti",
+    "nav-trendmicro": "Trend Micro",
+    "nav-buy": "Pirkt",
+    "nav-contacts": "Kontakti",
 
     // AGREEMENT
     "agreement-header": "Mēs cienām jūsu privātumu",
@@ -154,6 +154,7 @@ const translations = {
     "footer-company-registration": "Reģ. numurs: 40203287886",
     "footer-company-address" : "Adrese: Rīga, Ruses iela 26-135, LV-1029, Latvija" ,
     "footer-rights": "Visas tiesības aizsargātas",  
+
   },
   
 
@@ -165,9 +166,9 @@ const translations = {
 
      // MOBILE
      "nav-about": "About",
-		"nav-trendmicro": "Trend Micro",
-		"nav-buy": "Buy",
-		"nav-contacts": "Contacts",
+    "nav-trendmicro": "Trend Micro",
+    "nav-buy": "Buy",
+    "nav-contacts": "Contacts",
 
     // AGREEMENT
     "agreement-header": "We respect your privacy",
@@ -199,7 +200,7 @@ const translations = {
     "animated-11": "load",
     "animated-12": "on",
     "animated-13": "the system.",
-    "consult-text": "Get consultation on installation and protection today!",
+    "consult-text": "Get a consultation on installation and protection today!",
     "consult-button": "Get Consultation",
     "feature-1": "✅ Full protection for corporate devices",
     "feature-2": "✅ Centralized management and monitoring",
@@ -234,7 +235,7 @@ const translations = {
     "why-item1-point3": "Security audits to detect and eliminate potential IT vulnerabilities.",
     "why-item2-title": "2. Company experience",
     "why-item2-subtitle": "N SERVICE has extensive experience in the field of cybersecurity.",
-    "why-item2-link": "We can provide real-world cases of our practice and also",
+    "why-item2-link": "We can provide real-world cases from our experience, as well as",
     "why-item2-link-inner": "feedback from our partner companies.",
     "why-item3-title": "3. N SERVICE bonuses",
     "why-item3-subtitle": "When purchasing antivirus through N SERVICE our clients receive several additional benefits:",
@@ -246,7 +247,7 @@ const translations = {
     "partners-title": "Partners",
 
     //FEEDBACKS
-    "feedbacks-title": "Feedbacks",  
+    "feedbacks-title": "Feedback",
     "feedback-name-1": "Oleg",
     "feedback-name-2": "German",
     "feedback-name-3": "Boris",
@@ -262,7 +263,6 @@ const translations = {
     "feedback-text-3": "In a medical institution, data security is a critically important issue. After implementing Trend Micro Worry-Free with support from N Service, the risks of phishing attacks and harm from suspicious email attachments have significantly decreased. The XDR system helps detect potential threats in a timely manner, and now we can focus on our core work instead of fighting viruses. We thank N Service for their professionalism and the reliable solution!",
     "feedback-text-4": "On behalf of our company, I would like to express our sincere gratitude for the high quality of the antivirus solution provided and the professional support. Thanks to your product, we have successfully ensured reliable protection of our entire corporate network, minimized cybersecurity risks, and enhanced overall information security. Special thanks to your support team: the specialists respond promptly to requests, provide detailed consultations, and always help quickly resolve any issues that arise. It is a true pleasure working with you.",
     "feedback-text-5": "I would like to thank your team for the excellent work. The antivirus solution performs its protection tasks perfectly, operating stably and without failures. Special thanks for the prompt support — all issues are resolved quickly and professionally. We are glad that we chose you!",
-
 
     // HOW TO BUY
     "howtobuy-title": "How to Buy?",
@@ -314,6 +314,7 @@ const translations = {
     "footer-company-registration": "Reg. number: 40203287886",
     "footer-company-address" : "Address: Riga, Ruses street 26-135, LV-1029, Latvia",
     "footer-rights": "All rights reserved",       
+     
   },
 
   "ru": {
@@ -322,156 +323,157 @@ const translations = {
      "keywords-content":"антивирус, защита, хакерские атаки, защита от спама, поддержка, TREND MICRO, безопасность бизнеса",
      "landing-title": "N SERVICE - антивирусная защита TREND MICRO",
 
-    // MOBILE
-    "nav-about": "о нас",
-		"nav-trendmicro": "trendmicro",
-		"nav-buy": "купить",
-		"nav-contacts": "Контакты",
+        // MOBILE
+        "nav-about": "о нас",
+        "nav-trendmicro": "trendmicro",
+        "nav-buy": "купить",
+        "nav-contacts": "Контакты",
+        
+        // AGREEMENT
+        "agreement-header": "Мы ценим вашу приватность",
+        "agreement-text": "Мы используем файлы cookie, чтобы улучшить качество ваших просмотров, персонализируя для вас рекламу и контент на основе анализа трафика. Нажимая \"Принять\", вы соглашаетесь с использованием файлов cookie. ",
+        "agreement-link": "Политика сookie.",
+        "accept-btn": "Принять",
+        "reject-btn": "Отклонить",
     
-    // AGREEMENT
-    "agreement-header": "Мы ценим вашу приватность",
-    "agreement-text": "Мы используем файлы cookie, чтобы улучшить качество ваших просмотров, персонализируя для вас рекламу и контент на основе анализа трафика. Нажимая \"Принять\", вы соглашаетесь с использованием файлов cookie. ",
-    "agreement-link": "Политика сookie.",
-    "accept-btn": "Принять",
-    "reject-btn": "Отклонить",
-
-    // HEADER  
-    "about-us": "О нас",
-    "product": "trendmicro",
-    "howtobuy": "купить",
-    "contacts": "Контакты",
-
-    // ABOUT
-    "about-title": "Надежная антивирусная защита",
-    "about-title-small": "для вашего бизнеса",
-    "product-title": "\"Trend Micro Worry-Free\"",
-    "animated-1": "Комплексная",
-    "animated-2": "защита",
-    "animated-3": "от",
-    "animated-4": "вирусов,",
-    "animated-5": "атак",
-    "animated-6": "и",
-    "animated-7": "программ-вымогателей.",
-    "animated-8": "Облачная",
-    "animated-9": "безопасность",
-    "animated-10": "без",
-    "animated-11": "нагрузки",
-    "animated-12": "на",
-    "animated-13": "систему.",
-    "consult-text": "Получите консультацию по установке и защите уже сегодня!",
-    "consult-button": "Получить консультацию",
-    "feature-1": "✅ Полная защита корпоративных устройств",
-    "feature-2": "✅ Централизованное управление и мониторинг",
-    "feature-3": "✅ Высокая степень выявления угроз (AI и машинное обучение)",
-    // BENEFITS
-    "benefits-title": "Преимущества Trend Micro Worry-Free",
-    "benefit-1-title": "Облачное размещение",
-    "benefit-1-desc": "Зашита не нагружает систему, всегда соответствует актуальной версии",
-    "benefit-2-title": "Надежное выявление угроз",
-    "benefit-2-desc": "Применяются ИИ и машинное обучение",
-    "benefit-3-title": "Удаленное управление",
-    "benefit-3-desc": "Удобный контроль всех устройств",
-    "benefit-4-title": "Комплексная защита",
-    "benefit-4-desc": "От вирусов, фишинга, хакерских атак, вредоносного ПО",
-    "benefit-5-title": "Гибкие лицензии",
-    "benefit-5-desc": "Лицензионные пакеты от 1 до 100 конечных точек",
-
-    // VIDEO
-    "video-hidden-title": "title",
-    "video-title": "trend micro:",
-    "video-subtitle": "видеописание",
-
-    // WHY US
-    "why-title": "Почему N SERVICE?",
-    "why-description": "Выбирая N SERVICE, вы приобретаете не только высококачественный антивирус, но и всестороннюю сервисную поддержку опытной команды профессионалов. Компания N Service работает на рынке IT-услуг с 2020 года. Её \"коэффициент удержания клиентов\" составляет 85%, что превосходит средний показатель почти на 5%.",
-    "why-clients-get": "Клиенты N SERVICE получают:",
-    "why-item1-title": "1. Расширенное предложение",
-    "why-item1-subtitle": "Помимо самого антивируса, в пакет услуг для клиентов N SERVICE входит:",
-    "why-item1-point1": "Антивирусное ПО под индивидуальные потребности вашего бизнеса;",
-    "why-item1-point2": "Постоянная техническая поддержка;",
-    "why-item1-point3": "Аудит безопасности, с выявлением и устранением потенциальных уязвимостей в вашей IT-структуре.",
-    "why-item2-title": "2. Опыт компании",
-    "why-item2-subtitle": "N SERVICE обладает многолетней практикой в сфере кибербезопасности.",
-    "why-item2-link": "В подтверждение можем предоставить конкретные кейсы своего практического опыта, а также",
-    "why-item2-link-inner": "отзывы сотрудничающих с нами компаний.",
-    "why-item3-title": "3. Бонусы N SERVICE",
-    "why-item3-subtitle": "При покупке антивируса через N SERVICE клиенты получают ряд дополнительных преимуществ:",
-    "why-bonus1": "Бесплатная установка антивируса",
-    "why-bonus2": "Скидки на обновления и услуги для постоянных клиентов",
-    "why-bonus3": "Бесплатные консультации экспертов по выбору оптимальных решений защиты",
-
-    // PARTNERS
-    "partners-title": "партнеры",
-
-    //FEEDBACKS
-    "feedbacks-title": "Отзывы",
-    "feedback-name-1": "Олег",
-    "feedback-name-2": "Герман",
-    "feedback-name-3": "Борис",
-    "feedback-name-4": "Хелен",
-    "feedback-name-5": "Гунита",
-    "feedback-position-1": "Miks Plus SIA, IT-специалист",
-    "feedback-position-2": "I-Work, IT-специалист",
-    "feedback-position-3": "VIA UNA, IT-администратор",
-    "feedback-position-4": "IT-администратор",
-    "feedback-position-5": "IT-специалист",
-    "feedback-text-1": "Отличное решение для бизнеса, где безопасность и надежность на первых местах. Как IT-специалист компании, управляющей сетью магазинов, хочу отметить, что удалённое администрирование и автоматические обновления значительно упростили мне работу. А качественная поддержка от N Service позволила оперативно решать практически любые вопросы. Рекомендую!",
-    "feedback-text-2": "Безопасность данных – один из приоритетов нашей бизнес-деятельности. Благодаря сотрудничеству с  N Service, мы получили не только надежное антивирусное решение, но и его высококвалифицированную поддержку. Простота развертывания, централизованное управление и продвинутая система обнаружения угроз Trend Micro позволяют быть уверенными в защите. Уже более года мы не сталкиваемся с серьезными инцидентами. Выражаем за это благодарность как N Service, так и Trend Micro!",
-    "feedback-text-3": "В медицинском учреждении безопасность данных является критически важным вопросом. После внедрения Trend Micro Worry-Free с поддержкой от N Service риски фишинговых атак и вреда от  подозрительных вложений в почте значительно снизились. Система XDR помогает вовремя выявлять потенциальные угрозы, и теперь мы можем сосредоточиться на основной работе, а не на борьбе с вирусами)). Благодарим N Service за профессионализм и надежное решение!",
-    "feedback-text-4": "От лица нашей компании хочу выразить искреннюю благодарность за высокое качество предоставляемого антивирусного решения и профессиональное сопровождение. Благодаря вашему продукту нам удалось обеспечить надежную защиту всей корпоративной сети, минимизировать риски киберугроз и повысить общую информационную безопасность. Отдельное спасибо вашей службе поддержки: специалисты оперативно реагируют на запросы, подробно консультируют и всегда помогают быстро решать возникающие вопросы. Работать с вами — весьма приятно.",
-    "feedback-text-5": "Хочу поблагодарить вашу команду за отличную работу. Антивирус отлично справляется с задачами защиты, работает стабильно и без сбоев. Особая благодарность за оперативную поддержку — все вопросы решаются быстро и профессионально. Рады, что выбрали именно вас!",
-
-    // HOW TO BUY
-    "howtobuy-title": "Как купить?",
-    "step-1": "Шаг 1:",
-    "step-1-desc": "Оставляете заявку: через форму или мессенджер;",
-    "step-2": "Шаг 2:",
-    "step-2-desc": "N Service подбирает для вас оптимальный тариф;",
-    "step-3": "Шаг 3:",
-    "step-3-desc-1": "устанавливает и настраивает ",
-    "step-3-desc-2": "выбранное вами ПО.",
-    "free": "бесплатно",
-    "tariffs-title": "Oзнакомьтесь с тарифами Trend Micro Worry-Free",
-    "payment-desc": "Оплата по выставленному для юридических лиц счету - после оформления заказа. Более подробная информация - ",
-    "payment-info-link": "при получении консультации",
-
-    // TABLE
-    "table-product": "Продукт",
-    "table-device-count": "Количество устройств",
-    "table-monthly-payment": "Оплата за месяц",
-    "table-annual-payment": "Оплата за год",
-    "product-worry-free": "Worry Free Services",
-    "devices-1-25": "1-25",
-    "monthly-payment-1": "7.10 €",
-    "annual-payment-1": "6.0 €",
-    "devices-26-50": "26-50",
-    "monthly-payment-2": "5.10 €",
-    "annual-payment-2": "4.90 €",
-    "devices-51-100": "51-100",
-    "monthly-payment-3": "4.50 €",
-    "annual-payment-3": "4.30 €",
-
+        // HEADER  
+        "about-us": "О нас",
+        "product": "trendmicro",
+        "howtobuy": "купить",
+        "contacts": "Контакты",
     
-    // CONTACTS
-    "cta-title": "Оставьте заявку и получите консультацию по безопасности уже сегодня",
-    "whatsapp": "Whatsapp",
-    "telegram": "Telegram",
-    "email": "service@nservice.lv",
-    "phone": "+371 29 503 980",
-    "form-name": "Ваше имя",
-    "form-email": "Ваш email",
-    "form-phone": "Ваш телефон",
-    "form-message": "Ваше сообщение",
-    "users-agreement-1": "Я принимаю условия ",
-    "policy-link": "политики конфиденциальности ",
-    "users-agreement-2": "компании и даю согласие на обработку своих персональных данных.",
-    "form-submit": "Оставить заявку",
-
-    // FOOTER
-    "footer-company-name": "\"N SERVICE\", SIA",
-    "footer-company-registration": "Рег. номер: 40203287886",
-    "footer-company-address" : "Адрес: Рига, ул. Русес 26-135, LV-1029, Латвия",
-    "footer-rights": "Все права защищены",
+        // ABOUT
+        "about-title": "Надежная антивирусная защита",
+        "about-title-small": "для вашего бизнеса",
+        "product-title": "\"Trend Micro Worry-Free\"",
+        "animated-1": "Комплексная",
+        "animated-2": "защита",
+        "animated-3": "от",
+        "animated-4": "вирусов,",
+        "animated-5": "атак",
+        "animated-6": "и",
+        "animated-7": "программ-вымогателей.",
+        "animated-8": "Облачная",
+        "animated-9": "безопасность",
+        "animated-10": "без",
+        "animated-11": "нагрузки",
+        "animated-12": "на",
+        "animated-13": "систему.",
+        "consult-text": "Получите консультацию по установке и защите уже сегодня!",
+        "consult-button": "Получить консультацию",
+        "feature-1": "✅ Полная защита корпоративных устройств",
+        "feature-2": "✅ Централизованное управление и мониторинг",
+        "feature-3": "✅ Высокая степень выявления угроз (AI и машинное обучение)",
+        // BENEFITS
+        "benefits-title": "Преимущества Trend Micro Worry-Free",
+        "benefit-1-title": "Облачное размещение",
+        "benefit-1-desc": "Защита не нагружает систему, всегда соответствует актуальной версии",
+        "benefit-2-title": "Надежное выявление угроз",
+        "benefit-2-desc": "Применяются ИИ и машинное обучение",
+        "benefit-3-title": "Удаленное управление",
+        "benefit-3-desc": "Удобный контроль всех устройств",
+        "benefit-4-title": "Комплексная защита",
+        "benefit-4-desc": "От вирусов, фишинга, хакерских атак, вредоносного ПО",
+        "benefit-5-title": "Гибкие лицензии",
+        "benefit-5-desc": "Лицензионные пакеты от 1 до 100 конечных точек",
+    
+        // VIDEO
+        "video-hidden-title": "title",
+        "video-title": "trend micro:",
+        "video-subtitle": "видеописание",
+    
+        // WHY US
+        "why-title": "Почему N SERVICE?",
+        "why-description": "Выбирая N SERVICE, вы приобретаете не только высококачественный антивирус, но и всестороннюю сервисную поддержку опытной команды профессионалов. Компания N Service работает на рынке IT-услуг с 2020 года. Её \"коэффициент удержания клиентов\" составляет 85%, что превосходит средний показатель почти на 5%.",
+        "why-clients-get": "Клиенты N SERVICE получают:",
+        "why-item1-title": "1. Расширенное предложение",
+        "why-item1-subtitle": "Помимо самого антивируса, в пакет услуг для клиентов N SERVICE входит:",
+        "why-item1-point1": "Антивирусное ПО под индивидуальные потребности вашего бизнеса;",
+        "why-item1-point2": "Постоянная техническая поддержка;",
+        "why-item1-point3": "Аудит безопасности, с выявлением и устранением потенциальных уязвимостей в вашей IT-структуре.",
+        "why-item2-title": "2. Опыт компании",
+        "why-item2-subtitle": "N SERVICE обладает многолетней практикой в сфере кибербезопасности.",
+        "why-item2-link": "В подтверждение можем предоставить конкретные кейсы своего практического опыта, а также",
+        "why-item2-link-inner": "отзывы сотрудничающих с нами компаний.",
+        "why-item3-title": "3. Бонусы N SERVICE",
+        "why-item3-subtitle": "При покупке антивируса через N SERVICE наши клиенты получают ряд дополнительных преимуществ:",
+        "why-bonus1": "Бесплатная установка антивируса",
+        "why-bonus2": "Скидки на обновления и услуги для постоянных клиентов",
+        "why-bonus3": "Бесплатные консультации экспертов по выбору оптимальных решений защиты",
+    
+        // PARTNERS
+        "partners-title": "партнеры",
+    
+        //FEEDBACKS
+        "feedbacks-title": "Отзывы",
+        "feedback-name-1": "Олег",
+        "feedback-name-2": "Герман",
+        "feedback-name-3": "Борис",
+        "feedback-name-4": "Хелен",
+        "feedback-name-5": "Гунита",
+        "feedback-position-1": "Miks Plus SIA, IT-специалист",
+        "feedback-position-2": "I-Work, IT-специалист",
+        "feedback-position-3": "VIA UNA, IT-администратор",
+        "feedback-position-4": "IT-администратор",
+        "feedback-position-5": "IT-специалист",
+        "feedback-text-1": "Отличное решение для бизнеса, где безопасность и надежность на первых местах. Как IT-специалист компании, управляющей сетью магазинов, хочу отметить, что удалённое администрирование и автоматические обновления значительно упростили мне работу. А качественная поддержка от N Service позволила оперативно решать практически любые вопросы. Рекомендую!",
+        "feedback-text-2": "Безопасность данных – один из приоритетов нашей бизнес-деятельности. Благодаря сотрудничеству с  N Service, мы получили не только надежное антивирусное решение, но и его высококвалифицированную поддержку. Простота развертывания, централизованное управление и продвинутая система обнаружения угроз Trend Micro позволяют быть уверенными в защите. Уже более года мы не сталкиваемся с серьезными инцидентами. Выражаем за это благодарность как N Service, так и Trend Micro!",
+        "feedback-text-3": "В медицинском учреждении безопасность данных является критически важным вопросом. После внедрения Trend Micro Worry-Free с поддержкой от N Service риски фишинговых атак и вреда от  подозрительных вложений в почте значительно снизились. Система XDR помогает вовремя выявлять потенциальные угрозы, и теперь мы можем сосредоточиться на основной работе, а не на борьбе с вирусами)). Благодарим N Service за профессионализм и надежное решение!",
+        "feedback-text-4": "От лица нашей компании хочу выразить искреннюю благодарность за высокое качество предоставляемого антивирусного решения и профессиональное сопровождение. Благодаря вашему продукту нам удалось обеспечить надежную защиту всей корпоративной сети, минимизировать риски киберугроз и повысить общую информационную безопасность. Отдельное спасибо вашей службе поддержки: специалисты оперативно реагируют на запросы, подробно консультируют и всегда помогают быстро решать возникающие вопросы. Работать с вами — весьма приятно.",
+        "feedback-text-5": "Хочу поблагодарить вашу команду за отличную работу. Антивирус отлично справляется с задачами защиты, работает стабильно и без сбоев. Особая благодарность за оперативную поддержку — все вопросы решаются быстро и профессионально. Рады, что выбрали именно вас!",
+    
+        // HOW TO BUY
+        "howtobuy-title": "Как купить?",
+        "step-1": "Шаг 1:",
+        "step-1-desc": "Оставляете заявку: через форму или мессенджер;",
+        "step-2": "Шаг 2:",
+        "step-2-desc": "N Service подбирает для вас оптимальный тариф;",
+        "step-3": "Шаг 3:",
+        "step-3-desc-1": "устанавливает и настраивает ",
+        "step-3-desc-2": "выбранное программное обеспечение.",
+        "free": "бесплатно",
+        "tariffs-title": "Oзнакомьтесь с тарифами Trend Micro Worry-Free",
+        "payment-desc": "Оплата по выставленному для юридических лиц счету - после оформления заказа. Более подробная информация - ",
+        "payment-info-link": "при получении консультации",
+    
+        // TABLE
+        "table-product": "Продукт",
+        "table-device-count": "Количество устройств",
+        "table-monthly-payment": "Оплата за месяц",
+        "table-annual-payment": "Оплата за год",
+        "product-worry-free": "Worry Free Services",
+        "devices-1-25": "1-25",
+        "monthly-payment-1": "7.10 €",
+        "annual-payment-1": "6.0 €",
+        "devices-26-50": "26-50",
+        "monthly-payment-2": "5.10 €",
+        "annual-payment-2": "4.90 €",
+        "devices-51-100": "51-100",
+        "monthly-payment-3": "4.50 €",
+        "annual-payment-3": "4.30 €",
+    
+        
+        // CONTACTS
+        "cta-title": "Оставьте заявку и получите консультацию по безопасности уже сегодня",
+        "whatsapp": "Whatsapp",
+        "telegram": "Telegram",
+        "email": "service@nservice.lv",
+        "phone": "+371 29 503 980",
+        "form-name": "Ваше имя",
+        "form-email": "Ваш email",
+        "form-phone": "Ваш телефон",
+        "form-message": "Ваше сообщение",
+        "users-agreement-1": "Я принимаю условия ",
+        "policy-link": "политики конфиденциальности",
+        "users-agreement-2": "компании и даю согласие на обработку своих персональных данных.",
+        "form-submit": "Оставить заявку",
+    
+        // FOOTER
+        "footer-company-name": "\"N SERVICE\", SIA",
+        "footer-company-registration": "Рег. номер: 40203287886",
+        "footer-company-address" : "Адрес: Рига, ул. Русес 26-135, LV-1029, Латвия",
+        "footer-rights": "Все права защищены",
+    
   }
 }
 
