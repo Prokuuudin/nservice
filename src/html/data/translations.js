@@ -472,8 +472,7 @@ const translations = {
         "footer-company-name": "\"N SERVICE\", SIA",
         "footer-company-registration": "Рег. номер: 40203287886",
         "footer-company-address" : "Адрес: Рига, ул. Русес 26-135, LV-1029, Латвия",
-        "footer-rights": "Все права защищены",
-    
+        "footer-rights": "Все права защищены",    
   }
 }
 
