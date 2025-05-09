@@ -36,9 +36,15 @@
                             
             <form action="/send.php" method="post" id="form" class="form" name="form"
                         enctype="multipart/form-data" autocomplete="on">
+
                 <input type="text" placeholder="Ваше имя" name="name" id="formName" class="form__input _req" data-placeholder-key="form-name">
-                <input type="text" placeholder="Ваш email" name="email" id="formEmail" class="form__input _req _email" data-placeholder-key="form-email">
-                <input type="tel" placeholder="Ваш телефон" name="tel" id="formTel" class="form__input _req" data-placeholder-key="form-phone">
+
+                <input type="text" placeholder="Ваш email" name="email" id="formEmail" class="form__input _req _email" data-placeholder-key="form-email">                  
+
+                <!-- <input type="tel" placeholder="Ваш телефон" name="tel" id="formTel" class="form__input _req" data-placeholder-key="form-phone"> -->
+
+                <input type="tel" id="formTel" class="form__input _req" name="tel" placeholder="Ваш телефон" data-placeholder-key="form-phone">
+                
                 <textarea name="message" data-placeholder-key="form-message" wrap="hard"></textarea>
                 <div class="form-group">
                     <input id="formAgreement" type="checkbox" name="agreement" class="checkbox__input _req " data-key="form-agreement">
@@ -50,7 +56,7 @@
                     </label>
                 </div>
                 <div class="form__footer">
-                    <div class="g-recaptcha" data-sitekey="6LeeAS4rAAAAANN5npck2noINrT-vG-zye0Ia-YN"></div>
+                    <div class="g-recaptcha" data-sitekey="6LfAtjIrAAAAAMhoGprYdYPcXdDGQIHl4esyNJFC"></div>
                     <button type="submit" class="btn form__button" data-key="form-submit">Оставить заявку</button>
                 </div>
             </form>

@@ -13,7 +13,8 @@
 		<link rel="icon" type="image/png" sizes="16x16" href="./img/favicons/favicon-16x16.png" />
 		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 		<link rel="manifest" href="./img/favicons/site.webmanifest" />
-
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.min.css" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
 		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 	</head>
 
@@ -42,7 +43,7 @@
 						<label class="switcher" for="lang-lv">LV</label>
 						<input type="radio" name="language" value="en" id="lang-eng" />
 						<label class="switcher" for="lang-eng">EN</label>
-						<input type="radio" name="language" value="ru" id="lang-ru" checked />
+						<input type="radio" name="language" value="ru" id="lang-ru" />
 						<label class="switcher" for="lang-ru">RU</label>
 						<span class="lang-placeholder"></span>
 					</div>
@@ -652,8 +653,13 @@
 
 						<form action="/send.php" method="post" id="form" class="form" name="form" enctype="multipart/form-data" autocomplete="on">
 							<input type="text" placeholder="Ваше имя" name="name" id="formName" class="form__input _req" data-placeholder-key="form-name" />
+
 							<input type="text" placeholder="Ваш email" name="email" id="formEmail" class="form__input _req _email" data-placeholder-key="form-email" />
-							<input type="tel" placeholder="Ваш телефон" name="tel" id="formTel" class="form__input _req" data-placeholder-key="form-phone" />
+
+							<!-- <input type="tel" placeholder="Ваш телефон" name="tel" id="formTel" class="form__input _req" data-placeholder-key="form-phone"> -->
+
+							<input type="tel" id="formTel" class="form__input _req" name="tel" placeholder="Ваш телефон" data-placeholder-key="form-phone" />
+
 							<textarea name="message" data-placeholder-key="form-message" wrap="hard"></textarea>
 							<div class="form-group">
 								<input id="formAgreement" type="checkbox" name="agreement" class="checkbox__input _req " data-key="form-agreement" />
@@ -666,7 +672,7 @@
 								</label>
 							</div>
 							<div class="form__footer">
-								<div class="g-recaptcha" data-sitekey="6LeeAS4rAAAAANN5npck2noINrT-vG-zye0Ia-YN"></div>
+								<div class="g-recaptcha" data-sitekey="6LfAtjIrAAAAAMhoGprYdYPcXdDGQIHl4esyNJFC"></div>
 								<button type="submit" class="btn form__button" data-key="form-submit">Оставить заявку</button>
 							</div>
 						</form>

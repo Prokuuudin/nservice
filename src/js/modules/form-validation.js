@@ -1,4 +1,12 @@
 function sendContactsForm() {
+    const input = document.querySelector("#formTel");
+    const iti = intlTelInput(input, {
+    initialCountry: "lv", // Начальная страна
+    separateDialCode: true, // Отображать код страны отдельно
+    preferredCountries: ["lv", "lt", "ru"], // Массив стран, которые будут предпочтительными
+    utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js", // Сценарий для проверки номера телефона
+});
+
     document.addEventListener("DOMContentLoaded", () => {
         const form = document.getElementById("form");
         const formMessage = document.createElement("div");
