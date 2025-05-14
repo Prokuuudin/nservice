@@ -13,8 +13,8 @@
 		<link rel="icon" type="image/png" sizes="16x16" href="./img/favicons/favicon-16x16.png" />
 		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 		<link rel="manifest" href="./img/favicons/site.webmanifest" />
-		<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.min.css">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script> -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.min.css" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
 		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 	</head>
 
@@ -77,7 +77,7 @@
 				<span data-key="agreement-text"
 					>Мы&#160;используем файлы cookie, чтобы улучшить качество ваших просмотров, персонализируя для вас рекламу и&#160;контент на&#160;основе анализа трафика. Нажимая
 					&#171;Принять&#187;, вы&#160;соглашаетесь с&#160;использованием файлов cookie.</span
-				><a data-key="agreement-link" href="./files/agreement-nservice_lv_en_ru" target="_blank">Политика сookie.</a>
+				><a data-key="agreement-link" href="./files/agreement-nservice_lv_en_ru.pdf" target="_blank">Политика сookie.</a>
 			</p>
 
 			<button data-key="accept-btn" class="accept-btn" id="accept">Принять</button>
@@ -656,9 +656,9 @@
 
 							<input type="text" placeholder="Ваш email" name="email" id="formEmail" class="form__input _req _email" data-placeholder-key="form-email" />
 
-							<input type="tel" placeholder="Ваш телефон" name="tel" id="formTel" class="form__input _req" data-placeholder-key="form-phone" />
+							<!-- <input type="tel" placeholder="Ваш телефон" name="tel" id="formTel" class="form__input _req" data-placeholder-key="form-phone"> -->
 
-							<!-- <input type="tel" id="formTel" class="form__input _req" name="tel" placeholder="Ваш телефон" data-placeholder-key="form-phone"> -->
+							<input type="tel" id="formTel" class="form__input _req" name="tel" placeholder="Ваш телефон" data-placeholder-key="form-phone" />
 
 							<textarea name="message" data-placeholder-key="form-message" wrap="hard"></textarea>
 							<div class="form-group">
@@ -666,7 +666,7 @@
 								<label for="formAgreement" class="checkbox__label">
 									<span class="checkbox__box-span">
 										<span data-key="users-agreement-1">Я&#160;принимаю условия </span
-										><a data-key="policy-link" href="./files/agreement-nservice_lv_en_ru" target="_blank">политики конфиденциальности </a
+										><a data-key="policy-link" href="./files/agreement-nservice_lv_en_ru.pdf" target="_blank">политики конфиденциальности </a
 										><span data-key="users-agreement-2">компании и&#160;даю согласие на&#160;обработку своих персональных данных. </span>
 									</span>
 								</label>
